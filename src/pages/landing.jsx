@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Link, Container, Grid, Box, Button } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Link, Container, Grid, Box, Paper } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Video from '../img/video.mp4';
 import logoProfindo from '../img/logoProfindoRB.png';
+import NewsCard from './components/newsCard'
+import Categories from './components/categories'
+import Features from './components/features'
 
 export default function App() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -45,7 +48,7 @@ export default function App() {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}><Link href="#" color="inherit">Home</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link href="#" color="inherit" style={{textDecoration: "none",}}>Home</Link></MenuItem>
           <MenuItem onClick={handleCategoryClick}>
             Category
           </MenuItem>
@@ -56,14 +59,14 @@ export default function App() {
             open={Boolean(categoryAnchorEl)}
             onClose={handleCategoryClose}
           >
-            <MenuItem onClick={handleCategoryClose}><Link href="#" color="inherit">Accessories</Link></MenuItem>
+            <MenuItem onClick={handleCategoryClose}><Link href="#" color="inherit">Tractors</Link></MenuItem>
             <MenuItem>
               <Link href="#" color="inherit">
-                Aftermarket Suspension
+                Tractors
               </Link>
             </MenuItem>
           </Menu>
-          <MenuItem onClick={handleClose}><Link href="#" color="inherit">Order</Link></MenuItem>
+          <MenuItem onClick={handleClose}><Link href="#" color="inherit" style={{textDecoration: "none",}}>Order</Link></MenuItem>
         </Menu>
       </AppBar>
       {/* Hero Section Start */}
@@ -75,6 +78,45 @@ export default function App() {
           Best Special Equipment for Your Need
         </Typography>
       </Box>
+      {/* Horizontal Sections Start */}
+      <Box sx={{ maxWidth: '100vw', p: 4, backgroundColor: '#2B430E', overflow: 'hidden'}}>
+        <NewsCard />
+      {/* <Container sx={{ my: 4, backgroundColor: '#2B430E'}}>
+      <Typography variant="h2" component="h2" sx={{ top: '50%', left: '50%',  color: '#fff' }}>
+          Up To Date
+        </Typography>
+        <Grid container spacing={4} sx={{backgroundColor: '#2B430E',}}>
+          <Grid item xs={12} md={4}>
+            <Paper elevation={3} sx={{ p: 2 }}>
+              <Typography variant="h6">News Section 1</Typography>
+              <Typography variant="body1">
+                This is a short description of the first news section. You can include any relevant information here.
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Paper elevation={3} sx={{ p: 2 }}>
+              <Typography variant="h6">News Section 2</Typography>
+              <Typography variant="body1">
+                This is a short description of the second news section. You can include any relevant information here.
+              </Typography>
+            </Paper>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <Paper elevation={3} sx={{ p: 2 }}>
+              <Typography variant="h6">News Section 3</Typography>
+              <Typography variant="body1">
+                This is a short description of the third news section. You can include any relevant information here.
+              </Typography>
+            </Paper>
+          </Grid>
+        </Grid>
+      </Container> */}
+      </Box>
+      {/* Categories Section Start */}
+      <Categories />
+      {/* Features Section Start */}
+      {/* <Features /> */}
       {/* Footer Start */}
       <Box component="footer" sx={{ backgroundColor: '#222', color: '#fff', py: 4 }}>
         <Container>
