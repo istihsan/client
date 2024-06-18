@@ -9,32 +9,72 @@ const images = [
   {
     url: TractorImg,
     title: 'Tractors',
-    width: '40%',
+    width: '25%',
   },
   {
     url: TractorImg,
     title: 'Tractors',
-    width: '30%',
+    width: '25%',
   },
   {
     url: TractorImg,
     title: 'Tractors',
-    width: '30%',
+    width: '25%',
   },
   {
     url: TractorImg,
     title: 'Tractors',
-    width: '30%',
+    width: '25%',
   },
   {
     url: TractorImg,
     title: 'Tractors',
-    width: '40%',
+    width: '20%',
   },
   {
     url: TractorImg,
     title: 'Tractors',
-    width: '30%',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
+  },
+  {
+    url: TractorImg,
+    title: 'Tractors',
+    width: '20%',
   },
 ];
 

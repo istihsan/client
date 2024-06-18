@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Link, Container, Grid, Box, Paper } from '@mui/material';
+import { AppBar, Toolbar, IconButton, Typography, Menu, MenuItem, Link, Container, Grid, Box } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Video from '../img/video.mp4';
@@ -49,23 +49,18 @@ export default function App() {
           onClose={handleClose}
         >
           <MenuItem onClick={handleClose}><Link href="#" color="inherit" style={{textDecoration: "none",}}>Home</Link></MenuItem>
-          <MenuItem onClick={handleCategoryClick}>
-            Category
-          </MenuItem>
-          <Menu
+          <MenuItem onClick={handleCategoryClick}><Link href="/categories" color="inherit" style={{textDecoration: "none",}}>Category</Link></MenuItem>
+          {/* <Menu
             id="category-menu"
             anchorEl={categoryAnchorEl}
             keepMounted
             open={Boolean(categoryAnchorEl)}
             onClose={handleCategoryClose}
           >
-            <MenuItem onClick={handleCategoryClose}><Link href="#" color="inherit">Tractors</Link></MenuItem>
+            <MenuItem onClick={handleCategoryClose}><Link href="/Tractors" color="inherit" style={{textDecoration: "none",}}>Tractors</Link></MenuItem>
             <MenuItem>
-              <Link href="#" color="inherit">
-                Tractors
-              </Link>
-            </MenuItem>
-          </Menu>
+              <Link href="#" color="inherit" style={{textDecoration: "none",}}>Tractors</Link></MenuItem>
+          </Menu> */}
           <MenuItem onClick={handleClose}><Link href="#" color="inherit" style={{textDecoration: "none",}}>Order</Link></MenuItem>
         </Menu>
       </AppBar>
@@ -81,42 +76,11 @@ export default function App() {
       {/* Horizontal Sections Start */}
       <Box sx={{ maxWidth: '100vw', p: 4, backgroundColor: '#2B430E', overflow: 'hidden'}}>
         <NewsCard />
-      {/* <Container sx={{ my: 4, backgroundColor: '#2B430E'}}>
-      <Typography variant="h2" component="h2" sx={{ top: '50%', left: '50%',  color: '#fff' }}>
-          Up To Date
-        </Typography>
-        <Grid container spacing={4} sx={{backgroundColor: '#2B430E',}}>
-          <Grid item xs={12} md={4}>
-            <Paper elevation={3} sx={{ p: 2 }}>
-              <Typography variant="h6">News Section 1</Typography>
-              <Typography variant="body1">
-                This is a short description of the first news section. You can include any relevant information here.
-              </Typography>
-            </Paper>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Paper elevation={3} sx={{ p: 2 }}>
-              <Typography variant="h6">News Section 2</Typography>
-              <Typography variant="body1">
-                This is a short description of the second news section. You can include any relevant information here.
-              </Typography>
-            </Paper>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <Paper elevation={3} sx={{ p: 2 }}>
-              <Typography variant="h6">News Section 3</Typography>
-              <Typography variant="body1">
-                This is a short description of the third news section. You can include any relevant information here.
-              </Typography>
-            </Paper>
-          </Grid>
-        </Grid>
-      </Container> */}
       </Box>
       {/* Categories Section Start */}
       <Categories />
       {/* Features Section Start */}
-      {/* <Features /> */}
+      <Features />
       {/* Footer Start */}
       <Box component="footer" sx={{ backgroundColor: '#222', color: '#fff', py: 4 }}>
         <Container>
