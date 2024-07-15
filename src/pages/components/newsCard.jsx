@@ -33,7 +33,7 @@ const ProductCard = () => {
       alignItems="center"
       width="100%"
       sx={{
-        background: '#2B430E'
+        background: '#435525'
       }}
     >
       <Grid container spacing={2} justifyContent="center">

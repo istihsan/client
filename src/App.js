@@ -6,13 +6,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import LandingPage from "./pages/landing";
-import Categories from "./pages/categories"
+import Categories from "./pages/categories";
+import ProductPage from "./pages/product";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-    <Route path="/" element={<LandingPage />} />
-    <Route path="categories" element={<Categories />} />
+      <Route path="/" element={<LandingPage />} />
+      <Route path="categories" element={<Categories />} />
+      <Route path="product/:variantId" element={<ProductPage />} />
     </>
   )
 );
