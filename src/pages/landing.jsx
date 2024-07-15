@@ -51,17 +51,6 @@ export default function App() {
         >
           <MenuItem onClick={handleClose}><Link href="#" color="inherit" style={{textDecoration: "none",}}>Home</Link></MenuItem>
           <MenuItem onClick={handleCategoryClick}><Link href="/categories" color="inherit" style={{textDecoration: "none",}}>Category</Link></MenuItem>
-          {/* <Menu
-            id="category-menu"
-            anchorEl={categoryAnchorEl}
-            keepMounted
-            open={Boolean(categoryAnchorEl)}
-            onClose={handleCategoryClose}
-          >
-            <MenuItem onClick={handleCategoryClose}><Link href="/Tractors" color="inherit" style={{textDecoration: "none",}}>Tractors</Link></MenuItem>
-            <MenuItem>
-              <Link href="#" color="inherit" style={{textDecoration: "none",}}>Tractors</Link></MenuItem>
-          </Menu> */}
           <MenuItem onClick={handleClose}><Link href="#" color="inherit" style={{textDecoration: "none",}}>Order</Link></MenuItem>
         </Menu>
       </AppBar>
