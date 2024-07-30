@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography, Container, Grid, Link } from "@mui/material";
+import '@fontsource/poppins';
 
 export default function Footer() {
     return (
@@ -7,7 +8,7 @@ export default function Footer() {
     <Box component="footer" sx={{ backgroundColor: '#435525', color: '#fff', py: 4 }}>
         <Container>
             <Grid container spacing={4}>
-             <Grid item xs={12} sm={6} md={3}>
+                <Grid item xs={12} sm={6} md={3}>
                 <Typography variant="h6">Shop</Typography>
                 <ul>
                     <li><Link href="#home" color="inherit">Home</Link></li>
