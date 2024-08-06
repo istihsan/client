@@ -2,7 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import { Tabs, Tab, Box, Card, CardContent, CardMedia, CardActionArea, Typography, Button } from '@mui/material/';
 import { Link } from 'react-router-dom';
-import category from '../../../data/data.js'; // Adjust the path as necessary
+import category from '../../../data/data.js'; 
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
