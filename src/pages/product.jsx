@@ -2,9 +2,10 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from './components/main/navbar';
 import { Typography } from '@mui/material';
-import SpecificationsTable from './components/products/specificationTable';
-import ProductsHero from './components/products/productsHero';
+import SpecificationsTable from './components/products/specificationTable.jsx';
+import ProductsHero from './components/products/productsHero.jsx';
 import category from '../data/data';
+import Footer from './components/main/footer';
 
 const ProductPage = () => {
   const { variantId } = useParams();
@@ -31,10 +32,8 @@ const ProductPage = () => {
 
   return (
     <>
-      <Navbar />
-      <ProductsHero variantName={variant.variantName} description={variant.descriptionMain} highlight={variant.highlight} />
-      {/* <Typography variant="h4">Product Page for {variant.variantName}</Typography> */}
-      <SpecificationsTable specifications={variant.specifications} variantName={variant.variantName} />
+    <Navbar/>
+    <Typography>Product Page for {variantId}</Typography>
     </>
   );
 };

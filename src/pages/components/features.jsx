@@ -14,7 +14,7 @@ export default function BasicCard() {
   <Box sx={{overflow: 'hidden'}}>
     <Grid container spacing={2} sx={{py:'6%', px:'10%', backgroundColor:'#FFF0DD', overflow:'hidden '}}>
       <Grid xs={6}>
-        <Typography variant='h4'>Special equipment & special vehicles.</Typography>
+        <Typography variant='h4'>Special Equipment & Special Vehicles.</Typography>
         <Typography variant='subtitle1' sx={{mt: '2%'}}>PT. Profindo Multi Dinamika is the official dealer for the BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA brands, which have been established since 1959. PT. Profindo Multi Dinamika will provide marketing support, service & after-sales services for all users of BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA products.</Typography>
         <Button variant='contained' sx={{mt:'1%', backgroundColor:'#EB0B0D', fontWeight:'bold'}}>Contact Us</Button>
       </Grid>
