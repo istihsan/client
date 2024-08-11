@@ -8,7 +8,7 @@ import ImageTractor from '../../../img/tractor.jpg'
 
 export default function ProductsHero({variantName, description, highlight}) {
   return (
-    <Box sx={{ flexGrow: 1, m: "5%" }}>
+    <Box sx={{ flexGrow: 1, m: "5%"}}>
         <Typography variant='h4' sx={{ color: "#006400" }}>
         {variantName}    
         </Typography>
@@ -20,7 +20,8 @@ export default function ProductsHero({variantName, description, highlight}) {
             <Typography sx={{mb:"7%"}}>
             {description}  
             </Typography>
-            <Button variant="contained" sx={{fontFamily: 'Poppins, sans-serif', borderRadius: '10px' ,color:'#F7FFA', backgroundColor:'#D9B05A', '&:hover': {backgroundColor: '#006400', }}}>Contact Us</Button>
+            <Button variant="contained" sx={{fontFamily: 'Poppins, sans-serif', borderRadius: '10px' ,color:'#F7FFA', backgroundColor:'#006400', '&:hover': {backgroundColor: '#D9B05A', }}}>Contact Us</Button>
+            <Button variant="contained" sx={{fontFamily: 'Poppins, sans-serif', borderRadius: '10px' , ml:'2%',color:'#F7FFA', backgroundColor:'#D9B05A', '&:hover': {backgroundColor: '#006400', }}}>Download Specifications</Button>
         </Grid>
         <Grid item xs={4}>
             <Card sx={{ maxWidth: 345 }}>

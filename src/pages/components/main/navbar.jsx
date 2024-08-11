@@ -45,8 +45,8 @@ export default function Navbar() {
         }}>
           <Link component={RouterLink} to="/" className="nav-link">Home</Link>
           <Link component={RouterLink} to="/categories" className="nav-link">Category</Link>
-          <Link component={RouterLink} to="/" className="nav-link">Gallery</Link>
-          <Link component={RouterLink} to="/" className="nav-link">Contact</Link>
+          <Link component={RouterLink} to="/gallery" className="nav-link">Gallery</Link>
+          <Link component={RouterLink} to="/contactus" className="nav-link">Contact</Link>
         </Box>
         <IconButton 
           edge="end" 

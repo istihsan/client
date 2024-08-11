@@ -8,6 +8,8 @@ import {
 import LandingPage from "./pages/landing";
 import Categories from "./pages/categories";
 import ProductPage from "./pages/product";
+import ContactUs from './pages/components/contactUs/contactUs';
+import Gallery from './pages/gallery'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +17,8 @@ const router = createBrowserRouter(
       <Route path="/" element={<LandingPage />} />
       <Route path="categories" element={<Categories />} />
       <Route path="product/:variantId" element={<ProductPage />} />
+      <Route path="/contactus" element={<ContactUs />} />
+      <Route path="/gallery" element={<Gallery />} />
     </>
   )
 );

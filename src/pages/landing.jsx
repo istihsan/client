@@ -9,7 +9,6 @@ import Categories from './components/categoriesLanding';
 import Features from './components/features';
 import Footer from './components/main/footer';
 import '@fontsource/poppins';
-import '@fontsource/montserrat';
 import { Link as RouterLink } from 'react-router-dom';
 
 export default function App() {
@@ -71,8 +70,8 @@ export default function App() {
     }}>
       <Link component={RouterLink} to="/" className="nav-link">Home</Link>
       <Link component={RouterLink} to="/categories" className="nav-link">Category</Link>
-      <Link component={RouterLink} to="/" className="nav-link">Gallery</Link>
-      <Link component={RouterLink} to="/" className="nav-link">Contact</Link>
+      <Link component={RouterLink} to="/gallery" className="nav-link">Gallery</Link>
+      <Link component={RouterLink} to="/contactus" className="nav-link">Contact</Link>
     </Box>
     <IconButton edge="end" color="inherit" aria-label="menu" onClick={handleMenuClick} sx={{ display: { sm: 'none' } }}>
       {anchorEl ? <CloseIcon /> : <MenuIcon />}

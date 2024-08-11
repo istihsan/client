@@ -34,6 +34,13 @@ const ProductPage = () => {
     <>
     <Navbar/>
     <Typography>Product Page for {variantId}</Typography>
+    <ProductsHero
+    variantName={variant.variantName}
+    description={variant.descriptionMain}
+    highlight={variant.highlight}/>
+    <SpecificationsTable 
+    specifications={variant.specifications}
+    variantName={variant.variantName}/>
     </>
   );
 };
