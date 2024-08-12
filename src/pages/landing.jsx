@@ -4,12 +4,13 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import Video from '../img/video.mp4';
 import logoProfindo from '../img/logoProfindoRB.png';
-import NewsCard from './components/newsCard';
-import Categories from './components/categoriesLanding';
-import Features from './components/features';
+import NewsCard from './components/landing/newsCard';
+import Categories from './components/landing/categoriesLanding';
+import Features from './components/landing/features';
 import Footer from './components/main/footer';
 import '@fontsource/poppins';
 import { Link as RouterLink } from 'react-router-dom';
+import WhatsAppFab from './components/whatsappFAB/whatsappFAB';
 
 export default function App() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -158,6 +159,7 @@ export default function App() {
       <Categories />
       {/* Features Section Start */}
       <Features />
+      <WhatsAppFab/>
       {/* Footer Start */}
       <Footer />
     </div>

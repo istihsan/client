@@ -4,18 +4,18 @@
   "icons": [
     {
       "src": "logoProfindoRB.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "199x61",
       "type": "image/x-icon"
     },
     {
       "src": "logoProfindoRB.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "199x61"
     },
     {
       "src": "logoProfindoRB.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "199x61"
     }
   ],
   "start_url": ".",

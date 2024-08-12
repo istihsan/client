@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Unstable_Grid2';
-import Img from '../../img/tractor.jpg'
+import Img from '../../../img/tractor.jpg'
 
 
 export default function BasicCard() {

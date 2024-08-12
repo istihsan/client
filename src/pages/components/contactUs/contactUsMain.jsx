@@ -1,21 +1,36 @@
-import React from 'react';
-import { Container, Grid, Typography, Box } from '@mui/material';
+import React, { useState } from 'react';
+import { Container, Grid, Typography, Box, TextField, Button } from '@mui/material';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
 
 function ContactUsMain() {
-  return (
-    <Container maxWidth="lg" style={{ height: '90vh', marginTop: '5%'}}>
-      <Grid container spacing={3} style={{ height: '100%' }}>
+  const [form, setForm] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
 
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setForm({
+      ...form,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission logic here
+    console.log('Form submitted:', form);
+  };
+
+  return (
+    <Container maxWidth="lg" style={{ height: '90vh', marginTop: '5%' }}>
+      <Grid container spacing={3} style={{ height: '100%' }}>
         <Grid item xs={12} md={6}>
-          <Box
-            display="flex"
-            flexDirection="column"
-            justifyContent="center"
-            height="100%"
-          >
+          <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
             <Typography variant="h4" gutterBottom>
               Contact Us
             </Typography>
@@ -46,7 +61,6 @@ function ContactUsMain() {
           </Box>
         </Grid>
 
-
         <Grid item xs={12} md={6}>
           <Box height="100%">
             <iframe
@@ -59,6 +73,73 @@ function ContactUsMain() {
               aria-hidden="false"
               tabIndex="0"
             ></iframe>
+          </Box>
+        </Grid>
+
+        <Grid item xs={12}>
+          <Box
+            my={4}
+            p={3}
+            border={1}
+            borderColor="divider"
+            borderRadius="8px"
+            boxShadow={3}
+          >
+            <Typography variant="h5" gutterBottom>
+              Send Us a Message
+            </Typography>
+            <form onSubmit={handleSubmit}>
+              <Grid container spacing={3}>
+                <Grid item xs={12} md={6}>
+                  <TextField
+                    fullWidth
+                    label="Name"
+                    name="name"
+                    value={form.name}
+                    onChange={handleChange}
+                    required
+                  />
+                </Grid>
+                <Grid item xs={12} md={6}>
+                  <TextField
+                    fullWidth
+                    label="Email"
+                    name="email"
+                    type="email"
+                    value={form.email}
+                    onChange={handleChange}
+                    required
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <TextField
+                    fullWidth
+                    label="Subject"
+                    name="subject"
+                    value={form.subject}
+                    onChange={handleChange}
+                    required
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <TextField
+                    fullWidth
+                    label="Message"
+                    name="message"
+                    multiline
+                    rows={4}
+                    value={form.message}
+                    onChange={handleChange}
+                    required
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                  <Button type="submit" variant="contained" color="primary">
+                    Send
+                  </Button>
+                </Grid>
+              </Grid>
+            </form>
           </Box>
         </Grid>
       </Grid>

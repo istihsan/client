@@ -3,97 +3,104 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
-import TractorImg from '../../img/1.avif';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import TractorImg from '../../../img/1.avif';
 import AgricultureIcon from '@mui/icons-material/Agriculture';
-import BuildIcon from '@mui/icons-material/Build';
-import SportsFootballIcon from '@mui/icons-material/SportsFootball';
-import DirectionsBoatIcon from '@mui/icons-material/DirectionsBoat';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
+import ForestIcon from '@mui/icons-material/Forest';
+import WavesIcon from '@mui/icons-material/Waves';
+import RecyclingIcon from '@mui/icons-material/Recycling';
+import NatureIcon from '@mui/icons-material/Nature';
+import GrassIcon from '@mui/icons-material/Grass';
+import CleaningServicesIcon from '@mui/icons-material/CleaningServices';
+import LegendToggleIcon from '@mui/icons-material/LegendToggle';
+import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
+import BoltIcon from '@mui/icons-material/Bolt';
+import LocalCarWashIcon from '@mui/icons-material/LocalCarWash';
 
 const images = [
   {
     url: TractorImg,
-    title: 'Tractors',
+    title: 'Tree Spades',
+    width: '14.28%',
+    icon: <NatureIcon sx={{ fontSize: 40 }} />,
+  },
+  {
+    url: TractorImg,
+    title: 'Beach Cleaning Machines',
+    width: '14.28%',
+    icon: <WavesIcon sx={{ fontSize: 40 }} />,
+  },
+  {
+    url: TractorImg,
+    title: 'Litter Collection Equipments',
+    width: '14.28%',
+    icon: <RecyclingIcon sx={{ fontSize: 40 }} />,
+  },
+  {
+    url: TractorImg,
+    title: 'Wood Chipper Machines',
+    width: '14.28%',
+    icon: <ForestIcon sx={{ fontSize: 40 }} />,
+  },
+  {
+    url: TractorImg,
+    title: 'Stone Picking Machines',
     width: '14.28%',
     icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Construction',
+    title: 'Grass Mower Machines',
     width: '14.28%',
-    icon: <BuildIcon sx={{ fontSize: 40 }} />,
+    icon: <GrassIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Sports Equipment',
+    title: 'Grass Collector Equipment',
     width: '14.28%',
-    icon: <SportsFootballIcon sx={{ fontSize: 40 }} />,
+    icon: <GrassIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Boats',
+    title: 'Suction Units',
     width: '14.28%',
-    icon: <DirectionsBoatIcon sx={{ fontSize: 40 }} />,
+    icon: <CleaningServicesIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Air Conditioning',
+    title: 'Vacuum Trailers',
     width: '14.28%',
-    icon: <AcUnitIcon sx={{ fontSize: 40 }} />,
+    icon: <CleaningServicesIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Tractors',
+    title: 'Tracked Platforms',
     width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
+    icon: <LegendToggleIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Tractors',
+    title: 'Vehicle Mounted Cranes',
     width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
+    icon: <PrecisionManufacturingIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Tractors',
+    title: 'Platforms In Crane Kit',
     width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
+    icon: <PrecisionManufacturingIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Tractors',
+    title: 'Electricity Generator Equipment',
     width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
+    icon: <BoltIcon sx={{ fontSize: 40 }} />,
   },
   {
     url: TractorImg,
-    title: 'Tractors',
+    title: 'High Pressure Washer',
     width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
-  },
-  {
-    url: TractorImg,
-    title: 'Tractors',
-    width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
-  },
-  {
-    url: TractorImg,
-    title: 'Tractors',
-    width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
-  },
-  {
-    url: TractorImg,
-    title: 'Tractors',
-    width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
-  },
-  {
-    url: TractorImg,
-    title: 'Tractors',
-    width: '14.28%',
-    icon: <AgricultureIcon sx={{ fontSize: 40 }} />,
+    icon: <LocalCarWashIcon sx={{ fontSize: 40 }} />,
   },
 ];
 
@@ -101,7 +108,7 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: 'relative',
   height: 200,
   [theme.breakpoints.down('sm')]: {
-    width: '100% !important', // Overrides inline-style
+    width: '100% !important',
     height: 100,
   },
   '&:hover, &.Mui-focusVisible': {
@@ -163,6 +170,13 @@ const ImageMarked = styled('span')(({ theme }) => ({
 }));
 
 export default function ButtonBaseDemo() {
+  const navigate = useNavigate();
+
+  const handleClick = (title) => {
+    const categoryName = title.replace(/\s+/g, '').toLowerCase();
+    navigate(`/categories/${categoryName}`);
+  };
+
   return (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
       {images.map((image) => (
@@ -172,6 +186,7 @@ export default function ButtonBaseDemo() {
           style={{
             width: image.width,
           }}
+          onClick={() => handleClick(image.title)}
         >
           <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
           <ImageBackdrop className="MuiImageBackdrop-root" />
@@ -193,7 +208,7 @@ export default function ButtonBaseDemo() {
               }}
             >
               <span>{image.title}</span>
-              {image.icon} {/* Render the icon based on the image object */}
+              {image.icon}
               <ImageMarked className="MuiImageMarked-root" />
             </Typography>
           </Image>

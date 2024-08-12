@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from './components/main/navbar';
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import SpecificationsTable from './components/products/specificationTable.jsx';
 import ProductsHero from './components/products/productsHero.jsx';
 import category from '../data/data';
@@ -10,7 +10,6 @@ import Footer from './components/main/footer';
 const ProductPage = () => {
   const { variantId } = useParams();
 
-  // nyari variantnya
   const findVariant = () => {
     for (const cat of category) {
       for (const type of cat.type) {
@@ -21,27 +20,47 @@ const ProductPage = () => {
         }
       }
     }
-    return null; // handler kalo ga ketemu (JANGAN DIOTAK ATIK)
+    return null;
   };
 
   const variant = findVariant();
 
   if (!variant) {
-    return <Typography>Variant {variantId} not found.</Typography>; // kalo ga ketemu variantnya
+    return <Typography>Variant {variantId} not found.</Typography>;
   }
 
   return (
-    <>
-    <Navbar/>
-    <Typography>Product Page for {variantId}</Typography>
-    <ProductsHero
-    variantName={variant.variantName}
-    description={variant.descriptionMain}
-    highlight={variant.highlight}/>
-    <SpecificationsTable 
-    specifications={variant.specifications}
-    variantName={variant.variantName}/>
-    </>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+      }}
+    >
+      <Navbar />
+      <Box
+        sx={{
+          flex: '1 0 auto',
+          marginTop: '64px',
+        }}
+      >
+        <Typography variant="h4" sx={{ textAlign: 'center', marginY: '20px' }}>
+          Product Page for {variantId}
+        </Typography>
+        <ProductsHero
+          variantName={variant.variantName}
+          description={variant.descriptionMain}
+          highlight={variant.highlight}
+        />
+        <SpecificationsTable
+          specifications={variant.specifications}
+          variantName={variant.variantName}
+        />
+      </Box>
+      <Box sx={{ flexShrink: 0 }}>
+        <Footer />
+      </Box>
+    </Box>
   );
 };
 

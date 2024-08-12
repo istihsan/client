@@ -8,7 +8,7 @@ import ImageTractor from '../../../img/tractor.jpg'
 
 export default function ProductsHero({variantName, description, highlight}) {
   return (
-    <Box sx={{ flexGrow: 1, m: "5%"}}>
+    <Box sx={{ flexGrow: 1, mx: "20%", my: "5%"}}>
         <Typography variant='h4' sx={{ color: "#006400" }}>
         {variantName}    
         </Typography>

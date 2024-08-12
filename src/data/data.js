@@ -117,487 +117,95 @@ const category = [{
         }
     ]
 }, 
-// {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }, {
-//     name: "Tree Spades",
-//     type: [
-//         { 
-//             name: "Truck Mounted", 
-//             description: "Description for Truck Mounted", 
-//             variants: [
-//                 { variantName: "45D", imgLink: TractorIMG },
-//                 { variantName: "55D", imgLink: TractorIMG }
-//             ] 
-//         },
-//         { 
-//             name: "Loader Mounted", 
-//             description: "Description for Loader Mounted", 
-//             variants: [
-//                 { variantName: "L45D", imgLink: TractorIMG },
-//                 { variantName: "L55D", imgLink: TractorIMG },
-//                 { variantName: "L65D", imgLink: TractorIMG }
-//             ]
-//         },
-//         { 
-//             name: "Trailer Mounted", 
-//             description: "Description for Trailer Mounted", 
-//             variants: [
-//                 { variantName: "T45D", imgLink: TractorIMG },
-//                 { variantName: "T55D", imgLink: TractorIMG },
-//                 { variantName: "T65D", imgLink: TractorIMG }
-//             ]
-//         }
-//     ]
-// }
+{
+    name: "Beach Cleaning Machines",
+    type: [
+        { 
+            name: "Surf Rake", 
+            description: "Description for Surf Rake", 
+            variants: [
+                { variantName: "45D", imgLink: TractorIMG },
+                { variantName: "55D", imgLink: TractorIMG }
+            ] 
+        },
+        { 
+            name: "Sand Man", 
+            description: "Description for Sand Man", 
+            variants: [
+                { variantName: "L45D", imgLink: TractorIMG },
+                { variantName: "L55D", imgLink: TractorIMG },
+                { variantName: "L65D", imgLink: TractorIMG }
+            ]
+        },
+        { 
+            name: "Manual Machines", 
+            description: "Description for Manual Machines", 
+            variants: [
+                { variantName: "T45D", imgLink: TractorIMG },
+                { variantName: "T55D", imgLink: TractorIMG },
+                { variantName: "T65D", imgLink: TractorIMG }
+            ]
+        },
+        { 
+              name: "Man On Board Machines", 
+              description: "Description for Man On Board Machines", 
+              variants: [
+                  { variantName: "T45D", imgLink: TractorIMG },
+                  { variantName: "T55D", imgLink: TractorIMG },
+                  { variantName: "T65D", imgLink: TractorIMG }
+              ]
+          },
+          { 
+            name: "Towed Tractor Machines", 
+            description: "Description for Towed Tractor Machines", 
+            variants: [
+                { variantName: "T45D", imgLink: TractorIMG },
+                { variantName: "T55D", imgLink: TractorIMG },
+                { variantName: "T65D", imgLink: TractorIMG }
+            ]
+        },{ 
+              name: "Baby Tapiro", 
+              description: "Description for Baby Tapiro", 
+              variants: [
+                  { variantName: "T45D", imgLink: TractorIMG },
+                  { variantName: "T55D", imgLink: TractorIMG },
+                  { variantName: "T65D", imgLink: TractorIMG }
+              ]
+          },{ 
+              name: "Sprint Tapiro", 
+              description: "Description for Sprint Tapiro", 
+              variants: [
+                  { variantName: "T45D", imgLink: TractorIMG },
+                  { variantName: "T55D", imgLink: TractorIMG },
+                  { variantName: "T65D", imgLink: TractorIMG }
+              ]
+          },{ 
+              name: "Speed Tapiro", 
+              description: "Description for Speed Tapiro", 
+              variants: [
+                  { variantName: "T45D", imgLink: TractorIMG },
+                  { variantName: "T55D", imgLink: TractorIMG },
+                  { variantName: "T65D", imgLink: TractorIMG }
+              ]
+          },{ 
+              name: "Big Tapiro", 
+              description: "Description for Big Tapiro", 
+              variants: [
+                  { variantName: "T45D", imgLink: TractorIMG },
+                  { variantName: "T55D", imgLink: TractorIMG },
+                  { variantName: "T65D", imgLink: TractorIMG }
+              ]
+          },{ 
+              name: "Appendix", 
+              description: "Description for Appendix", 
+              variants: [
+                  { variantName: "T45D", imgLink: TractorIMG },
+                  { variantName: "T55D", imgLink: TractorIMG },
+                  { variantName: "T65D", imgLink: TractorIMG }
+              ]
+          },
+    ]
+},
 ];
 
 

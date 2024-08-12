@@ -1,5 +1,5 @@
 import React from 'react';
-import TractorImg from '../../img/tractor.jpg';
+import TractorImg from '../../../img/tractor.jpg';
 import { Box, Button, Card, CardContent, CardMedia, Grid, Divider, Typography } from '@mui/material';
 
 const cards = [
