@@ -6,6 +6,7 @@ import SpecificationsTable from './components/products/specificationTable.jsx';
 import ProductsHero from './components/products/productsHero.jsx';
 import category from '../data/data';
 import Footer from './components/main/footer';
+import WhatsAppFab from './components/whatsappFAB/whatsappFAB.jsx';
 
 const ProductPage = () => {
   const { variantId } = useParams();
@@ -60,6 +61,7 @@ const ProductPage = () => {
       <Box sx={{ flexShrink: 0 }}>
         <Footer />
       </Box>
+      <WhatsAppFab/>
     </Box>
   );
 };
