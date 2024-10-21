@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -9,10 +9,10 @@ import {
 import LandingPage from "./pages/landing";
 import Categories from "./pages/categories";
 import ProductPage from "./pages/product";
-import ContactUs from './pages/components/contactUs/contactUs';
-import Gallery from './pages/gallery'
-import Variant from './pages/variant';
-import NotFound from './pages/notFound';
+import ContactUs from "./pages/components/contactUs/contactUs";
+import Gallery from "./pages/gallery";
+import Variant from "./pages/variant";
+import NotFound from "./pages/notFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,9 +30,7 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return (
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
