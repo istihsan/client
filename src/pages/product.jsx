@@ -1,12 +1,12 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import Navbar from './components/main/navbar';
-import { Typography, Box } from '@mui/material';
-import SpecificationsTable from './components/products/specificationTable.jsx';
-import ProductsHero from './components/products/productsHero.jsx';
-import category from '../data/data';
-import Footer from './components/main/footer';
-import WhatsAppFab from './components/whatsappFAB/whatsappFAB.jsx';
+import React from "react";
+import { useParams } from "react-router-dom";
+import Navbar from "./components/main/navbar";
+import { Typography, Box } from "@mui/material";
+import SpecificationsTable from "./components/products/specificationTable.jsx";
+import ProductsHero from "./components/products/productsHero.jsx";
+import category from "../data/data";
+import Footer from "./components/main/footer";
+import WhatsAppFab from "./components/whatsappFAB/whatsappFAB.jsx";
 
 const ProductPage = () => {
   const { variantId } = useParams();
@@ -33,25 +33,26 @@ const ProductPage = () => {
   return (
     <Box
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        minHeight: '100vh',
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh"
       }}
     >
       <Navbar />
       <Box
         sx={{
-          flex: '1 0 auto',
-          marginTop: '64px',
+          flex: "1 0 auto",
+          marginTop: "64px"
         }}
       >
-        <Typography variant="h4" sx={{ textAlign: 'center', marginY: '20px' }}>
+        <Typography variant="h4" sx={{ textAlign: "center", marginY: "20px" }}>
           Product Page for {variantId}
         </Typography>
         <ProductsHero
           variantName={variant.variantName}
           description={variant.descriptionMain}
           highlight={variant.highlight}
+          downloadLink={variant.downloadLink}
         />
         <SpecificationsTable
           specifications={variant.specifications}
@@ -61,7 +62,7 @@ const ProductPage = () => {
       <Box sx={{ flexShrink: 0 }}>
         <Footer />
       </Box>
-      <WhatsAppFab/>
+      <WhatsAppFab />
     </Box>
   );
 };
