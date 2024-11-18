@@ -13,11 +13,13 @@ import ContactUs from "./pages/components/contactUs/contactUs";
 import Gallery from "./pages/gallery";
 import Variant from "./pages/variant";
 import NotFound from "./pages/notFound";
+import CategoriesMain from "./pages/categoriesMain";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<LandingPage />} />
+      <Route path="/categories" element={<CategoriesMain />} />
       <Route path="/categories/:categoryName" element={<Categories />} />
       <Route path="/categories/:categoryName/:typeName" element={<Variant />} />
       <Route path="/product/:variantId" element={<ProductPage />} />
