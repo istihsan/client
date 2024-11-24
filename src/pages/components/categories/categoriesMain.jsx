@@ -80,7 +80,7 @@ export default function CategoriesMain() {
                   <CardMedia
                     component="img"
                     height="140"
-                    src={`https://drive.google.com/thumbnail?id=${variant.imgLink}`}
+                    src={variant.imgLink}
                     alt={variant.variantName}
                   />
                   <CardContent>
