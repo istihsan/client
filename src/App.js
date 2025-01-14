@@ -14,6 +14,8 @@ import Gallery from "./pages/gallery";
 import Variant from "./pages/variant";
 import NotFound from "./pages/notFound";
 import CategoriesMain from "./pages/categoriesMain";
+import News from "./pages/news";
+import NewsDetail from "./pages/newsDetail";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +27,8 @@ const router = createBrowserRouter(
       <Route path="/product/:variantId" element={<ProductPage />} />
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/news" element={<News />} />
+      <Route path="/news/:id" element={<NewsDetail />} />
       <Route exact path="/notfound" element={<NotFound />} />
       <Route path="*" element={<Navigate to="NotFound" />} />
     </>

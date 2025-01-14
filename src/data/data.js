@@ -1,4 +1,18 @@
 import TractorIMG from "../img/tractor.jpg";
+// Excavator Mounted
+import ExcavatorMountedMain from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_MainPhoto.png";
+// Loader Mounted
+import LoaderMountedMain from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_MainPhoto.png";
+// Truck Mounted
+import TruckMountedMain from "../img/1TreeSpades/3TruckMounted/100D/BigJohn_100D_MainPhoto.png";
+// Skid Mounted
+import SkidMountedMain from "../img/1TreeSpades/4SkidSteerMounted/MODEL 48/BigJohn_Model48_MainPhoto.png";
+// Trailer Mounted
+import TrailerMountedMain from "../img/1TreeSpades/5TrailerMounted/65DTD/BigJohn_65DTD_MainPhoto.png";
+// Tractor Mounted
+import TractorMountedMain from "../img/1TreeSpades/6TractorMounted/BigJohn_TRACTOR_MainPhoto.png";
+// Tree Spades Accessories
+import TreeSpadesAccMain from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/90 Pod Trailer/BigJohn_90POD_MainPhoto.png";
 
 const category = [
   {
@@ -8,10 +22,11 @@ const category = [
         name: "Excavator Mounted",
         description:
           "BIG JOHN is excited to announce the excavator mounted tree spades to our line up. We offer them in a model 65, 80, and 90. Depending on the model they are made to move trees from 15 cm to 30 cm in diameter and comes complete with electric valve bank an wireless remote control. Joining the BIG JOHN family means getting exceptional customer services for the life of your spade.",
+        imgLink: ExcavatorMountedMain,
         variants: [
           {
             variantName: "65",
-            imgLink: "/img/TreeSpades/BigJohn_Excavator_MainPhoto.png",
+            imgLink: { ExcavatorMountedMain },
             downloadLink: "/img/TreeSpades/BigJohn_Excavator_MainPhoto.png",
             highlight: "Compact and Sturdy",
             descriptionMain:
@@ -62,17 +77,21 @@ const category = [
                 value: "250"
               }
             ]
-          },
+          }
         ]
       },
       {
         name: "Loader Mounted Tree Spade",
-        description: "With our loader-mounted tree spades, you can elevate your tree-moving projects, ensuring they are not only successful but also marked by efficiency and ease. Explore our range of loader-mounted tree spades and discover the perfect synergy between robust performance and precise handling.",
+        description:
+          "With our loader-mounted tree spades, you can elevate your tree-moving projects, ensuring they are not only successful but also marked by efficiency and ease. Explore our range of loader-mounted tree spades and discover the perfect synergy between robust performance and precise handling.",
+        imgLink: LoaderMountedMain,
         variants: [
           {
             variantName: "42DL",
-            imgLink: "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
-            downloadLink: "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
+            imgLink:
+              "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
+            downloadLink:
+              "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
             highlight: "Move Smaller Trees in Tough Conditions",
             descriptionMain:
               "Move Smaller Trees in Tough Conditions Whatever your task, if you have 4” and smaller trees that need to be dug in any conditions, this is the machine for you.The 42DL Loader Mounted Tree Spade gives you the full capabilities of a robust BIG JOHN tree spade made for digging in unprepared soils in a flexible size. Designed to fit on large skid steers and smaller loaders, the 42DL features the robust blade design of our larger tree spades.The Model 42DL comes standard with an electric valve bank and wireless remote as well as additional specifications listed below.",
@@ -337,7 +356,8 @@ const category = [
             variantName: "90DL",
             imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
-            highlight: "Robust Loader Mounted Tree Spade for 12” Diameter Trees",
+            highlight:
+              "Robust Loader Mounted Tree Spade for 12” Diameter Trees",
             descriptionMain:
               "The BIG JOHN Model 90DL is a loader mounted version of our most popular model for large tree movers that moves up to a 12” caliper tree. It is a durable, fully contained, one-operator system built to perform in the most rigorous tree moving conditions. Move up to 12” diameter trees in unprepared soil with the durability of a BIG JOHN tree spade on a go-anywhere loader. The low-profile design allows for easier storage and access to tight spaces.",
             specifications: [
@@ -537,6 +557,7 @@ const category = [
         name: "Truck Mounted",
         description:
           "Efficiency and reliability are priorities in tree farming and forestry. After all, one wrong move or delay can mean losing a tree and sometimes risking its entire life cycle. That’s where our truck-mounted tree spades come into play. Big John Manufacturing understands these challenges and offers a solution that fits your needs perfectly. Our truck-mounted spades are meticulously designed with over 40 years of industry expertise, delivering solid performance tailored to your operations. Explore what we have to offer! Transform Your Operations with Truck Mounted Spades Enhance your tree transplanting efficiency with our truck-mounted spade options. Each model is equipped with features that streamline the process, including: Stabilizing Pads Large Water Tank & Hose Attachment Internal Leveling Pads Heavy Duty Gate Hinges Heavy Duty Blade Edges Easy to Use and Maintain Durable Slide Blocks Climbable Towers ",
+        imgLink: TruckMountedMain,
         variants: [
           {
             variantName: "45D",
@@ -942,8 +963,10 @@ const category = [
       },
       {
         name: "Skid Steer Mounted",
-        description: "Models ranging from 20” to 60” in nursery diggers offer a wide array of configurations to suit diverse requirements. These configurations include 22° (truncated), 25° (semi-truncated), and 30° (pointed) spade angles, each tailored to specific digging conditions and tree types. Whether you’re working on-site, navigating rugged terrain in the wild, or transplanting trees with or without baskets, we have the expertise to fabricate the perfect spade for your needs. Our team is dedicated to understanding your unique requirements and crafting a solution that optimizes efficiency and precision in your tree-moving process. Discover the ultimate in versatility and efficiency with Big John’s skid steer tree spade attachments. Our attachments are designed to integrate seamlessly with your skid steer loaders, providing enhanced performance for your tree transplanting needs.",
-        variants: [ 
+        description:
+          "Models ranging from 20” to 60” in nursery diggers offer a wide array of configurations to suit diverse requirements. These configurations include 22° (truncated), 25° (semi-truncated), and 30° (pointed) spade angles, each tailored to specific digging conditions and tree types. Whether you’re working on-site, navigating rugged terrain in the wild, or transplanting trees with or without baskets, we have the expertise to fabricate the perfect spade for your needs. Our team is dedicated to understanding your unique requirements and crafting a solution that optimizes efficiency and precision in your tree-moving process. Discover the ultimate in versatility and efficiency with Big John’s skid steer tree spade attachments. Our attachments are designed to integrate seamlessly with your skid steer loaders, providing enhanced performance for your tree transplanting needs.",
+        imgLink: SkidMountedMain,
+        variants: [
           {
             variantName: "Model 20",
             imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
@@ -989,7 +1012,169 @@ const category = [
                 value: "20 – 22 GPM / 75 - 83 LPM"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        name: "Trailer Mounted",
+        description:
+          "Big John’s trailer-mounted tree spades are your solution for efficient and reliable tree transplanting. Designed for ease of transport and exceptional durability, our spades help you elevate your farming and landscaping projects to the next level. Experience the difference that quality equipment can make. Contact us today to discuss your needs and get the best trailer-mounted tree spades on the market!",
+        imgLink: TrailerMountedMain,
+        variants: [
+          {
+            variantName: "Model 20",
+            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            highlight: "1 – 5 CM Trees",
+            descriptionMain:
+              "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
+            specifications: [
+              {
+                parameter: "Nominal Tree Trunk Diameter",
+                value: "30 – 35 CM"
+              },
+              {
+                parameter: "Weight of Transplanter",
+                value: "9525 KG"
+              },
+              {
+                parameter: "Height Closed (for Transportation, approx.)",
+                value: "414 CM"
+              },
+              {
+                parameter: "Width Closed (for Transportation, approx.)",
+                value: "259 CM"
+              },
+              {
+                parameter: "Nominal Root Ball Width (Adjustable)",
+                value: "254 CM"
+              },
+              {
+                parameter: "Root Ball Depth (approx.)",
+                value: "172 CM"
+              },
+              {
+                parameter: "Root Ball Weight (approx.)",
+                value: "6800 – 8164 KG"
+              },
+              {
+                parameter: "Hydraulic Pressure Relief (Preset)",
+                value: "3,500 PSI"
+              },
+              {
+                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
+                value: "20 – 22 GPM / 75 - 83 LPM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tractor Mounted",
+        description:
+          "BIG JOHN offers a range of tractor-mounted tree spades, specifically designed to meet the diverse needs of the landscaping and agricultural industries. With models ranging from 20″ to 60″, our tractor tree spades are crafted to handle a wide variety of tasks, making them essential tools for any operation that involves tree transplanting or earthmoving.",
+        imgLink: TractorMountedMain,
+        variants: [
+          {
+            variantName: "Model 20",
+            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            highlight: "1 – 5 CM Trees",
+            descriptionMain:
+              "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
+            specifications: [
+              {
+                parameter: "Nominal Tree Trunk Diameter",
+                value: "30 – 35 CM"
+              },
+              {
+                parameter: "Weight of Transplanter",
+                value: "9525 KG"
+              },
+              {
+                parameter: "Height Closed (for Transportation, approx.)",
+                value: "414 CM"
+              },
+              {
+                parameter: "Width Closed (for Transportation, approx.)",
+                value: "259 CM"
+              },
+              {
+                parameter: "Nominal Root Ball Width (Adjustable)",
+                value: "254 CM"
+              },
+              {
+                parameter: "Root Ball Depth (approx.)",
+                value: "172 CM"
+              },
+              {
+                parameter: "Root Ball Weight (approx.)",
+                value: "6800 – 8164 KG"
+              },
+              {
+                parameter: "Hydraulic Pressure Relief (Preset)",
+                value: "3,500 PSI"
+              },
+              {
+                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
+                value: "20 – 22 GPM / 75 - 83 LPM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        name: "Tree Spades Accessories",
+        description:
+          "Save Time, Money, and Miles. Move multiple trees per trip, resulting in fewer miles traveled and less fuel consumption. Keep receiving hole dirt plugs containerized for less shovel work. A BIG JOHN pod trailer or free-standing tree pod can help increase your efficiency by saving time and money.Our pod sizes come in 44, 55, 65, 80, 90, & 100 and have various configurations from multiple pods on a trailer or a free standing tree pod.",
+        imgLink: TreeSpadesAccMain,
+        variants: [
+          {
+            variantName: "Model 20",
+            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            highlight: "1 – 5 CM Trees",
+            descriptionMain:
+              "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
+            specifications: [
+              {
+                parameter: "Nominal Tree Trunk Diameter",
+                value: "30 – 35 CM"
+              },
+              {
+                parameter: "Weight of Transplanter",
+                value: "9525 KG"
+              },
+              {
+                parameter: "Height Closed (for Transportation, approx.)",
+                value: "414 CM"
+              },
+              {
+                parameter: "Width Closed (for Transportation, approx.)",
+                value: "259 CM"
+              },
+              {
+                parameter: "Nominal Root Ball Width (Adjustable)",
+                value: "254 CM"
+              },
+              {
+                parameter: "Root Ball Depth (approx.)",
+                value: "172 CM"
+              },
+              {
+                parameter: "Root Ball Weight (approx.)",
+                value: "6800 – 8164 KG"
+              },
+              {
+                parameter: "Hydraulic Pressure Relief (Preset)",
+                value: "3,500 PSI"
+              },
+              {
+                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
+                value: "20 – 22 GPM / 75 - 83 LPM"
+              }
+            ]
+          }
         ]
       }
     ]

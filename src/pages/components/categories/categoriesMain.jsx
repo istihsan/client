@@ -20,6 +20,9 @@ export default function CategoriesMain() {
       cat.name.toLowerCase().replace(/\s+/g, "") === categoryName.toLowerCase()
   );
 
+  console.log("Category Name from URL:", categoryName);
+  console.log("Selected Category:", selectedCategory);
+
   const handleClick = typeName => {
     const variantName = typeName.toLowerCase().replace(/\s+/g, "");
     navigate(`/categories/${categoryName}/${variantName}`);
@@ -34,7 +37,7 @@ export default function CategoriesMain() {
   }
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{ backgroundColor: "#FFF0DD", width: "100%" }}>
       <Typography variant="h4" sx={{ textAlign: "center", marginY: "20px" }}>
         {selectedCategory.name}
       </Typography>
@@ -49,20 +52,6 @@ export default function CategoriesMain() {
           >
             {type.description}
           </Typography>
-          <Button
-            onClick={() => handleClick(type.name)}
-            variant="contained"
-            sx={{
-              fontFamily: "Poppins, sans-serif",
-              borderRadius: "60px",
-              color: "#F7FFA",
-              backgroundColor: "#FCC783",
-              marginX: "45%",
-              marginY: "2%"
-            }}
-          >
-            View Variants
-          </Button>
           <Box
             sx={{
               display: "flex",
@@ -71,30 +60,33 @@ export default function CategoriesMain() {
               justifyContent: "center"
             }}
           >
-            {type.variants.map((variant, variantIndex) => (
-              <Card key={variantIndex} sx={{ maxWidth: 345 }}>
-                <CardActionArea
-                  component={Link}
-                  to={`/product/${variant.variantName}`}
-                >
-                  <CardMedia
-                    component="img"
-                    height="140"
-                    src={variant.imgLink}
-                    alt={variant.variantName}
-                  />
-                  <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      {variant.variantName}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {variant.variantName} is well known for its ability to bla
-                      bla bla
-                    </Typography>
-                  </CardContent>
-                </CardActionArea>
-              </Card>
-            ))}
+            <CardMedia
+              component="img"
+              src={type.imgLink}
+              alt={type.name}
+              sx={{
+                objectFit: "contain",
+                width: "100%",
+                maxWidth: "450px",
+                height: "auto",
+                margin: "0 auto"
+              }}
+            />
+
+            <Button
+              onClick={() => handleClick(type.name)}
+              variant="contained"
+              sx={{
+                fontFamily: "Poppins, sans-serif",
+                borderRadius: "60px",
+                color: "#F7FFA",
+                backgroundColor: "#FCC783",
+                marginX: "45%",
+                marginY: "2%"
+              }}
+            >
+              View Variants
+            </Button>
           </Box>
           {index < selectedCategory.type.length - 1 && (
             <Divider

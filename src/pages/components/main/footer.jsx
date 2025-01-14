@@ -1,58 +1,198 @@
 import React from "react";
 import { Box, Container, Grid, Typography, Link } from "@mui/material";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
-import LogoProfindo from '../../../img/logoProfindoRB.png'
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import LogoProfindo from "../../../img/logoProfindoRB.png";
 
 export default function Footer() {
-    return (
-        <Box component="footer" sx={{ backgroundColor: '#4b5320', color: '#fff', py: 4 }}>
-            <Container>
-                <Grid container spacing={4}>
-                    <Grid item xs={12} md={4}>
-                            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start'}}>
-                              <img
-                                    src={LogoProfindo}
-                                    alt="Logo"
-                                    style={{ height: 'auto' }}
-                                />
-                            </Box>
-                        <Typography variant="body2" sx={{ my: 2 }}>
-                            One stop solution for machineries.
-                        </Typography>
-                        <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                            <LocationOnIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2">Nuansa Asri Commercial No.A1 -03, Jurang Manggu Tim., Kec. Pd. Aren  Kota Tangerang Selatan, Banten 15222</Typography>
-                        </Box>
-                        <Box sx={{ display: 'flex', alignItems: 'center', mb: 1 }}>
-                            <PhoneIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2">+62 81230472183</Typography>
-                        </Box>
-                        <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            <EmailIcon sx={{ mr: 1 }} />
-                            <Typography variant="body2">info@profindomd.com</Typography>
-                        </Box>
-                    </Grid>
-                    <Grid item xs={6} md={4}>
-                        <Typography variant="h6" sx={{ mb: 2 }}>Information</Typography>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>About</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Order</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Exterior</Link>
-                    </Grid>
-                    <Grid item xs={6} md={4}>
-                        <Typography variant="h6" sx={{ mb: 2 }}>Products</Typography>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Tree Spades</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Cranes</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Grass Mowers</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Platform for Cranes</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Tractor</Link>
-                        <Link href="#" color="inherit" display="block" sx={{ mb: 1, textDecoration: 'none' }}>Wood Chipping</Link>
-                    </Grid>
-                </Grid>
-            </Container>
-        </Box>
-    );
+  return (
+    <Box
+      component="footer"
+      sx={{ backgroundColor: "#4b5320", color: "#fff", py: 4 }}
+    >
+      <Container>
+        <Grid container spacing={4}>
+          <Grid item xs={12} md={4}>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "flex-start"
+              }}
+            >
+              <img src={LogoProfindo} alt="Logo" style={{ height: "auto" }} />
+            </Box>
+            <Typography variant="body2" sx={{ my: 2 }}>
+              One stop solution for machineries.
+            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+              <LocationOnIcon sx={{ mr: 1 }} />
+              <Typography variant="body2">
+                Nuansa Asri Commercial No.A1 -03, Jurang Manggu Tim., Kec. Pd.
+                Aren Kota Tangerang Selatan, Banten 15222
+              </Typography>
+            </Box>
+            <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+              <PhoneIcon sx={{ mr: 1 }} />
+              <Typography variant="body2">+62 81230472183</Typography>
+            </Box>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <EmailIcon sx={{ mr: 1 }} />
+              <Typography variant="body2">info@profindomd.com</Typography>
+            </Box>
+          </Grid>
+          <Grid item xs={4} md={2}>
+            <Typography variant="h6" sx={{ mb: 2 }}>
+              Information
+            </Typography>
+            <Link
+              href="/"
+              color="inherit"
+              display="block"
+              sx={{ mb: 1, textDecoration: "none" }}
+            >
+              Home
+            </Link>
+            <Link
+              href="/categories"
+              color="inherit"
+              display="block"
+              sx={{ mb: 1, textDecoration: "none" }}
+            >
+              Categories
+            </Link>
+            <Link
+              href="/gallery"
+              color="inherit"
+              display="block"
+              sx={{ mb: 1, textDecoration: "none" }}
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/contactus"
+              color="inherit"
+              display="block"
+              sx={{ mb: 1, textDecoration: "none" }}
+            >
+              Contact Us
+            </Link>
+          </Grid>
+          <Grid item xs={6} md={4} sx={{ minWidth: "45%" }}>
+            <Typography variant="h6" sx={{ mb: 2 }}>
+              Products
+            </Typography>
+            <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+              <Box>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Tree Spades
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Beach Cleaning Machines
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Grass Collector Machines
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Grass Mower Machines
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Remote Controlled Grass Mower
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Litter Collection Equipment
+                </Link>
+              </Box>
+              <Box>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Wood Chipper Machines
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Spading Machines
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Aerial Working Platform
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Truck Mounted Cranes
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Hydraulics Generator
+                </Link>
+                <Link
+                  href="#"
+                  color="inherit"
+                  display="block"
+                  sx={{ mb: 1, textDecoration: "none" }}
+                >
+                  Zoo Technology
+                </Link>
+              </Box>
+            </Box>
+          </Grid>
+        </Grid>
+        <Typography variant="body2" color="inherit" mt={2}>
+          © 2024 Profindo Multi Dinamika. All Rights Reserved
+        </Typography>
+      </Container>
+    </Box>
+  );
 }
 
 // // import React from "react";
