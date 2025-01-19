@@ -3,21 +3,71 @@ import TractorIMG from "../img/tractor.jpg";
 import ExcavatorMountedMain from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_MainPhoto.png";
 // Loader Mounted
 import LoaderMountedMain from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_MainPhoto.png";
+import DL42Main from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_1.jpg";
+import DL52Main from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_1.jpg";
+import DL62Main from "../img/1TreeSpades/2LoaderMounted/62DL/BigJohn_62DL_1.jpg";
+import DL80Main from "../img/1TreeSpades/2LoaderMounted/80DL/BigJohn_80DL_1.jpg";
+import DL90Main from "../img/1TreeSpades/2LoaderMounted/90DL/BigJohn_90DL_1.jpg";
+import DLLP90Main from "../img/1TreeSpades/2LoaderMounted/90DLLP/BigJohn_90DLLP_1.jpg";
+import DL100Main from "../img/1TreeSpades/2LoaderMounted/100DL/BigJohn_100DL_1.jpg";
 // Truck Mounted
 import TruckMountedMain from "../img/1TreeSpades/3TruckMounted/100D/BigJohn_100D_MainPhoto.png";
+import D45Main from "../img/1TreeSpades/3TruckMounted/45D/BigJohn_45D_1.jpg";
+import D55Main from "../img/1TreeSpades/3TruckMounted/55D/BigJohn_55D_1.jpg";
+import D65Main from "../img/1TreeSpades/3TruckMounted/65D/BigJohn_65D_1.jpg";
+import D80Main from "../img/1TreeSpades/3TruckMounted/80D/BigJohn_80D_1.jpg";
+import D90Main from "../img/1TreeSpades/3TruckMounted/90D/BigJohn_90D_1.jpg";
+import DAG90Main from "../img/1TreeSpades/3TruckMounted/90DAG/BigJohn_90DAG_1.jpg";
+import D100Main from "../img/1TreeSpades/3TruckMounted/100D/BigJohn_100D_1.jpg";
 // Skid Mounted
 import SkidMountedMain from "../img/1TreeSpades/4SkidSteerMounted/MODEL 48/BigJohn_Model48_MainPhoto.png";
+import Model20 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 20/BigJohn_MODEL20_1.jpg";
+import Model28 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 28/BigJohn_MODEL28_1.jpg";
+import Model36 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 36/BigJohn_MODEL36_1.jpg";
+import Model40 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 40/BigJohn_MODEL40_1.jpg";
+import Model44 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 44/BigJohn_MODEL44_1.jpeg";
+import Model48 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 48/BigJohn_MODEL48_1.jpg";
+import Model54 from "../img/1TreeSpades/4SkidSteerMounted/MODEL 54/BigJohn_MODEL54_1.jpeg";
 // Trailer Mounted
 import TrailerMountedMain from "../img/1TreeSpades/5TrailerMounted/65DTD/BigJohn_65DTD_MainPhoto.png";
+import Main44DTG from "../img/1TreeSpades/5TrailerMounted/44DTG/BigJohn_44DTG_1.jpeg";
+import Main54 from "../img/1TreeSpades/5TrailerMounted/54/BigJohn_54_1.jpg";
+import Main55DTD from "../img/1TreeSpades/5TrailerMounted/55DTD/BigJohn_55DTD_1.jpg";
+import Main65DTD from "../img/1TreeSpades/5TrailerMounted/65DTD/BigJohn_65DTD_1.jpg";
 // Tractor Mounted
 import TractorMountedMain from "../img/1TreeSpades/6TractorMounted/BigJohn_TRACTOR_MainPhoto.png";
+import TractorMounted2 from "../img/1TreeSpades/6TractorMounted/BigJohn_TRACTOR_4.jpeg";
 // Tree Spades Accessories
 import TreeSpadesAccMain from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/90 Pod Trailer/BigJohn_90POD_MainPhoto.png";
+import PodTrailer44 from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/44 Pod Trailer/BigJohn_44POD_1.jpg";
+import PodTrailer55 from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/55 Pod Trailer/BigJohn_55POD_1.jpg";
+import PodTrailer65 from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/65 Pod Trailer/BigJohn_65POD_1.jpg";
+import PodTrailer90 from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/90 Pod Trailer/BigJohn_90POD_1.jpeg";
+// Ride On Machines
+import ROMMain from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/PFG_Squalo20_MainPhoto.png";
+import ROMNemo from "../img/2. Beach Cleaning Machine/Ride On Machines/Nemo/PFG_NEMO2WD_2.jpg";
+import ROMNemoTrack from "../img/2. Beach Cleaning Machine/Ride On Machines/Nemo Track/PFG_NEMOTRACK_2.jpg";
+import ROMSqualo from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo/PFG_SQUALO_2.jpg";
+import ROMSqualo2 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/Squalo-2.0-2-p726ckbutlpslqkj1bhgltip0nkgn2t4ldefsrfffu-q5mbbgqz65qcj7e7kuddx2bg4kwlupk1qrdirbkpuy (1).jpg";
+// Tractor Towed Machine
+import TTMMain from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Model 600XL Surf Rake/Barber_SurfRake600XL_2.jpg";
+import Cernia from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Cernia/PFG_CERNIA_2.jpg";
+import Manta from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Manta/PFG_MANTA_2.jpg";
+import MantaGold from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Manta Gold/PFG_MANTAGOLD_2.jpg";
+import Caimano from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Caimano/PFG_CAIMANO_2.jpg";
+// Walk Behind Machines
+import WBMMain from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Barracuda 2.0 Electric/PFG_BARRACUDA20_MainPhoto.png";
+import Barracuda from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Barracuda/PFG_BARRACUDA_2.jpg";
+import Barracuda2 from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Barracuda 2.0 Electric/PFG_BARRACUDA20_1.png";
+import Dolphin from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Dolphin/PFG_DELFINO_2.jpg";
+import Dolphin2 from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Dolphin 2.0 Electric/PFG_DELFINO20_1.png";
+import SandMan from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Sand Man/MODEL 850/Barber_SandMan_1.jpg";
 
 const category = [
   {
     name: "Tree Spades",
     type: [
+      // Excavator Mounted
       {
         name: "Excavator Mounted",
         description:
@@ -25,61 +75,70 @@ const category = [
         imgLink: ExcavatorMountedMain,
         variants: [
           {
-            variantName: "65",
+            variantName: "65D",
             imgLink: { ExcavatorMountedMain },
-            downloadLink: "/img/TreeSpades/BigJohn_Excavator_MainPhoto.png",
+            downloadLink: "1OIeToPh0HSoUHjs-7Skhpn41Nh5AbfeM",
             highlight: "Compact and Sturdy",
             descriptionMain:
               "BIG JOHN is excited to announce the excavator mounted tree spades to our line up. We offer them in a model 65, 80, and 90. Depending on the model they are made to move trees from 15 cm to 30 cm in diameter and comes complete with electric valve bank an wireless remote control. Joining the BIG JOHN family means getting exceptional customer services for the life of your spade.",
             specifications: [
               {
-                parameter: "Nominal Tree Trunk Diameter",
-                value: "3″ – 4″"
+                parameter: "Tree Trunk Diameter",
+                value: "15 – 30 cm"
               },
               {
-                parameter: "Weight of Transplanter",
-                value: "5,800 lbs"
+                parameter: "Root Ball Width",
+                value: "157 – 229 cm"
               },
               {
-                parameter: "Height Closed (for Transportation, approx.)",
-                value: "11′ 2″"
+                parameter: "Root Ball Depth",
+                value: "135 – 152 cm"
               },
               {
-                parameter: "Width Closed (for Transportation, approx.)",
-                value: "8’"
+                parameter: "Root Ball Weight",
+                value: "1.950 – 5.350 kg"
               },
               {
-                parameter: "Nominal Root Ball Width (Adjustable)",
-                value: "42″"
+                parameter: "Machine Weight",
+                value: "2.630 – 4.760 kg"
               },
               {
-                parameter: "Root Ball Depth (approx.)",
-                value: "38″"
+                parameter: "Blade Tower Height",
+                value: "217 – 267 cm"
               },
               {
-                parameter: "Root Ball Weight (approx.)",
-                value: "1,500 lbs"
+                parameter: "Gate Opening",
+                value: "102 – 183 cm"
               },
               {
-                parameter: "Hydraulic Pressure Relief (Preset)",
-                value: "2,500 PSI"
+                parameter: "Opening Width",
+                value: "234 – 251 cm"
               },
               {
-                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
-                value: "12 – 15 gpm"
+                parameter: "Number of Spades",
+                value: "4"
               },
               {
-                parameter: "Single Axle Truck Length",
-                value: "84″"
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
               },
               {
-                parameter: "Minimum HP",
-                value: "250"
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Blade Material",
+                value: "AR550"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "20"
               }
             ]
           }
         ]
       },
+      // Loader Mounted Tree Spade
       {
         name: "Loader Mounted Tree Spade",
         description:
@@ -88,8 +147,7 @@ const category = [
         variants: [
           {
             variantName: "42DL",
-            imgLink:
-              "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
+            imgLink: DL42Main,
             downloadLink:
               "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
             highlight: "Move Smaller Trees in Tough Conditions",
@@ -156,7 +214,7 @@ const category = [
           },
           {
             variantName: "52DL",
-            imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
+            imgLink: DL52Main,
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
             highlight: "Dig in Tough Conditions",
             descriptionMain:
@@ -222,7 +280,7 @@ const category = [
           },
           {
             variantName: "62DL",
-            imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
+            imgLink: DL62Main,
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
             highlight: "Versatility in a Manageable Size",
             descriptionMain:
@@ -288,7 +346,7 @@ const category = [
           },
           {
             variantName: "80DL",
-            imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
+            imgLink: DL80Main,
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
             highlight: "Our most popular Loader Mounted Tree Spade",
             descriptionMain:
@@ -354,7 +412,7 @@ const category = [
           },
           {
             variantName: "90DL",
-            imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
+            imgLink: DL90Main,
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
             highlight:
               "Robust Loader Mounted Tree Spade for 12” Diameter Trees",
@@ -421,7 +479,7 @@ const category = [
           },
           {
             variantName: "90DLLP",
-            imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
+            imgLink: DLLP90Main,
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
             highlight: "Popular for Large Tree Movers",
             descriptionMain:
@@ -487,7 +545,7 @@ const category = [
           },
           {
             variantName: "100DL",
-            imgLink: "1sv9z3SpOoY5AMR_vCfxji7vFfOE6n83g",
+            imgLink: DL100Main,
             downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
             highlight: "Our Largest Loader Mounted Tree Spade",
             descriptionMain:
@@ -553,6 +611,7 @@ const category = [
           }
         ]
       },
+      // Truck Mounted
       {
         name: "Truck Mounted",
         description:
@@ -561,7 +620,7 @@ const category = [
         variants: [
           {
             variantName: "45D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: D45Main,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "Compact and Sturdy",
             descriptionMain:
@@ -615,7 +674,7 @@ const category = [
           },
           {
             variantName: "55D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: D55Main,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "12,5 – 15 CM Trees",
             descriptionMain:
@@ -665,57 +724,7 @@ const category = [
           },
           {
             variantName: "65D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
-            highlight: "15 – 17,5 CM Trees",
-            descriptionMain:
-              "One of our most requested and most versatile-sized transplanters, the Model 65, is capable of moving up to 17,5 cm caliper trees and is durable and operator friendly. Built to withstand rigorous tree moving conditions; from B & B operations to on-site, high-volume jobs; the Model 65 could be the perfect machine for your application. The Model 65D comes standard with a 1514 L water tank and 170 L oil reservoir. This model operates at 3000psi of hydraulic pressure at 75 LPM of flow.",
-            specifications: [
-              {
-                parameter: "Nominal Tree Trunk Diameter",
-                value: "15 - 17,5 CM"
-              },
-              {
-                parameter: "Weight of Transplanter",
-                value: "5787 KG"
-              },
-              {
-                parameter: "Height Closed (for Transportation, approx.)",
-                value: "371 CM"
-              },
-              {
-                parameter: "Width Closed (for Transportation, approx.)",
-                value: "259 CM"
-              },
-              {
-                parameter: "Nominal Root Ball Width (Adjustable)",
-                value: "157 CM"
-              },
-              {
-                parameter: "Root Ball Depth (approx.)",
-                value: "134 CM"
-              },
-              {
-                parameter: "Root Ball Weight (approx.)",
-                value: "1950 KG"
-              },
-              {
-                parameter: "Hydraulic Pressure Relief (Preset)",
-                value: "3,000 PSI"
-              },
-              {
-                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
-                value: "20 – 22 GPM / 75 - 83 LPM"
-              },
-              {
-                parameter: "Tandem Axle Truck Length",
-                value: "304 CM"
-              }
-            ]
-          },
-          {
-            variantName: "65D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: D65Main,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "15 – 17,5 CM Trees",
             descriptionMain:
@@ -765,7 +774,7 @@ const category = [
           },
           {
             variantName: "80D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: D80Main,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "Up to 25 CM Trees",
             descriptionMain:
@@ -814,58 +823,8 @@ const category = [
             ]
           },
           {
-            variantName: "90DAG",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
-            highlight: "25 – 30 CM Trees",
-            descriptionMain:
-              "Like the traditional 90D, the BIG JOHN 90-inch pecan tree spade for the pecan industry is made in America of highly durable, cold-formed steel with dual contoured blades. Used in loamy soils pecan trees love across the United States, our pecan tree spades are used by some of the largest pecan nurseries and producers in the country. Each 90 inch pecan tree spade is mounted to the truck of your choice, with additional specifications below.",
-            specifications: [
-              {
-                parameter: "Nominal Tree Trunk Diameter",
-                value: "25 – 30 CM"
-              },
-              {
-                parameter: "Weight of Transplanter",
-                value: "8055 KG"
-              },
-              {
-                parameter: "Height Closed (for Transportation, approx.)",
-                value: "414 CM"
-              },
-              {
-                parameter: "Width Closed (for Transportation, approx.)",
-                value: "259 CM"
-              },
-              {
-                parameter: "Nominal Root Ball Width (Adjustable)",
-                value: "228 CM"
-              },
-              {
-                parameter: "Root Ball Depth (approx.)",
-                value: "152 CM"
-              },
-              {
-                parameter: "Root Ball Weight (approx.)",
-                value: "5352 KG"
-              },
-              {
-                parameter: "Hydraulic Pressure Relief (Preset)",
-                value: "3,000 PSI"
-              },
-              {
-                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
-                value: "20 – 22 GPM / 75 - 83 LPM"
-              },
-              {
-                parameter: "Tandem Axle Truck Length",
-                value: "396 – 472 CM"
-              }
-            ]
-          },
-          {
             variantName: "90D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: D90Main,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "25 – 30 CM Trees",
             descriptionMain:
@@ -914,8 +873,58 @@ const category = [
             ]
           },
           {
+            variantName: "90DAG",
+            imgLink: DAG90Main,
+            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            highlight: "25 – 30 CM Trees",
+            descriptionMain:
+              "Like the traditional 90D, the BIG JOHN 90-inch pecan tree spade for the pecan industry is made in America of highly durable, cold-formed steel with dual contoured blades. Used in loamy soils pecan trees love across the United States, our pecan tree spades are used by some of the largest pecan nurseries and producers in the country. Each 90 inch pecan tree spade is mounted to the truck of your choice, with additional specifications below.",
+            specifications: [
+              {
+                parameter: "Nominal Tree Trunk Diameter",
+                value: "25 – 30 CM"
+              },
+              {
+                parameter: "Weight of Transplanter",
+                value: "8055 KG"
+              },
+              {
+                parameter: "Height Closed (for Transportation, approx.)",
+                value: "414 CM"
+              },
+              {
+                parameter: "Width Closed (for Transportation, approx.)",
+                value: "259 CM"
+              },
+              {
+                parameter: "Nominal Root Ball Width (Adjustable)",
+                value: "228 CM"
+              },
+              {
+                parameter: "Root Ball Depth (approx.)",
+                value: "152 CM"
+              },
+              {
+                parameter: "Root Ball Weight (approx.)",
+                value: "5352 KG"
+              },
+              {
+                parameter: "Hydraulic Pressure Relief (Preset)",
+                value: "3,000 PSI"
+              },
+              {
+                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
+                value: "20 – 22 GPM / 75 - 83 LPM"
+              },
+              {
+                parameter: "Tandem Axle Truck Length",
+                value: "396 – 472 CM"
+              }
+            ]
+          },
+          {
             variantName: "100D",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: D100Main,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "30 – 35 CM Trees",
             descriptionMain:
@@ -961,6 +970,7 @@ const category = [
           }
         ]
       },
+      // Skid Steer Mounted
       {
         name: "Skid Steer Mounted",
         description:
@@ -969,7 +979,7 @@ const category = [
         variants: [
           {
             variantName: "Model 20",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            imgLink: Model20,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "1 – 5 CM Trees",
             descriptionMain:
@@ -1012,9 +1022,390 @@ const category = [
                 value: "20 – 22 GPM / 75 - 83 LPM"
               }
             ]
+          },
+          {
+            variantName: "Model 28",
+            imgLink: Model28,
+            downloadLink: "Model28DownloadLink",
+            highlight: "1 – 7,5 cm Trees",
+            descriptionMain:
+              "The Model 28 BIG JOHN nursery digger is light weight and hosts cold formed straight blades. It’s made to move trees 1” to 3” in diameter and comes complete with electric valve bank and wireless remote control. Joining the BIG JOHN family means getting exceptional customer service for the life of your spade as well as customized options suited to your nursery needs. We offer wireless remote or cable controls to make operating your spade easier and faster for different conditions. Available in pointed, semi-truncated, or truncated blades.",
+            specifications: [
+              {
+                parameter: "Inside Frame",
+                value: "1 – 7,5 cm"
+              },
+              {
+                parameter: "Outside Frame",
+                value: "1 – 7,5 cm"
+              },
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 7,5 cm"
+              },
+              {
+                parameter: "Root Ball Width (Adjustable)",
+                value: "70 cm"
+              },
+              {
+                parameter: "Root Ball Depth (Adjustable)",
+                value: "55 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "135 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "680 kg"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "115 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "38 cm"
+              },
+              {
+                parameter: "Operating Width (Closed)",
+                value: "162 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "3"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
+          },
+          {
+            variantName: "Model 36",
+            imgLink: Model36,
+            downloadLink: "Model36DownloadLink",
+            highlight: "1 – 7,5 cm Trees",
+            descriptionMain:
+              "The Model 36 BIG JOHN nursery digger is light weight and hosts cold formed straight blades. It’s made to move trees 1” to 3” in diameter and comes complete with electric valve bank and wireless remote control. Joining the BIG JOHN family means getting exceptional customer service for the life of your spade as well as customized options suited to your nursery needs. We offer wireless remote or cable controls to make operating your spade easier and faster for different conditions. Available in pointed, semi-truncated, or truncated blades.",
+            specifications: [
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 7,5 cm"
+              },
+              {
+                parameter: "Root Ball Width (Adjustable)",
+                value: "91 cm"
+              },
+              {
+                parameter: "Root Ball Depth (Adjustable)",
+                value: "75 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "360 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "860 kg"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "144 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "33 cm"
+              },
+              {
+                parameter: "Opening Width",
+                value: "280 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "No"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
+          },
+          {
+            variantName: "Model 40",
+            imgLink: Model40,
+            downloadLink: "Model40DownloadLink",
+            highlight: "1 – 10 cm Trees",
+            descriptionMain:
+              "The Model 40 skid steer tree spade moves trees 1” to 4” in diameter and is designed for prepared ground nursery digging that fits a myriad of skid steer loaders; comes complete with electric valve bank and wireless remote control. Joining the BIG JOHN family means getting exceptional customer service for the life of your spade as well as customized options suited to your nursery needs. We offer wireless remote or control cables to make operating your spade easier and faster for different conditions.",
+            specifications: [
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 10 cm"
+              },
+              {
+                parameter: "Root Ball Width (Adjustable)",
+                value: "100 cm"
+              },
+              {
+                parameter: "Root Ball Depth (Adjustable)",
+                value: "80 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "450 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "1050 kg"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "187 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "58 cm"
+              },
+              {
+                parameter: "Operating Width (Closed)",
+                value: "315 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
+          },
+          {
+            variantName: "Model 44",
+            imgLink: Model44,
+            downloadLink: "Model44DownloadLink",
+            highlight: "1 – 10 cm Trees",
+            descriptionMain:
+              'The Model 44 BIG JOHN nursery digger is lightweight and hosts cold-formed straight blades. This digger can handle trees up to 4" in diameter and comes with a hydraulic gate lock and standard wireless remote. We also offer truncated and semi-truncated versions of our Model 44.',
+            specifications: [
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 10 cm"
+              },
+              {
+                parameter: "Root Ball Width (Adjustable)",
+                value: "110 cm"
+              },
+              {
+                parameter: "Root Ball Depth (Adjustable)",
+                value: "90 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "544 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "900 kg"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "210 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "60 cm"
+              },
+              {
+                parameter: "Operating Width (Closed)",
+                value: "243 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
+          },
+          {
+            variantName: "Model 48",
+            imgLink: Model48,
+            downloadLink: "Model48DownloadLink",
+            highlight: "1 – 12,5 cm Trees",
+            descriptionMain:
+              "The Model 48 skid steer tree spade moves trees 1” to 5” in diameter and is designed for prepared ground nursery digging that fits a myriad of skid steer loaders; comes complete with electric valve bank and wireless remote control.",
+            specifications: [
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 12,5 cm"
+              },
+              {
+                parameter: "Root Ball Width (Adjustable)",
+                value: "120 cm"
+              },
+              {
+                parameter: "Root Ball Depth (Adjustable)",
+                value: "99 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "798 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "1220 kg"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "215 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "66 cm"
+              },
+              {
+                parameter: "Operating Width (Closed)",
+                value: "410 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
+          },
+          {
+            variantName: "Model 54",
+            imgLink: Model54,
+            downloadLink: "Model54DownloadLink",
+            highlight: "1 – 12,5 cm Trees",
+            descriptionMain:
+              'The Model 54 BIG JOHN nursery digger is light weight and hosts cold formed straight blades, which are 30 degrees truncated. This digger can move trees that are 1" to 5" in diameter and fits a myriad of skid steer loaders.',
+            specifications: [
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 12,5 cm"
+              },
+              {
+                parameter: "Root Ball Width (Adjustable)",
+                value: "137 cm"
+              },
+              {
+                parameter: "Root Ball Depth (Adjustable)",
+                value: "105 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "1085 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "1360 kg"
+              },
+              {
+                parameter: "Blade Tower Height",
+                value: "245 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "88 cm"
+              },
+              {
+                parameter: "Operating Width",
+                value: "422 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
           }
         ]
       },
+      // Trailer Mounted
       {
         name: "Trailer Mounted",
         description:
@@ -1022,53 +1413,264 @@ const category = [
         imgLink: TrailerMountedMain,
         variants: [
           {
-            variantName: "Model 20",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
-            highlight: "1 – 5 CM Trees",
+            variantName: "44DTG",
+            imgLink: Main44DTG,
+            downloadLink: "44DTGDownloadLink",
+            highlight: "1 – 10 cm Trees",
             descriptionMain:
-              "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
+              "The 44DTG is one of the smaller trailer spades that operates with simplicity and durability. Made with AR400 spade material, the Model 44 is made for trailers 449 cm in length and comes with hydraulic rear stabilizers and an extendable trailer tongue.",
             specifications: [
               {
-                parameter: "Nominal Tree Trunk Diameter",
-                value: "30 – 35 CM"
+                parameter: "Trailer Length",
+                value: "449 cm"
               },
               {
-                parameter: "Weight of Transplanter",
-                value: "9525 KG"
+                parameter: "Trailer Width",
+                value: "250 cm"
               },
               {
-                parameter: "Height Closed (for Transportation, approx.)",
-                value: "414 CM"
+                parameter: "Tree Trunk Diameter",
+                value: "1 – 10 cm"
               },
               {
-                parameter: "Width Closed (for Transportation, approx.)",
-                value: "259 CM"
+                parameter: "Root Ball Width",
+                value: "111 cm"
               },
               {
-                parameter: "Nominal Root Ball Width (Adjustable)",
-                value: "254 CM"
-              },
-              {
-                parameter: "Root Ball Depth (approx.)",
-                value: "172 CM"
+                parameter: "Root Ball Depth",
+                value: "91 cm"
               },
               {
                 parameter: "Root Ball Weight (approx.)",
-                value: "6800 – 8164 KG"
+                value: "612 kg"
               },
               {
-                parameter: "Hydraulic Pressure Relief (Preset)",
-                value: "3,500 PSI"
+                parameter: "Machine Weight (empty/loaded)",
+                value: "2490/3100 kg"
               },
               {
-                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
-                value: "20 – 22 GPM / 75 - 83 LPM"
+                parameter: "Transport Height",
+                value: "305 cm"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "210 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "60 cm"
+              },
+              {
+                parameter: "Opening Width",
+                value: "225 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (minimum GPM)",
+                value: "14"
+              },
+              {
+                parameter: "Hydraulic Tongue Ext",
+                value: "Yes"
+              },
+              {
+                parameter: "Tongue Swivel Left/Right",
+                value: "30°/30°"
+              },
+              {
+                parameter: "Hydraulic Jack Stand",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjust. Hydraulic Pads",
+                value: "No"
+              },
+              {
+                parameter: "Adjust. Mechanical Pads",
+                value: "No"
+              }
+            ]
+          },
+          {
+            variantName: "54",
+            imgLink: Main54,
+            downloadLink: "54DownloadLink",
+            highlight: "1 – 10 cm Trees",
+            descriptionMain:
+              "The 54 Trailer Spade features our newest trailer design. It is a versatile trailer that comes in various sizes to fit any BIG JOHN customer's needs. The 54 Trailer Spade comes with an extendable trailer tongue, hydraulic jack, and hydraulic rear stabilizers.",
+            specifications: [
+              {
+                parameter: "Nominal Tree Trunk Diameter",
+                value: "1 – 10 cm"
+              },
+              {
+                parameter: "Root Ball Width",
+                value: "111 cm"
+              },
+              {
+                parameter: "Root Ball Depth",
+                value: "91 cm"
+              },
+              {
+                parameter: "Root Ball Weight",
+                value: "544 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "952 kg"
+              },
+              {
+                parameter: "Blade Tower Height",
+                value: "210 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "60 cm"
+              },
+              {
+                parameter: "Opening Width",
+                value: "243 cm"
+              },
+              {
+                parameter: "Number of Spades",
+                value: "4"
+              },
+              {
+                parameter: "Hydraulic Gate Lock",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Hydraulic Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Adjustable Mechanical Pads",
+                value: "Yes"
+              },
+              {
+                parameter: "Spade Material",
+                value: "AR400"
+              },
+              {
+                parameter: "Drive System (Minimum GPM)",
+                value: "10 – 16 GPM / 37 – 60 LPM"
+              }
+            ]
+          },
+          {
+            variantName: "55DTD",
+            imgLink: Main55DTD,
+            downloadLink: "55DTDDownloadLink",
+            highlight: "10 – 12,5 cm Trees",
+            descriptionMain:
+              "The model 55DTD is part of the Trailer Mounted family that comes with the same durability and reliability as the rest. It can handle trees up to 12,5 cm in diameter, comes with a hydraulic lock and tongue, and is made with AR500 spade material.",
+            specifications: [
+              {
+                parameter: "Trailer Length",
+                value: "599 cm"
+              },
+              {
+                parameter: "Trailer Width",
+                value: "243 cm"
+              },
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "10 – 12,5 cm"
+              },
+              {
+                parameter: "Root Ball Width",
+                value: "132 cm"
+              },
+              {
+                parameter: "Root Ball Depth",
+                value: "121 cm"
+              },
+              {
+                parameter: "Root Ball Weight (approx.)",
+                value: "1630 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "4762 kg"
+              },
+              {
+                parameter: "Transport Height",
+                value: "335 cm"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "200 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "76 cm"
+              }
+            ]
+          },
+          {
+            variantName: "65DTD",
+            imgLink: Main65DTD,
+            downloadLink: "65DTDDownloadLink",
+            highlight: "15 – 17,5 cm Trees",
+            descriptionMain:
+              "The 65DTD is another standard Trailer Mounted spade that comes with the same quality as the rest. The Model 65DTD can handle trees up to 17,5 cm in diameter and is made with AR500 spade material. It comes with a hydraulic lock and tongue.",
+            specifications: [
+              {
+                parameter: "Trailer Length",
+                value: "599 cm"
+              },
+              {
+                parameter: "Trailer Width",
+                value: "243 cm"
+              },
+              {
+                parameter: "Tree Trunk Diameter",
+                value: "15 – 17,5 cm"
+              },
+              {
+                parameter: "Root Ball Width",
+                value: "157 cm"
+              },
+              {
+                parameter: "Root Ball Depth",
+                value: "134 cm"
+              },
+              {
+                parameter: "Root Ball Weight (approx.)",
+                value: "1950 kg"
+              },
+              {
+                parameter: "Total Machine Weight",
+                value: "4985 kg"
+              },
+              {
+                parameter: "Transport Height",
+                value: "353 cm"
+              },
+              {
+                parameter: "Blade Tower Height (down position)",
+                value: "218 cm"
+              },
+              {
+                parameter: "Gate Opening",
+                value: "101 cm"
               }
             ]
           }
         ]
       },
+      // Tractor Mounted
       {
         name: "Tractor Mounted",
         description:
@@ -1076,8 +1678,8 @@ const category = [
         imgLink: TractorMountedMain,
         variants: [
           {
-            variantName: "Model 20",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
+            variantName: "Tractor Tree Spades",
+            imgLink: TractorMounted2,
             downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
             highlight: "1 – 5 CM Trees",
             descriptionMain:
@@ -1123,6 +1725,7 @@ const category = [
           }
         ]
       },
+      // Tree Spades Accessories
       {
         name: "Tree Spades Accessories",
         description:
@@ -1130,48 +1733,138 @@ const category = [
         imgLink: TreeSpadesAccMain,
         variants: [
           {
-            variantName: "Model 20",
-            imgLink: "1c1OTGu0t0hAoLJiUF-ypk1ArnR3nUS-T",
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
-            highlight: "1 – 5 CM Trees",
+            variantName: "44 Pod Trailer",
+            imgLink: PodTrailer44,
+            downloadLink: "44PodTrailerDownloadLink",
+            highlight: "Move Multiple Trees in a Single Move",
             descriptionMain:
-              "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
+              'Custom designed for the BIG JOHN 45" Tree Spade, the 45" tree pod trailer allows you to move multiple trees in a single trip. We offer a range of customizations to allow multiple trees in a single trip, from single pods up to 6.',
             specifications: [
               {
-                parameter: "Nominal Tree Trunk Diameter",
-                value: "30 – 35 CM"
+                parameter: "Empty Weight",
+                value: "1450 kg / 1800 kg / 2200 kg / 3400 kg"
               },
               {
-                parameter: "Weight of Transplanter",
-                value: "9525 KG"
+                parameter: "Length",
+                value: "300 cm / 485 cm / 695 cm / 850 cm"
               },
               {
-                parameter: "Height Closed (for Transportation, approx.)",
-                value: "414 CM"
+                parameter: "Axles",
+                value: "1 — 3150 kg / 2 — 3150 kg / 2 — 3150 kg / 2 — 4500 kg"
               },
               {
-                parameter: "Width Closed (for Transportation, approx.)",
-                value: "259 CM"
+                parameter: "Brakes",
+                value: "Electric"
               },
               {
-                parameter: "Nominal Root Ball Width (Adjustable)",
-                value: "254 CM"
+                parameter: "Engine",
+                value: "Honda"
               },
               {
-                parameter: "Root Ball Depth (approx.)",
-                value: "172 CM"
+                parameter: "Engine HP",
+                value: "8"
+              }
+            ]
+          },
+          {
+            variantName: "55 Pod Trailer",
+            imgLink: PodTrailer55,
+            downloadLink: "55PodTrailerDownloadLink",
+            highlight: "Move More Trees in Less Time",
+            descriptionMain:
+              'Custom designed for the BIG JOHN 55" Tree Spade, the 55" tree pod trailer allows you to move multiple trees in a single trip. We offer a range of customizations to allow multiple trees in a single trip, from single pods up to 3.',
+            specifications: [
+              {
+                parameter: "Empty Weight",
+                value: "2000 kg / 2900 kg"
               },
               {
-                parameter: "Root Ball Weight (approx.)",
-                value: "6800 – 8164 KG"
+                parameter: "Length",
+                value: "595 cm / 822 cm"
               },
               {
-                parameter: "Hydraulic Pressure Relief (Preset)",
-                value: "3,500 PSI"
+                parameter: "Axles",
+                value: "2 — 3150 kg / 2 — 4500 kg"
               },
               {
-                parameter: "Hydraulic GPM Rating (Gallons Per Minute)",
-                value: "20 – 22 GPM / 75 - 83 LPM"
+                parameter: "Brakes",
+                value: "Electric / Electric & Air"
+              },
+              {
+                parameter: "Engine",
+                value: "Honda"
+              },
+              {
+                parameter: "Engine HP",
+                value: "8"
+              }
+            ]
+          },
+          {
+            variantName: "65 Pod Trailer",
+            imgLink: PodTrailer65,
+            downloadLink: "65PodTrailerDownloadLink",
+            highlight: "Move More Trees in Less Time",
+            descriptionMain:
+              'Custom designed for the BIG JOHN 65" Tree Spade, the 65" tree pod trailer allows you to move multiple trees in a single trip. We offer a range of customizations to allow multiple trees in a single trip, from single pods up to 2.',
+            specifications: [
+              {
+                parameter: "Empty Weight",
+                value: "2000 kg / 2900 kg"
+              },
+              {
+                parameter: "Length",
+                value: "595 cm / 822 cm"
+              },
+              {
+                parameter: "Axles",
+                value: "2 — 3150 kg / 2 — 4500 kg"
+              },
+              {
+                parameter: "Brakes",
+                value: "Electric / Electric & Air"
+              },
+              {
+                parameter: "Engine",
+                value: "Honda"
+              },
+              {
+                parameter: "Engine HP",
+                value: "8"
+              }
+            ]
+          },
+          {
+            variantName: "90 Pod Trailer",
+            imgLink: PodTrailer90,
+            downloadLink: "90PodTrailerDownloadLink",
+            highlight: "Move More Trees in Less Time",
+            descriptionMain:
+              'The BIG JOHN 90" Tree Pod Trailer is the best way to move multiple large trees at the same time, allowing you to free up your spade during transport.',
+            specifications: [
+              {
+                parameter: "Empty Weight",
+                value: "2500 kg / 2800 kg / 6500 kg"
+              },
+              {
+                parameter: "Length",
+                value: "475 cm / 975 cm / 1050 cm"
+              },
+              {
+                parameter: "Axles",
+                value: "2 — 4500 kg / 2 — 4500 kg / 2 — 9000 kg"
+              },
+              {
+                parameter: "Brakes",
+                value: "Electric / Electric / Air"
+              },
+              {
+                parameter: "Engine",
+                value: "Honda"
+              },
+              {
+                parameter: "Engine HP",
+                value: "8"
               }
             ]
           }
@@ -1183,92 +1876,453 @@ const category = [
     name: "Beach Cleaning Machines",
     type: [
       {
-        name: "Surf Rake",
-        description: "Description for Surf Rake",
+        name: "Ride On Machines",
+        description:
+          "BIG JOHN is excited to announce the excavator mounted tree spades to our line up. We offer them in a model 65, 80, and 90. Depending on the model they are made to move trees from 15 cm to 30 cm in diameter and comes complete with electric valve bank an wireless remote control. Joining the BIG JOHN family means getting exceptional customer services for the life of your spade.",
+        imgLink: ROMMain,
         variants: [
-          { variantName: "45D", imgLink: TractorIMG },
-          { variantName: "55D", imgLink: TractorIMG }
+          {
+            variantName: "Nemo",
+            imgLink: ROMNemo,
+            downloadLink: "NemoDownloadLink",
+            highlight: "Champion Performance, Compact and Maneuverable",
+            descriptionMain:
+              "Nemo is a fully hydrostatic man-on-board beach cleaner that is extremely maneuverable and practical to use, even in tight spaces. Equipped with a Honda 22 hp engine, it cleans sand from both large waste and microplastics.",
+            specifications: [
+              {
+                parameter: "Engine",
+                value: "Honda 22 hp"
+              },
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "100 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "6000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "1050 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1310 mm"
+              },
+              {
+                parameter: "Length",
+                value: "2410 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "600 kg"
+              }
+            ]
+          },
+          {
+            variantName: "Nemo Track",
+            imgLink: ROMNemoTrack,
+            downloadLink: "NemoTrackDownloadLink",
+            highlight: "Built-in Strength, Agility, and Speed",
+            descriptionMain:
+              "Nemo Track offers advanced technology and performance. It’s designed to adapt to both large and microplastic waste on beaches, with a Honda 22 hp engine and a working capacity of about 6000 sq m/h.",
+            specifications: [
+              {
+                parameter: "Engine",
+                value: "Honda 22 hp"
+              },
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "100 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "6000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "1050 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1310 mm"
+              },
+              {
+                parameter: "Length",
+                value: "2410 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "600 kg"
+              }
+            ]
+          },
+          {
+            variantName: "Squalo",
+            imgLink: ROMSqualo,
+            downloadLink: "SqualoDownloadLink",
+            highlight: "Power, Productivity, and Elegance at the Highest Level",
+            descriptionMain:
+              "The Squalo beach cleaner is a fully hydrostatic man-on-board machine with excellent power and comfort. It is equipped with a Yanmar 30 hp engine and is perfect for cleaning beaches with considerable waste.",
+            specifications: [
+              {
+                parameter: "Engine",
+                value: "Yanmar 30 hp"
+              },
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "160 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "9000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "1600 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1600 mm"
+              },
+              {
+                parameter: "Length",
+                value: "3000 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "1050 kg"
+              }
+            ]
+          }
         ]
       },
       {
-        name: "Sand Man",
-        description: "Description for Sand Man",
+        name: "Tractor Towed Machines",
+        description:
+          "The best compromise between size and performance. Our machines form a very compact tractor-machine combination. This type of beach cleaner is ideal for carrying out work on the shoreline and removing even large pieces of trash. ",
+        imgLink: ROMMain,
         variants: [
-          { variantName: "L45D", imgLink: TractorIMG },
-          { variantName: "L55D", imgLink: TractorIMG },
-          { variantName: "L65D", imgLink: TractorIMG }
+          {
+            variantName: "Cernia",
+            imgLink: Cernia,
+            downloadLink: "CerniaDownloadLink",
+            highlight: "The Best Compromise Between Size and Performance",
+            descriptionMain:
+              "Cernia is a compact and reliable beach cleaner suitable for small tractors (16-20 Hp), ideal for shoreline work and removing large pieces of trash.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 15 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "120 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "7000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "1200 mm"
+              },
+              {
+                parameter: "Height",
+                value: "870 mm"
+              },
+              {
+                parameter: "Length",
+                value: "1050 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "110 kg"
+              }
+            ]
+          },
+          {
+            variantName: "Manta",
+            imgLink: Manta,
+            downloadLink: "MantaDownloadLink",
+            highlight: "Innovation and Quality",
+            descriptionMain:
+              "Manta is a state-of-the-art beach cleaner, perfect for tractors from 35 Hp, offering excellent performance on beaches with considerable waste.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 20 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "160 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "20000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "1600 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1000 mm"
+              },
+              {
+                parameter: "Length",
+                value: "1040 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "280 kg"
+              }
+            ]
+          },
+          {
+            variantName: "Manta Gold",
+            imgLink: MantaGold,
+            downloadLink: "MantaGoldDownloadLink",
+            highlight: "Excellence in Beach Cleaning",
+            descriptionMain:
+              "Manta Gold offers superior quality with a rear hydraulic collection drawer and a capacity of 500 liters, perfect for tractors from 70 Hp.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 20 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "160 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "20000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "1720 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1550 mm"
+              },
+              {
+                parameter: "Length",
+                value: "1700 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "430 kg"
+              }
+            ]
+          },
+          {
+            variantName: "Caimano",
+            imgLink: Caimano,
+            downloadLink: "CaimanoDownloadLink",
+            highlight: "Innovative and Powerful",
+            descriptionMain:
+              "Caimano is an advanced beach cleaner suitable for tractors from 120 Hp, designed for large-scale beach cleaning with a working capacity of up to 30,000 sq m/h.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 25 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "220 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "30000 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "2400 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1350 mm"
+              },
+              {
+                parameter: "Length",
+                value: "2400 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "700 kg"
+              }
+            ]
+          }
         ]
       },
       {
-        name: "Manual Machines",
-        description: "Description for Manual Machines",
+        name: "Walk Behind Machines",
+        description:
+          "Designed to cope with any type of beach. Our manual beach cleaners are fast and maneuverable, and because of their design, they lend themselves very well to working in small spaces, such as under umbrellas.",
+        imgLink: WBMMain,
         variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Man On Board Machines",
-        description: "Description for Man On Board Machines",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Towed Tractor Machines",
-        description: "Description for Towed Tractor Machines",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Baby Tapiro",
-        description: "Description for Baby Tapiro",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Sprint Tapiro",
-        description: "Description for Sprint Tapiro",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Speed Tapiro",
-        description: "Description for Speed Tapiro",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Big Tapiro",
-        description: "Description for Big Tapiro",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
-        ]
-      },
-      {
-        name: "Appendix",
-        description: "Description for Appendix",
-        variants: [
-          { variantName: "T45D", imgLink: TractorIMG },
-          { variantName: "T55D", imgLink: TractorIMG },
-          { variantName: "T65D", imgLink: TractorIMG }
+          {
+            variantName: "Electric Barracuda 2.0",
+            imgLink: Barracuda2,
+            downloadLink: "ElectricBarracuda2.0DownloadLink",
+            highlight: "Innovative and Eco-Friendly",
+            descriptionMain:
+              "Electric Barracuda 2.0 is an all-electric, emission-free beach cleaner designed for efficiency and precision in cleaning beaches, including microplastics.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "90 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "2500 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "900 mm"
+              },
+              {
+                parameter: "Height",
+                value: "1000 mm"
+              },
+              {
+                parameter: "Length",
+                value: "1900 mm"
+              },
+              {
+                parameter: "Battery Life",
+                value: "3 hours of work"
+              }
+            ]
+          },
+          {
+            variantName: "Delfino",
+            imgLink: Dolphin,
+            downloadLink: "DelfinoDownloadLink",
+            highlight: "Unique and Inimitable",
+            descriptionMain:
+              "Delfino is a small, maneuverable beach cleaner with a 5.5 Hp engine, ideal for cleaning small to medium beaches and capable of removing microplastics.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "75 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "2500 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "890 mm"
+              },
+              {
+                parameter: "Height",
+                value: "900 mm"
+              },
+              {
+                parameter: "Length",
+                value: "1950 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "180 kg"
+              }
+            ]
+          },
+          {
+            variantName: "Electric Delfino 2.0",
+            imgLink: Dolphin2,
+            downloadLink: "ElectricDelfino2.0DownloadLink",
+            highlight: "Electric and Eco-Friendly Innovation",
+            descriptionMain:
+              "Electric Delfino 2.0 is an all-electric version of the Delfino, offering emission-free operation with a focus on cleaning microplastics.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "75 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "2500 sq m/h"
+              },
+              {
+                parameter: "Width",
+                value: "890 mm"
+              },
+              {
+                parameter: "Height",
+                value: "900 mm"
+              },
+              {
+                parameter: "Length",
+                value: "1950 mm"
+              },
+              {
+                parameter: "Weight",
+                value: "180 kg"
+              },
+              {
+                parameter: "Battery Life",
+                value: "3 hours of work"
+              }
+            ]
+          },
+          {
+            variantName: "Barracuda",
+            imgLink: Barracuda,
+            downloadLink: "BarracudaDownloadLink",
+            highlight: "Safe and Unstoppable",
+            descriptionMain:
+              "Barracuda is a powerful beach cleaner with a 6.5 Hp engine, designed to clean large beaches, remove organic debris, and microplastics.",
+            specifications: [
+              {
+                parameter: "Working Depth",
+                value: "0 to 10 cm"
+              },
+              {
+                parameter: "Working Width",
+                value: "90 cm"
+              },
+              {
+                parameter: "Working Capacity",
+                value: "2500 sq m/h"
+              },
+              {
+                parameter: "Engine Power",
+                value: "6.5 Hp"
+              },
+              {
+                parameter: "Speed",
+                value: "2 forward speeds and 1 reverse gear"
+              }
+            ]
+          }
         ]
       }
     ]
