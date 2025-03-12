@@ -62,6 +62,22 @@ import Barracuda2 from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Ba
 import Dolphin from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Dolphin/PFG_DELFINO_2.jpg";
 import Dolphin2 from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Dolphin 2.0 Electric/PFG_DELFINO20_1.png";
 import SandMan from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Sand Man/MODEL 850/Barber_SandMan_1.jpg";
+// Grass Collector Machines
+import KoalaMain from "../img/3. Grass Collector Machines/20. KOALA/PHOTOS/PERUZZO_KOALA_MainPhoto.png";
+import Koala1 from "../img/3. Grass Collector Machines/20. KOALA/PHOTOS/PERUZZO_KOALA_8.jpg";
+import KoalaPro from "../img/3. Grass Collector Machines/21. KOALA PROFESSIONAL/PHOTOS/PERUZZO_KOALA PROFESSIOAL_14.jpg";
+import PhanterMain from "../img/3. Grass Collector Machines/22. PHANTER/PHOTOS/PERUZZO_PANTHER_MainPhoto.png";
+import Phanter1 from "../img/3. Grass Collector Machines/22. PHANTER/PHOTOS/PERUZZO_PHANTER_10.jpg";
+import PhanterMultifit from "../img/3. Grass Collector Machines/23. PHANTER MULTIFIT/PHOTOS/PERUZZO_PHANTERMULTIFIT_3.jpg";
+import PhanterProfessional from "../img/3. Grass Collector Machines/24. PHANTER PROFESSIONAL/PHOTOS/PERUZZO_PHANTERPROFESSIONAL_7.jpg";
+import TigerMain from "../img/3. Grass Collector Machines/25. TIGER/PHOTOS/PERUZZO_TIGER_MainPhoto.png";
+import Tiger1 from "../img/3. Grass Collector Machines/25. TIGER/PHOTOS/PERUZZO_TIGER_15.jpg";
+import CanguroMain from "../img/3. Grass Collector Machines/27. CANGURO PROFESSIONAL SUPER/PHOTOS/PERUZZO_CANGUROPROFESSIONALSUPER_MainPhoto.png";
+import CanguroNormal from "../img/3. Grass Collector Machines/26. CANGURO NORMAL SUPER/PHOTOS/PERUZZO_CANGURONORMALSUPER_23.jpg";
+import CanguroProfessional from "../img/3. Grass Collector Machines/27. CANGURO PROFESSIONAL SUPER/PHOTOS/PERUZZO_CANGUROPROFESSIONALSUPER_2.jpg";
+import ElephantMain from "../img/3. Grass Collector Machines/28. ELEPHANT SUPER/PHOTOS/PERUZZO_ELEPHANT_MainPhoto.png";
+import Elephant1 from "../img/3. Grass Collector Machines/28. ELEPHANT SUPER/PHOTOS/PERUZZO_ELEPHANT_6.jpg";
+// Grass Mower Machines
 
 const category = [
   {
@@ -2326,7 +2342,233 @@ const category = [
         ]
       }
     ]
+  },
+  {
+    name: "Grass Collector Machines",
+    type: [
+      {
+        name: "Koala",
+        description:
+          "The Koala Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth.",
+        imgLink: KoalaMain,
+        variants: [
+          {
+            variantName: "Koala",
+            imgLink: Koala1,
+            downloadLink: "NemoDownloadLink",
+            highlight: "Rear Mounted Flail Collector Mower",
+            descriptionMain:
+              "The PERUZZO FLAIL MOWER MOD. KOALA is a small machine that fits low weight (900 kg.) 25HP compact tractors. This flail mower uses the patented flails for a perfect grass cut performance with verticut operation. The FLAIL MOWER MOD. KOALA is an ideal compact mower for contractors, greenkeepers thanks to its ground discharge collector system and it’s useful for a fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth. Koala mowers are used on sport fields and parks where verticut and collection operation is widely performed: it is also great to pass over soft grounds and roll them with their rear roller. Koala mowers are successfully used to cut grass, collect leaves, green waste, horse manure etc. on public parks and private properties.",
+            specifications: []
+          },
+          {
+            variantName: "Koala Professional",
+            imgLink: KoalaPro,
+            downloadLink: "NemoTrackDownloadLink",
+            highlight: "Rear Mounted Flail Collection Mower With Catcher Lift",
+            descriptionMain:
+              "The flail mower PERUZZO mod. KOALA PROFESSIONAL  that fits on 25HP on low weight compact tractors (900 kg). This flail mower uses the patented flails for perfect grass cut performance with verticut operation. The Koala Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth. Its powerful vacuum and vertical blades help users to cut grass perfectly, aerate, collect smoothly and quickly up to 2.5 cm/ 1 cm depth. Koala Professional mowers are used on sport fields and parks where verticut and collection operation are widely performed: it is also great to pass over soft grounds and consecutively rolled by their rear roller. Koala Professional mowers are also successfully used to cut grass, collect leaves, green waste, horse manure etc. on public parks and private properties.",
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Phanter",
+        description:
+          "The flail collection mower PERUZZO mod. PANTHER PROFESSIONAL with high lift discharge is suitable for rear application on tractors of medium power 40-50CV and with excellent cut and collection capacity up to 1800 liters. The unloading height can reach over 2.20m by lifting it with 3-point hitch tractor according to the tractor used.",
+        imgLink: PhanterMain,
+        variants: [
+          {
+            variantName: "Phanter",
+            imgLink: Phanter1,
+            downloadLink: "NemoDownloadLink",
+            highlight:
+              "Rear Mounted Flail Collection Mower For 30 To 50 Tractor Hp",
+            descriptionMain:
+              "The flail collection mower PERUZZO mod. PANTHER is suitable for rear application on tractors of medium power 40-50CV. It makes excellent cuts and has a collection capacity of 1800 liters. The grass catcher discharges the product directly on the ground. This flail mower mod. PANTHER is aimed for greenkeepers and professional contractors whom perform cutting + verticut + collection in one pass and millimeter cutting and aeration height adjustments. The mower PERUZZO mod. PANTHER drastically reduces maintenance times with high working autonomy due to large collectors. These machines are shredders adapted by Peruzzo to deal with high quality grass cuts with special accessories such as patented knives, high speed rotation knives, roller cleaning brushes, millimeter adjustments and internal openings for easy maintenance.",
+            specifications: []
+          },
+          {
+            variantName: "Phanter Multi Fit",
+            imgLink: PhanterMultifit,
+            downloadLink: "NemoTrackDownloadLink",
+            highlight:
+              "Rear Mounted Flail Collection Mower For 30 To 70 Tractor Hp.",
+            descriptionMain:
+              "The mower PANTHER MULTIFIT is suitable for rear application on medium power tractors. Engineered for grass, verticut action and collection in the same time, leaves a clean and ventilated soil. The processed product can be discharged on the ground or high discharged by hydraulic jack. This machine is suitable for municipality and sport courses maintenance and it is equipped with rear wheels for an easy transport; it can be used with 30 HP tractors.",
+            specifications: []
+          },
+          {
+            variantName: "Phanter Professional",
+            imgLink: PhanterProfessional,
+            downloadLink: "NemoTrackDownloadLink",
+            highlight: "Tractor Harvester For 40 - 50 Hp Tractors",
+            descriptionMain:
+              "The flail collection mower PERUZZO mod. PANTHER PROFESSIONAL with high lift discharge is suitable for rear application on tractors of medium power 40-50CV and with excellent cut and collection capacity up to 1800 liters. The unloading height can reach over 2.20m by lifting it with 3-point hitch tractor according to the tractor used. This flail mower mod. PANTHER PROFESSIONAL is aimed for greenkeepers and professional contractors whom perform cutting + verticut + collection in one pass and millimeter cutting and aeration height adjustments. This machine drastically reduces maintenance times with high working autonomy due to large collectors. The PERUZZO mod. PANTHER PROFESSIONAL flail mowers are shredders adapted by Peruzzo to deal with high quality grass cuts with special accessories such as patented knives, high speed rotation knives, roller cleaning brushes, millimeter adjustments and internal openings for easy maintenance.",
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Tiger",
+        description:
+          "Flail Collector Mower TIGER engineered to help professional municipality and sport courses contractors to cut, verticut and collect. Supplied with large capacity collector with 235cm / 94” high discharge. The cutting head follows uneven grounds floating on any direction to cut and verticut independently from machine frame allowing a perfect maintenance for the most exigent Greenkeeper.",
+        imgLink: TigerMain,
+        variants: [
+          {
+            variantName: "Tiger",
+            imgLink: Tiger1,
+            downloadLink: "NemoDownloadLink",
+            highlight: "Flail Collector Mower For Professional Contractors",
+            descriptionMain:
+              "Flail Collector Mower TIGER engineered to help professional municipality and sport courses contractors to cut, verticut and collect. Supplied with large capacity collector with 235cm / 94” high discharge. The cutting head follows uneven grounds floating on any direction to cut and verticut independently from machine frame allowing a perfect maintenance for the most exigent Greenkeeper.",
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Canguro",
+        description:
+          "The Canguro Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth.",
+        imgLink: CanguroMain,
+        variants: [
+          {
+            variantName: "Canguro",
+            imgLink: CanguroNormal,
+            downloadLink: "NemoDownloadLink",
+            highlight:
+              "Heavy Duty Flail Collection Mower For 40 To 70 Tractor Hp.",
+            descriptionMain:
+              "The grass/pruning shredder CANGURO NORMAL / CANGURO NORMAL SUPER is used for a good grass cutting and pruning shredding with brunches up to 5 cm of diameter, collecting all processed products in the same time, discharging it directly to the ground by a hydraulic jack collector opening. Its good performance cut and pruning reduction with consequent collection make all the CANGURO models the perfect machines for municipality fields as well as agriculture and forestry ones. CANGURO NORMAL / CANGURO NORMAL SUPER is the new heavy duty flail collector mower fitted with heavier hammer flails with special heavy duty bearings advised for those customers that need to shred branches continuously with 8cm diameter.",
+            specifications: []
+          },
+          {
+            variantName: "Canguro Professional",
+            imgLink: CanguroProfessional,
+            downloadLink: "NemoTrackDownloadLink",
+            highlight:
+              "Heavy Duty Flail Collection Mower For 50 To 60 Tractor Hp.",
+            descriptionMain:
+              "The grass/pruning shredder Peruzzo mod. CANGURO PROFESSIONAL SUPER is used for grinding high grass and pruning up to 6/7 cm – 2/3 inch. in diameter and the collection and discharge on the ground or in height, by means of hydraulic cylinders. The flail mower with collection mod. CANGURO PROFESSIONAL SUPER performs a clean cut of grass and pruning that make it prefect for a use in public and roads areas, in agricultural and wooded areas with drastic reduction in maintenance time. The unloading of the shredded product with Canguro can be done at a 2 meters height depending on the tractor model. The flail mower with collection mod. CANGURO PROFESSIONAL SUPER has 1kg hammers each that guarantee a good cut and collection in any condition. This machine is the new model with a robust hammers and shaft with special reinforced bearings for continuous pruning with branches diameters up to 8cm in diameter.",
+            specifications: []
+          }
+        ]
+      }
+    ]
   }
+  // {
+  //   name: "Grass Mower Machines",
+  //   type: [
+  //     {
+  //       name: "Motofrog 75",
+  //       description:
+  //         "The Koala Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth.",
+  //       imgLink: KoalaMain,
+  //       variants: [
+  //         {
+  //           variantName: "Koala",
+  //           imgLink: Koala1,
+  //           downloadLink: "NemoDownloadLink",
+  //           highlight: "Rear Mounted Flail Collector Mower",
+  //           descriptionMain:
+  //             "The PERUZZO FLAIL MOWER MOD. KOALA is a small machine that fits low weight (900 kg.) 25HP compact tractors. This flail mower uses the patented flails for a perfect grass cut performance with verticut operation. The FLAIL MOWER MOD. KOALA is an ideal compact mower for contractors, greenkeepers thanks to its ground discharge collector system and it’s useful for a fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth. Koala mowers are used on sport fields and parks where verticut and collection operation is widely performed: it is also great to pass over soft grounds and roll them with their rear roller. Koala mowers are successfully used to cut grass, collect leaves, green waste, horse manure etc. on public parks and private properties.",
+  //           specifications: []
+  //         },
+  //         {
+  //           variantName: "Koala Professional",
+  //           imgLink: KoalaPro,
+  //           downloadLink: "NemoTrackDownloadLink",
+  //           highlight: "Rear Mounted Flail Collection Mower With Catcher Lift",
+  //           descriptionMain:
+  //             "The flail mower PERUZZO mod. KOALA PROFESSIONAL  that fits on 25HP on low weight compact tractors (900 kg). This flail mower uses the patented flails for perfect grass cut performance with verticut operation. The Koala Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth. Its powerful vacuum and vertical blades help users to cut grass perfectly, aerate, collect smoothly and quickly up to 2.5 cm/ 1 cm depth. Koala Professional mowers are used on sport fields and parks where verticut and collection operation are widely performed: it is also great to pass over soft grounds and consecutively rolled by their rear roller. Koala Professional mowers are also successfully used to cut grass, collect leaves, green waste, horse manure etc. on public parks and private properties.",
+  //           specifications: []
+  //         }
+  //       ]
+  //     },
+  //     {
+  //       name: "Phanter",
+  //       description:
+  //         "The flail collection mower PERUZZO mod. PANTHER PROFESSIONAL with high lift discharge is suitable for rear application on tractors of medium power 40-50CV and with excellent cut and collection capacity up to 1800 liters. The unloading height can reach over 2.20m by lifting it with 3-point hitch tractor according to the tractor used.",
+  //       imgLink: PhanterMain,
+  //       variants: [
+  //         {
+  //           variantName: "Phanter",
+  //           imgLink: Phanter1,
+  //           downloadLink: "NemoDownloadLink",
+  //           highlight:
+  //             "Rear Mounted Flail Collection Mower For 30 To 50 Tractor Hp",
+  //           descriptionMain:
+  //             "The flail collection mower PERUZZO mod. PANTHER is suitable for rear application on tractors of medium power 40-50CV. It makes excellent cuts and has a collection capacity of 1800 liters. The grass catcher discharges the product directly on the ground. This flail mower mod. PANTHER is aimed for greenkeepers and professional contractors whom perform cutting + verticut + collection in one pass and millimeter cutting and aeration height adjustments. The mower PERUZZO mod. PANTHER drastically reduces maintenance times with high working autonomy due to large collectors. These machines are shredders adapted by Peruzzo to deal with high quality grass cuts with special accessories such as patented knives, high speed rotation knives, roller cleaning brushes, millimeter adjustments and internal openings for easy maintenance.",
+  //           specifications: []
+  //         },
+  //         {
+  //           variantName: "Phanter Multi Fit",
+  //           imgLink: PhanterMultifit,
+  //           downloadLink: "NemoTrackDownloadLink",
+  //           highlight:
+  //             "Rear Mounted Flail Collection Mower For 30 To 70 Tractor Hp.",
+  //           descriptionMain:
+  //             "The mower PANTHER MULTIFIT is suitable for rear application on medium power tractors. Engineered for grass, verticut action and collection in the same time, leaves a clean and ventilated soil. The processed product can be discharged on the ground or high discharged by hydraulic jack. This machine is suitable for municipality and sport courses maintenance and it is equipped with rear wheels for an easy transport; it can be used with 30 HP tractors.",
+  //           specifications: []
+  //         },
+  //         {
+  //           variantName: "Phanter Professional",
+  //           imgLink: PhanterProfessional,
+  //           downloadLink: "NemoTrackDownloadLink",
+  //           highlight: "Tractor Harvester For 40 - 50 Hp Tractors",
+  //           descriptionMain:
+  //             "The flail collection mower PERUZZO mod. PANTHER PROFESSIONAL with high lift discharge is suitable for rear application on tractors of medium power 40-50CV and with excellent cut and collection capacity up to 1800 liters. The unloading height can reach over 2.20m by lifting it with 3-point hitch tractor according to the tractor used. This flail mower mod. PANTHER PROFESSIONAL is aimed for greenkeepers and professional contractors whom perform cutting + verticut + collection in one pass and millimeter cutting and aeration height adjustments. This machine drastically reduces maintenance times with high working autonomy due to large collectors. The PERUZZO mod. PANTHER PROFESSIONAL flail mowers are shredders adapted by Peruzzo to deal with high quality grass cuts with special accessories such as patented knives, high speed rotation knives, roller cleaning brushes, millimeter adjustments and internal openings for easy maintenance.",
+  //           specifications: []
+  //         }
+  //       ]
+  //     },
+  //     {
+  //       name: "Tiger",
+  //       description:
+  //         "Flail Collector Mower TIGER engineered to help professional municipality and sport courses contractors to cut, verticut and collect. Supplied with large capacity collector with 235cm / 94” high discharge. The cutting head follows uneven grounds floating on any direction to cut and verticut independently from machine frame allowing a perfect maintenance for the most exigent Greenkeeper.",
+  //       imgLink: TigerMain,
+  //       variants: [
+  //         {
+  //           variantName: "Tiger",
+  //           imgLink: Tiger1,
+  //           downloadLink: "NemoDownloadLink",
+  //           highlight: "Flail Collector Mower For Professional Contractors",
+  //           descriptionMain:
+  //             "Flail Collector Mower TIGER engineered to help professional municipality and sport courses contractors to cut, verticut and collect. Supplied with large capacity collector with 235cm / 94” high discharge. The cutting head follows uneven grounds floating on any direction to cut and verticut independently from machine frame allowing a perfect maintenance for the most exigent Greenkeeper.",
+  //           specifications: []
+  //         }
+  //       ]
+  //     },
+  //     {
+  //       name: "Canguro",
+  //       description:
+  //         "The Canguro Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth.",
+  //       imgLink: CanguroMain,
+  //       variants: [
+  //         {
+  //           variantName: "Canguro",
+  //           imgLink: CanguroNormal,
+  //           downloadLink: "NemoDownloadLink",
+  //           highlight:
+  //             "Heavy Duty Flail Collection Mower For 40 To 70 Tractor Hp.",
+  //           descriptionMain:
+  //             "The grass/pruning shredder CANGURO NORMAL / CANGURO NORMAL SUPER is used for a good grass cutting and pruning shredding with brunches up to 5 cm of diameter, collecting all processed products in the same time, discharging it directly to the ground by a hydraulic jack collector opening. Its good performance cut and pruning reduction with consequent collection make all the CANGURO models the perfect machines for municipality fields as well as agriculture and forestry ones. CANGURO NORMAL / CANGURO NORMAL SUPER is the new heavy duty flail collector mower fitted with heavier hammer flails with special heavy duty bearings advised for those customers that need to shred branches continuously with 8cm diameter.",
+  //           specifications: []
+  //         },
+  //         {
+  //           variantName: "Canguro Professional",
+  //           imgLink: CanguroProfessional,
+  //           downloadLink: "NemoTrackDownloadLink",
+  //           highlight:
+  //             "Heavy Duty Flail Collection Mower For 50 To 60 Tractor Hp.",
+  //           descriptionMain:
+  //             "The grass/pruning shredder Peruzzo mod. CANGURO PROFESSIONAL SUPER is used for grinding high grass and pruning up to 6/7 cm – 2/3 inch. in diameter and the collection and discharge on the ground or in height, by means of hydraulic cylinders. The flail mower with collection mod. CANGURO PROFESSIONAL SUPER performs a clean cut of grass and pruning that make it prefect for a use in public and roads areas, in agricultural and wooded areas with drastic reduction in maintenance time. The unloading of the shredded product with Canguro can be done at a 2 meters height depending on the tractor model. The flail mower with collection mod. CANGURO PROFESSIONAL SUPER has 1kg hammers each that guarantee a good cut and collection in any condition. This machine is the new model with a robust hammers and shaft with special reinforced bearings for continuous pruning with branches diameters up to 8cm in diameter.",
+  //           specifications: []
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // },
 ];
 
 export default category;

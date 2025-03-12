@@ -53,11 +53,14 @@ const ProductPage = () => {
           description={variant.descriptionMain}
           highlight={variant.highlight}
           downloadLink={variant.downloadLink}
+          imgLink={variant.imgLink}
         />
-        <SpecificationsTable
-          specifications={variant.specifications}
-          variantName={variant.variantName}
-        />
+        {variant.specifications && variant.specifications.length > 0 && (
+          <SpecificationsTable
+            specifications={variant.specifications}
+            variantName={variant.variantName}
+          />
+        )}
       </Box>
       <Box sx={{ flexShrink: 0 }}>
         <Footer />

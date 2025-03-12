@@ -10,7 +10,8 @@ export default function ProductsHero({
   variantName,
   description,
   highlight,
-  downloadLink
+  downloadLink,
+  imgLink
 }) {
   return (
     <Box sx={{ flexGrow: 1, mx: "20%", my: "5%" }}>
@@ -59,7 +60,7 @@ export default function ProductsHero({
         </Grid>
         <Grid item xs={4}>
           <Card sx={{ maxWidth: 345 }}>
-            <CardMedia component="img" alt="tractor" image={ImageTractor} />
+            <CardMedia component="img" alt="tractor" image={imgLink} />
           </Card>
         </Grid>
       </Grid>

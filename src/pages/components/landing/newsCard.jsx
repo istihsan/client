@@ -11,7 +11,6 @@ import {
   Typography
 } from "@mui/material";
 import newsData from "../../../data/newsData";
-import TractorIMG from "../../../img/tractor.jpg";
 
 const NewsCard = () => {
   const navigate = useNavigate();
@@ -48,11 +47,14 @@ const NewsCard = () => {
                 borderRadius: 0,
                 alignItems: "center",
                 textAlign: "center",
-                marginTop: "50px",
-                marginBottom: "100px"
+                marginTop: "2.5%",
+                marginBottom: "100px",
+                display: "flex",
+                flexDirection: "column",
+                height: "100%"
               }}
             >
-              <CardContent>
+              <CardContent sx={{ flexGrow: 1 }}>
                 <Typography
                   variant="h5"
                   component="div"
@@ -66,32 +68,47 @@ const NewsCard = () => {
                 </Typography>
                 <Divider
                   variant="middle"
-                  sx={{ my: 2, borderColor: "#E9DB5D", borderWidth: "2px" }}
+                  sx={{ my: 2, borderColor: "#EB0B0D", borderWidth: "2px" }}
                 />
                 <Typography variant="body2" sx={{ mt: 1, color: "gray.600" }}>
                   {news.description}
                 </Typography>
               </CardContent>
-              <CardMedia
-                component="img"
-                height="194"
-                // image={TractorIMG}
-                image={news.image}
-                alt={news.title}
-              />
-              <Button
-                variant="contained"
+              <Box
                 sx={{
-                  m: "2%",
-                  color: "#242105",
-                  backgroundColor: "#E9DB5D",
-                  marginTop: "30px",
-                  marginBottom: "30px"
+                  flexGrow: 1,
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  mt: "-15%",
+                  width: "100%"
                 }}
-                onClick={() => navigate(`/news/${news.id}`)}
               >
-                Learn More
-              </Button>
+                <CardMedia
+                  component="img"
+                  height="130%"
+                  image={news.image}
+                  alt={news.title}
+                  sx={{ objectFit: "contain" }}
+                />
+              </Box>
+              <Box sx={{ display: "flex", justifyContent: "center", pb: 2 }}>
+                <Button
+                  variant="contained"
+                  sx={{
+                    color: "white",
+                    backgroundColor: "#EB0B0D",
+                    fontWeight: "bold",
+                    "&:hover": {
+                      backgroundColor: "#E9DB5D",
+                      color: "#242105"
+                    }
+                  }}
+                  onClick={() => navigate(`/news/${news.id}`)}
+                >
+                  Learn More
+                </Button>
+              </Box>
             </Card>
           </Grid>
         ))}

@@ -72,11 +72,12 @@ export default function App() {
 
   return (
     <div>
-      {/* NavBar Start */}
       <AppBar
         position="fixed"
         sx={{
-          backgroundColor: scrolled ? "rgba(0, 0, 0, 1)" : "rgba(0, 0, 0, 0.5)"
+          backgroundColor: scrolled
+            ? "rgba(0, 0, 0, 0.8)"
+            : "rgba(0, 0, 0, 0.5)"
         }}
       >
         <Toolbar>
@@ -167,7 +168,6 @@ export default function App() {
             </MenuItem>
           </Menu>
 
-          {/* Language Flag Toggle */}
           <IconButton onClick={handleLanguageToggle} color="inherit">
             <CountryFlag
               countryCode={currentLang === "en" ? "GB" : "ID"}

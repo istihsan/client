@@ -35,7 +35,7 @@ export default function Navbar() {
       .changeLanguage(newLang)
       .then(() => {
         setCurrentLang(newLang);
-        console.log("Language changed to:", i18n.language); // Confirm language change
+        console.log("Language changed to:", i18n.language);
       })
       .catch(err => {
         console.error("Language change error:", err);
@@ -43,7 +43,7 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "#283118" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "#800d0e" }}>
       <Toolbar>
         <Box
           sx={{
@@ -105,7 +105,7 @@ export default function Navbar() {
           onClick={handleMenuClick}
           sx={{
             display: { sm: "none" },
-            mr: { xs: 1, sm: 0 } // Adjust margin-left to control the position of the hamburger menu
+            mr: { xs: 1, sm: 0 }
           }}
         >
           {anchorEl ? <CloseIcon /> : <MenuIcon />}

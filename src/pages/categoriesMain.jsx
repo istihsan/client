@@ -18,6 +18,7 @@ export default function Categories() {
         style={{
           flex: "1",
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center"
         }}
@@ -27,8 +28,7 @@ export default function Categories() {
       <WhatsAppFab />
       <Footer
         style={{
-          position: "fixed",
-          bottom: "0",
+          marginTop: "auto",
           width: "100%"
         }}
       />

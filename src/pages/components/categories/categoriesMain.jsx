@@ -46,6 +46,17 @@ export default function CategoriesMain() {
           <Typography variant="h6" sx={{ marginX: "11%", textAlign: "center" }}>
             {type.name}
           </Typography>
+          <Divider
+            variant="middle"
+            sx={{
+              my: "0.5%",
+              borderColor: "#EB0B0D",
+              borderWidth: "2px",
+              width: "15%", // Adjust width as needed
+              marginX: "auto" // Ensures centering
+            }}
+          />
+
           <Typography
             variant="body1"
             sx={{ marginX: "11%", textAlign: "center", marginBottom: "10px" }}
@@ -80,9 +91,13 @@ export default function CategoriesMain() {
                 fontFamily: "Poppins, sans-serif",
                 borderRadius: "60px",
                 color: "#F7FFA",
-                backgroundColor: "#FCC783",
+                backgroundColor: "#EB0B0D",
                 marginX: "45%",
-                marginY: "2%"
+                marginY: "2%",
+                "&:hover": {
+                  backgroundColor: "#E9DB5D",
+                  color: "#242105"
+                }
               }}
             >
               View Variants

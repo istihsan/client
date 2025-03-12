@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <Box
       component="footer"
-      sx={{ backgroundColor: "#4b5320", color: "#fff", py: 4 }}
+      sx={{ backgroundColor: "#cc0406", color: "#fff", py: 4 }}
     >
       <Container>
         <Grid container spacing={4}>
