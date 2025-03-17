@@ -1,6 +1,7 @@
 import ExcavatorMountedMain from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_MainPhoto.png";
 import LogoProfindoNoBG from "../img/1TreeSpades/3TruckMounted/100D/BigJohn_100D_MainPhoto.png";
 import HGVGenSet from "../img/11. Hydraulics Generator/ELECTRICITY GENERATION/HGV Variable Hydraulic Generator System/PHOTOS/DYNASET_HGVVariableHydraulicGeneratorSystem_MainPhoto.png";
+import VotexLCE from "../img/6. Litter Collection Equipment/546M/Votex_546M_MainPhoto.png";
 
 const newsData = [
   {
@@ -23,6 +24,13 @@ const newsData = [
     title: "Dynaset Launching Events",
     description: "Join us for Dynaset launching upcoming events and workshops.",
     image: HGVGenSet,
+    date: "2025-01-05"
+  },
+  {
+    id: 4,
+    title: "Votex Launching Events",
+    description: "Join us for Votex launching upcoming events and workshops.",
+    image: VotexLCE,
     date: "2025-01-05"
   }
 ];

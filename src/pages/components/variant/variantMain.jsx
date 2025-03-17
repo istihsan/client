@@ -2,11 +2,9 @@ import * as React from "react";
 import { useParams, Link } from "react-router-dom";
 import { Box, Typography, Divider } from "@mui/material/";
 import category from "../../../data/data.js";
-import TractorImg from "../../../img/tractor.jpg";
 
 export default function VariantMain() {
   const { categoryName, typeName } = useParams();
-  console.log(categoryName, "ssss", typeName);
   const selectedCategory = category.find(
     cat =>
       cat.name.toLowerCase().replace(/\s+/g, "") === categoryName.toLowerCase()
@@ -35,6 +33,7 @@ export default function VariantMain() {
       >
         {selectedType.name}
       </Typography>
+
       <Box
         sx={{
           display: "flex",
@@ -49,40 +48,64 @@ export default function VariantMain() {
             component={Link}
             to={`/product/${variant.variantName}`}
             sx={{
+              position: "relative",
               width: "100%",
               height: "500px",
               aspectRatio: "1",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              backgroundImage: `url(${variant.imgLink})`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
               textDecoration: "none",
               borderRadius: "10px",
-              transition: "background-color 0.3s, transform 0.3s",
+              overflow: "hidden",
+              transition: "transform 0.3s",
               "&:hover": {
-                // backgroundColor: "rgba(0, 0, 0, 0.7)",
                 transform: "scale(1.05)"
               }
             }}
           >
+            {/* Image Container */}
+            <Box
+              sx={{
+                width: "100%",
+                height: "100%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center"
+              }}
+            >
+              <img
+                src={variant.imgLink}
+                alt={variant.variantName}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                  filter: "brightness(50%)",
+                  transition: "filter 0.3s"
+                }}
+                onMouseEnter={e => (e.target.style.filter = "brightness(100%)")}
+                onMouseLeave={e => (e.target.style.filter = "brightness(50%)")}
+              />
+            </Box>
+
+            {/* Text Overlay */}
             <Typography
               variant="h4"
-              sx={{ color: "#fff", zIndex: 1, fontSize: "2rem" }}
+              sx={{
+                color: "#fff",
+                zIndex: 1,
+                fontSize: "2rem",
+                position: "absolute"
+              }}
             >
               {variant.variantName}
             </Typography>
           </Box>
         ))}
       </Box>
-      <Divider
-        sx={{
-          width: "75%",
-          margin: "40px auto"
-        }}
-      />
+
+      <Divider sx={{ width: "75%", margin: "40px auto" }} />
     </Box>
   );
 }
