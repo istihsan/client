@@ -7,6 +7,7 @@ import ProductsHero from "./components/products/productsHero.jsx";
 import category from "../data/data";
 import Footer from "./components/main/footer";
 import WhatsAppFab from "./components/whatsappFAB/whatsappFAB.jsx";
+import PhotoGallery from "./components/products/photoGallery.jsx";
 
 const ProductPage = () => {
   const { variantId } = useParams();
@@ -61,6 +62,9 @@ const ProductPage = () => {
             variantName={variant.variantName}
           />
         )}
+      </Box>
+      <Box sx={{ marginY: "20px" }}>
+        <PhotoGallery photos={variant.photos} />
       </Box>
       <Box sx={{ flexShrink: 0 }}>
         <Footer />
