@@ -148,7 +148,7 @@ export default function App() {
                 color="inherit"
                 style={{ textDecoration: "none" }}
               >
-                Home
+                {t("home")}
               </Link>
             </MenuItem>
             <MenuItem onClick={handleClose}>
@@ -158,12 +158,12 @@ export default function App() {
                 color="inherit"
                 style={{ textDecoration: "none" }}
               >
-                Category
+                {t("category")}
               </Link>
             </MenuItem>
             <MenuItem onClick={handleClose}>
               <Link href="#" color="inherit" style={{ textDecoration: "none" }}>
-                Order
+                {t("contact")}
               </Link>
             </MenuItem>
           </Menu>
@@ -260,7 +260,7 @@ export default function App() {
               }
             }}
           >
-            Explore
+            {t("explore")}
           </Button>
         </Box>
       </Box>

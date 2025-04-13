@@ -9,7 +9,12 @@ export default function Footer() {
   return (
     <Box
       component="footer"
-      sx={{ backgroundColor: "#800d0e", color: "#fff", py: 4 }}
+      sx={{
+        backgroundColor: "#800d0e",
+        color: "whitesmoke",
+        py: 4,
+        boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.7)" // Add shadow here
+      }}
     >
       <Container>
         <Grid container spacing={4}>
@@ -39,7 +44,17 @@ export default function Footer() {
             </Box>
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <EmailIcon sx={{ mr: 1 }} />
-              <Typography variant="body2">info@profindomd.com</Typography>
+              <Typography variant="body2">
+                <a
+                  href="mailto:info@profindomd.com"
+                  style={{
+                    all: "unset", // Resets all inherited and default styles
+                    cursor: "pointer" // Ensures it still behaves like a link
+                  }}
+                >
+                  info@profindomd.com
+                </a>
+              </Typography>
             </Box>
           </Grid>
           <Grid item xs={4} md={2}>

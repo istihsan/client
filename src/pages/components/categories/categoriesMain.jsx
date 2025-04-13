@@ -10,6 +10,7 @@ import {
   Button,
   Divider
 } from "@mui/material/";
+import NotFound from "../../notFound.jsx";
 import category from "../../../data/data.js";
 
 export default function CategoriesMain() {
@@ -29,15 +30,19 @@ export default function CategoriesMain() {
   };
 
   if (!selectedCategory) {
-    return (
-      <Typography variant="h6" sx={{ textAlign: "center", marginTop: "20px" }}>
-        Category Not Found
-      </Typography>
-    );
+    return <NotFound />; // Redirect to the NotFound page
   }
 
   return (
-    <Box sx={{ backgroundColor: "#FFF0DD", width: "100%" }}>
+    <Box
+      sx={{
+        backgroundColor: "#FFF0DD",
+        width: "100%",
+        marginBottom: "-1%",
+        marginTop: "2%",
+        padding: { xs: "10px", sm: "20px" } // Add responsive padding
+      }}
+    >
       <Typography variant="h4" sx={{ textAlign: "center", marginY: "20px" }}>
         {selectedCategory.name}
       </Typography>
@@ -92,8 +97,9 @@ export default function CategoriesMain() {
                 borderRadius: "60px",
                 color: "#F7FFA",
                 backgroundColor: "#EB0B0D",
-                marginX: "45%",
-                marginY: "2%",
+                mx: { xs: "auto", sm: "45%" }, // Center on small screens, align on larger screens
+                my: "2%",
+                px: { xs: 2, sm: 4 }, // Adjust padding for smaller screens
                 "&:hover": {
                   backgroundColor: "#E9DB5D",
                   color: "#242105"

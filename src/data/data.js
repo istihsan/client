@@ -11,6 +11,7 @@ import ExcavatorMounted8 from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Exca
 import ExcavatorMounted9 from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_9.jpg";
 import ExcavatorMounted10 from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_10.jpg";
 import ExcavatorMounted11 from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_11.jpg";
+import ExcavatorMountedPDF from "../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_PDF_FILE.pdf";
 // Loader Mounted
 import LoaderMountedMain from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_MainPhoto.png";
 import DL42Main from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_1.jpg";
@@ -18,6 +19,7 @@ import DL421 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_2.jpg";
 import DL422 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_3.jpg";
 import DL423 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_4.jpg";
 import DL424 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_5.jpg";
+import DL42PDF from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_PDF_FILE.pdf";
 import DL52Main from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_1.jpg";
 import DL521 from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_2.jpg";
 import DL522 from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_3.jpg";
@@ -810,7 +812,7 @@ const category = [
           {
             variantName: "65D",
             imgLink: ExcavatorMountedMain,
-            downloadLink: "1OIeToPh0HSoUHjs-7Skhpn41Nh5AbfeM",
+            downloadLink: ExcavatorMountedPDF,
             highlight: "Compact and Sturdy",
             descriptionMain:
               "BIG JOHN is excited to announce the excavator mounted tree spades to our line up. We offer them in a model 65, 80, and 90. Depending on the model they are made to move trees from 15 cm to 30 cm in diameter and comes complete with electric valve bank an wireless remote control. Joining the BIG JOHN family means getting exceptional customer services for the life of your spade.",
@@ -894,8 +896,7 @@ const category = [
           {
             variantName: "42DL",
             imgLink: DL42Main,
-            downloadLink:
-              "img/1. Tree Spades And Accessories/2. Loader Mounted/42DL/BigJohn_42DL_MainPhoto.png",
+            downloadLink: DL42PDF,
             highlight: "Move Smaller Trees in Tough Conditions",
             descriptionMain:
               "Move Smaller Trees in Tough Conditions Whatever your task, if you have 4” and smaller trees that need to be dug in any conditions, this is the machine for you.The 42DL Loader Mounted Tree Spade gives you the full capabilities of a robust BIG JOHN tree spade made for digging in unprepared soils in a flexible size. Designed to fit on large skid steers and smaller loaders, the 42DL features the robust blade design of our larger tree spades.The Model 42DL comes standard with an electric valve bank and wireless remote as well as additional specifications listed below.",

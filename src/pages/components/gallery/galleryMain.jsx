@@ -1,8 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import { Container, Paper, Typography } from "@mui/material";
+import { Container, Paper, Typography, Divider } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import TRIFLEX1 from "../../../img/4. Grass Mower Machines/12. TRIFLEX/PHOTOS/PERUZZO_TRIFLEX_10.jpg";
+import MotoFOX1 from "../../../img/4. Grass Mower Machines/9. MOTOFOX/PHOTOS/PERUZZO_MOTOFOX_10.jpg";
+import MotoFOX2 from "../../../img/4. Grass Mower Machines/9. MOTOFOX/PHOTOS/PERUZZO_MOTOFOX_11.jpg";
+import FOXS4 from "../../../img/4. Grass Mower Machines/8. FOX-S/PHOTOS/PERUZZO_FOXS_13.jpg";
 
 const tractorsImages = [
   "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
@@ -12,13 +16,7 @@ const tractorsImages = [
   "https://images.pexels.com/photos/15800610/pexels-photo-15800610/free-photo-of-tractors-on-field.jpeg?auto=compress&cs=tinysrgb&w=600"
 ];
 
-const otherImages = [
-  "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-];
+const otherImages = [TRIFLEX1, MotoFOX1, MotoFOX2, FOXS4];
 
 const GalleryMain = () => {
   const settings = {
@@ -43,6 +41,14 @@ const GalleryMain = () => {
         <Typography variant="h4" gutterBottom>
           Tractors Life
         </Typography>
+        <Divider
+          sx={{
+            marginBottom: "2%",
+            borderColor: "#EB0B0D",
+            borderWidth: "2px",
+            width: "20%" // Adjust width as needed
+          }}
+        />
         <Slider {...settings}>
           {tractorsImages.map((src, index) => (
             <div key={index}>
@@ -62,8 +68,16 @@ const GalleryMain = () => {
         style={{ padding: "7%", marginTop: "5%", marginBottom: "5%" }}
       >
         <Typography variant="h4" gutterBottom>
-          Heavy Machineries
+          Grass Mower Machines
         </Typography>
+        <Divider
+          sx={{
+            marginBottom: "2%",
+            borderColor: "#EB0B0D",
+            borderWidth: "2px",
+            width: "37.5%" // Adjust width as needed
+          }}
+        />
         <Slider {...settings}>
           {otherImages.map((src, index) => (
             <div key={index}>

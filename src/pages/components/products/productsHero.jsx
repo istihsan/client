@@ -5,6 +5,7 @@ import Grid from "@mui/material/Grid";
 import { Card, CardMedia } from "@mui/material";
 import Button from "@mui/material/Button";
 import ImageTractor from "../../../img/tractor.jpg";
+import ExcavatorMountedPDF from "../../../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_PDF_FILE.pdf";
 
 export default function ProductsHero({
   variantName,
@@ -30,14 +31,14 @@ export default function ProductsHero({
               fontFamily: "Poppins, sans-serif",
               borderRadius: "10px",
               color: "#F7FFA",
-              backgroundColor: "#006400",
+              backgroundColor: "#800d0e",
               "&:hover": { backgroundColor: "#D9B05A" }
             }}
           >
             Contact Us
           </Button>
           <a
-            href={`https://drive.google.com/uc?export=download&id=${downloadLink}`}
+            href={downloadLink}
             download
             target="_blank"
             rel="noopener noreferrer"

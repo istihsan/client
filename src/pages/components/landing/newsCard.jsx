@@ -11,9 +11,11 @@ import {
   Typography
 } from "@mui/material";
 import newsData from "../../../data/newsData";
+import { useTranslation } from "react-i18next";
 
 const NewsCard = () => {
   const navigate = useNavigate();
+  const { i18n, t } = useTranslation();
 
   return (
     <Box
@@ -33,7 +35,7 @@ const NewsCard = () => {
         component="h2"
         sx={{ mb: 4, color: "#242105", fontWeight: "600", fontSize: "3rem" }}
       >
-        OUR LATEST NEWS
+        {t("latest news")}
       </Typography>
       <Grid container spacing={2} justifyContent="center">
         {newsData.map((news, index) => (

@@ -23,10 +23,20 @@ export default function VariantMain() {
   }
 
   return (
-    <Box sx={{ width: "100%" }}>
-      <Typography variant="h4" sx={{ textAlign: "center", marginY: "20px" }}>
+    <Box sx={{ backgroundColor: "#FFF0DD", marginBottom: "-2%" }}>
+      <Typography variant="h4" sx={{ textAlign: "center", pt: "1%" }}>
         {selectedCategory.name}
       </Typography>
+      <Divider
+        variant="middle"
+        sx={{
+          my: "0.5%",
+          borderColor: "#EB0B0D",
+          borderWidth: "2px",
+          width: "15%", // Adjust width as needed
+          marginX: "auto" // Ensures centering
+        }}
+      />
       <Typography
         variant="h6"
         sx={{ textAlign: "center", marginBottom: "20px" }}

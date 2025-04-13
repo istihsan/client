@@ -8,6 +8,7 @@ import category from "../data/data";
 import Footer from "./components/main/footer";
 import WhatsAppFab from "./components/whatsappFAB/whatsappFAB.jsx";
 import PhotoGallery from "./components/products/photoGallery.jsx";
+import NotFound from "./notFound.jsx";
 
 const ProductPage = () => {
   const { variantId } = useParams();
@@ -28,7 +29,7 @@ const ProductPage = () => {
   const variant = findVariant();
 
   if (!variant) {
-    return <Typography>Variant {variantId} not found.</Typography>;
+    return <NotFound />;
   }
 
   return (

@@ -20,7 +20,8 @@ export default function Categories() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: "center"
+          alignItems: "center",
+          marginTop: "3%"
         }}
       >
         <CategoriesMain />

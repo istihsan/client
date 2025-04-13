@@ -1,18 +1,26 @@
-import React, { useState } from 'react';
-import { Container, Grid, Typography, Box, TextField, Button } from '@mui/material';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import EmailIcon from '@mui/icons-material/Email';
-import PhoneIcon from '@mui/icons-material/Phone';
+import React, { useState } from "react";
+import {
+  Container,
+  Grid,
+  Typography,
+  Box,
+  TextField,
+  Button,
+  Divider
+} from "@mui/material";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
 
 function ContactUsMain() {
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
   });
 
-  const handleChange = (event) => {
+  const handleChange = event => {
     const { name, value } = event.target;
     setForm({
       ...form,
@@ -20,26 +28,47 @@ function ContactUsMain() {
     });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = event => {
     event.preventDefault();
-    // Handle form submission logic here
-    console.log('Form submitted:', form);
+
+    // Construct the mailto link
+    const mailtoLink = `mailto:profindo.md@gmail.com?subject=${encodeURIComponent(
+      form.subject
+    )}&body=${encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+    )}`;
+
+    // Open the mailto link
+    window.location.href = mailtoLink;
   };
 
   return (
-    <Container maxWidth="lg" style={{ height: '90vh', marginTop: '5%' }}>
-      <Grid container spacing={3} style={{ height: '100%' }}>
+    <Container maxWidth="lg" style={{ height: "95vh", marginTop: "5%" }}>
+      <Grid container spacing={3} style={{ height: "100%" }}>
         <Grid item xs={12} md={6}>
-          <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
+          <Box
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            height="100%"
+          >
             <Typography variant="h4" gutterBottom>
               Contact Us
             </Typography>
+            <Divider
+              sx={{
+                borderColor: "#EB0B0D",
+                borderWidth: "2px",
+                width: "35%" // Adjust width as needed
+              }}
+            />
             <Box mt={4}>
               <Typography variant="h6">
                 <LocationOnIcon /> Address
               </Typography>
               <Typography variant="body1" color="textSecondary">
-                Nuansa Asri Commercial No.A1 -03, Jurang Manggu Tim., Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15222
+                Nuansa Asri Commercial No.A1 -03, Jurang Manggu Tim., Kec. Pd.
+                Aren, Kota Tangerang Selatan, Banten 15222
               </Typography>
             </Box>
             <Box mt={4}>
@@ -47,7 +76,7 @@ function ContactUsMain() {
                 <EmailIcon /> Email
               </Typography>
               <Typography variant="body1" color="textSecondary">
-                info@example.com
+                profindo.md@gmail.com
               </Typography>
             </Box>
             <Box mt={4}>
@@ -55,7 +84,7 @@ function ContactUsMain() {
                 <PhoneIcon /> Phone
               </Typography>
               <Typography variant="body1" color="textSecondary">
-                +1 234 567 8900
+                (+62) 813 1011 1715 /// (+62) 21 7349 2072
               </Typography>
             </Box>
           </Box>
@@ -75,10 +104,19 @@ function ContactUsMain() {
             ></iframe>
           </Box>
         </Grid>
-
+        <Divider
+          variant="middle"
+          sx={{
+            mt: "5%",
+            borderColor: "#EB0B0D",
+            borderWidth: "2px",
+            width: "90%", // Adjust width as needed
+            marginX: "auto" // Ensures centering
+          }}
+        />
         <Grid item xs={12}>
           <Box
-            my={4}
+            mb={4}
             p={3}
             border={1}
             borderColor="divider"
