@@ -47,9 +47,6 @@ const ProductPage = () => {
           marginTop: "64px"
         }}
       >
-        <Typography variant="h4" sx={{ textAlign: "center", marginY: "20px" }}>
-          Product Page for {variantId}
-        </Typography>
         <ProductsHero
           variantName={variant.variantName}
           description={variant.descriptionMain}

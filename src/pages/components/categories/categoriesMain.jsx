@@ -57,7 +57,7 @@ export default function CategoriesMain() {
               my: "0.5%",
               borderColor: "#EB0B0D",
               borderWidth: "2px",
-              width: "15%", // Adjust width as needed
+              width: `${Math.min(type.name.length * 0.8, 75)}%`, // Width depends on text length
               marginX: "auto" // Ensures centering
             }}
           />

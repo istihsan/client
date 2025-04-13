@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import { Card, CardMedia } from "@mui/material";
+import { Card, CardMedia, Divider } from "@mui/material";
 import Button from "@mui/material/Button";
 import ImageTractor from "../../../img/tractor.jpg";
 import ExcavatorMountedPDF from "../../../img/1TreeSpades/1ExcavatorMounted/BigJohn_Excavator_PDF_FILE.pdf";
@@ -16,9 +16,16 @@ export default function ProductsHero({
 }) {
   return (
     <Box sx={{ flexGrow: 1, mx: "20%", my: "5%" }}>
-      <Typography variant="h4" sx={{ color: "#006400" }}>
+      <Typography variant="h4" sx={{ color: "#800d0e" }}>
         {variantName}
       </Typography>
+      <Divider
+        sx={{
+          borderColor: "#800d0e",
+          borderWidth: "2px",
+          width: `${Math.min(variantName.length * 1.75, 75)}%` // Adjust width dynamically based on variantName length, with a max width of 75%
+        }}
+      />
       <Typography variant="h6" sx={{ mb: "1%" }}>
         {highlight}
       </Typography>
