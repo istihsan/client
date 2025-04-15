@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import logoProfindo from "../../../img/logoProfindoRB.png";
+import logoProfindo from "../../../img/logoProfindo.jpg";
 import "@fontsource/poppins";
 import { Link as RouterLink } from "react-router-dom";
 import CountryFlag from "react-country-flag";
@@ -43,7 +43,7 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar position="fixed" sx={{ backgroundColor: "#800d0e" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "#121212" }}>
       <Toolbar>
         <Box
           sx={{

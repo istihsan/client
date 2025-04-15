@@ -13,7 +13,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Video from "../img/video.mp4";
-import logoProfindo from "../img/logoProfindoRB.png";
+import logoProfindo from "../img/logoProfindo.jpg";
 import NewsCard from "./components/landing/newsCard";
 import Categories from "./components/landing/categoriesLanding";
 import Features from "./components/landing/features";

@@ -43,14 +43,25 @@ function ContactUsMain() {
   };
 
   return (
-    <Container maxWidth="lg" style={{ height: "95vh", marginTop: "5%" }}>
-      <Grid container spacing={3} style={{ height: "100%" }}>
+    <Container
+      maxWidth="lg"
+      sx={{
+        height: "auto",
+        marginTop: { xs: "10%", md: "5%" },
+        paddingX: { xs: 2, md: 0 }
+      }}
+    >
+      <Grid container spacing={3} sx={{ height: "100%" }}>
         <Grid item xs={12} md={6}>
           <Box
             display="flex"
             flexDirection="column"
             justifyContent="center"
             height="100%"
+            sx={{
+              textAlign: { xs: "center", md: "left" },
+              paddingX: { xs: 2, md: 0 }
+            }}
           >
             <Typography variant="h4" gutterBottom>
               Contact Us
@@ -59,7 +70,8 @@ function ContactUsMain() {
               sx={{
                 borderColor: "#EB0B0D",
                 borderWidth: "2px",
-                width: "35%" // Adjust width as needed
+                width: { xs: "50%", md: "35%" }, // Adjust width for smaller screens
+                marginX: { xs: "auto", md: 0 } // Center on small screens
               }}
             />
             <Box mt={4}>
@@ -110,20 +122,24 @@ function ContactUsMain() {
             mt: "5%",
             borderColor: "#EB0B0D",
             borderWidth: "2px",
-            width: "90%", // Adjust width as needed
-            marginX: "auto" // Ensures centering
+            width: "90%",
+            marginX: "auto"
           }}
         />
         <Grid item xs={12}>
           <Box
             mb={4}
-            p={3}
+            p={{ xs: 2, md: 3 }} // Adjust padding for smaller screens
             border={1}
             borderColor="divider"
             borderRadius="8px"
             boxShadow={3}
           >
-            <Typography variant="h5" gutterBottom>
+            <Typography
+              variant="h5"
+              gutterBottom
+              textAlign={{ xs: "center", md: "left" }}
+            >
               Send Us a Message
             </Typography>
             <form onSubmit={handleSubmit}>
@@ -172,7 +188,16 @@ function ContactUsMain() {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="primary">
+                  <Button
+                    type="submit"
+                    variant="contained"
+                    color="primary"
+                    sx={{
+                      width: { xs: "100%", md: "auto" }, // Full width on small screens
+                      display: "block",
+                      marginX: { xs: "auto", md: 0 } // Center on small screens
+                    }}
+                  >
                     Send
                   </Button>
                 </Grid>

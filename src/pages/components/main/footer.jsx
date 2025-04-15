@@ -3,14 +3,14 @@ import { Box, Container, Grid, Typography, Link } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import LogoProfindo from "../../../img/logoProfindoRB.png";
+import LogoProfindo from "../../../img/logoProfindo.jpg";
 
 export default function Footer() {
   return (
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#800d0e",
+        backgroundColor: "#121212",
         color: "whitesmoke",
         py: 4,
         boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.7)" // Add shadow here
