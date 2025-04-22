@@ -11,8 +11,10 @@ import {
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
+import { useTranslation } from "react-i18next"; // Import useTranslation hook
 
 function ContactUsMain() {
+  const { t } = useTranslation(); // Initialize translation hook
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -35,7 +37,9 @@ function ContactUsMain() {
     const mailtoLink = `mailto:profindo.md@gmail.com?subject=${encodeURIComponent(
       form.subject
     )}&body=${encodeURIComponent(
-      `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+      `${t("contactUs.name")}: ${form.name}\n${t("contactUs.email")}: ${
+        form.email
+      }\n\n${t("contactUs.message")}:\n${form.message}`
     )}`;
 
     // Open the mailto link
@@ -64,28 +68,29 @@ function ContactUsMain() {
             }}
           >
             <Typography variant="h4" gutterBottom>
-              Contact Us
+              {t("contactUs.contactUsTitle")} {/* Translate "Contact Us" */}
             </Typography>
             <Divider
               sx={{
                 borderColor: "#EB0B0D",
                 borderWidth: "2px",
-                width: { xs: "50%", md: "35%" }, // Adjust width for smaller screens
-                marginX: { xs: "auto", md: 0 } // Center on small screens
+                width: { xs: "50%", md: "35%" },
+                marginX: { xs: "auto", md: 0 }
               }}
             />
             <Box mt={4}>
               <Typography variant="h6">
-                <LocationOnIcon /> Address
+                <LocationOnIcon /> {t("contactUs.addressTitle")}{" "}
+                {/* Translate "Address" */}
               </Typography>
               <Typography variant="body1" color="textSecondary">
-                Nuansa Asri Commercial No.A1 -03, Jurang Manggu Tim., Kec. Pd.
-                Aren, Kota Tangerang Selatan, Banten 15222
+                {t("contactUs.address")} {/* Translate the address */}
               </Typography>
             </Box>
             <Box mt={4}>
               <Typography variant="h6">
-                <EmailIcon /> Email
+                <EmailIcon /> {t("contactUs.emailTitle")}{" "}
+                {/* Translate "Email" */}
               </Typography>
               <Typography variant="body1" color="textSecondary">
                 profindo.md@gmail.com
@@ -93,7 +98,8 @@ function ContactUsMain() {
             </Box>
             <Box mt={4}>
               <Typography variant="h6">
-                <PhoneIcon /> Phone
+                <PhoneIcon /> {t("contactUs.phoneTitle")}{" "}
+                {/* Translate "Phone" */}
               </Typography>
               <Typography variant="body1" color="textSecondary">
                 (+62) 813 1011 1715 /// (+62) 21 7349 2072
@@ -105,7 +111,7 @@ function ContactUsMain() {
         <Grid item xs={12} md={6}>
           <Box height="100%">
             <iframe
-              title="Profindo Multi Dinamika Location"
+              title={t("contactUs.mapTitle")} // Translate iframe title
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15864.175703461697!2d106.7368476!3d-6.2579443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fa9e4d3b1c27%3A0xa96b55a56f26b7e1!2sPT%20Profindo%20Multi%20Dinamika!5e0!3m2!1sen!2sid!4v1723365277880!5m2!1sen!2sid"
               width="100%"
               height="90%"
@@ -129,7 +135,7 @@ function ContactUsMain() {
         <Grid item xs={12}>
           <Box
             mb={4}
-            p={{ xs: 2, md: 3 }} // Adjust padding for smaller screens
+            p={{ xs: 2, md: 3 }}
             border={1}
             borderColor="divider"
             borderRadius="8px"
@@ -140,14 +146,15 @@ function ContactUsMain() {
               gutterBottom
               textAlign={{ xs: "center", md: "left" }}
             >
-              Send Us a Message
+              {t("contactUs.sendMessageTitle")}{" "}
+              {/* Translate "Send Us a Message" */}
             </Typography>
             <form onSubmit={handleSubmit}>
               <Grid container spacing={3}>
                 <Grid item xs={12} md={6}>
                   <TextField
                     fullWidth
-                    label="Name"
+                    label={t("contactUs.name")} // Translate "Name"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
@@ -157,7 +164,7 @@ function ContactUsMain() {
                 <Grid item xs={12} md={6}>
                   <TextField
                     fullWidth
-                    label="Email"
+                    label={t("contactUs.email")} // Translate "Email"
                     name="email"
                     type="email"
                     value={form.email}
@@ -168,7 +175,7 @@ function ContactUsMain() {
                 <Grid item xs={12}>
                   <TextField
                     fullWidth
-                    label="Subject"
+                    label={t("contactUs.subject")} // Translate "Subject"
                     name="subject"
                     value={form.subject}
                     onChange={handleChange}
@@ -178,7 +185,7 @@ function ContactUsMain() {
                 <Grid item xs={12}>
                   <TextField
                     fullWidth
-                    label="Message"
+                    label={t("contactUs.message")} // Translate "Message"
                     name="message"
                     multiline
                     rows={4}
@@ -193,12 +200,12 @@ function ContactUsMain() {
                     variant="contained"
                     color="primary"
                     sx={{
-                      width: { xs: "100%", md: "auto" }, // Full width on small screens
+                      width: { xs: "100%", md: "auto" },
                       display: "block",
-                      marginX: { xs: "auto", md: 0 } // Center on small screens
+                      marginX: { xs: "auto", md: 0 }
                     }}
                   >
-                    Send
+                    {t("contactUs.sendButton")} {/* Translate "Send" */}
                   </Button>
                 </Grid>
               </Grid>

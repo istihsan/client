@@ -15,7 +15,7 @@ import { useTranslation } from "react-i18next";
 
 const NewsCard = () => {
   const navigate = useNavigate();
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <Box
@@ -66,14 +66,14 @@ const NewsCard = () => {
                     color: "gray.800"
                   }}
                 >
-                  {news.title}
+                  {t(news.titleKey)}
                 </Typography>
                 <Divider
                   variant="middle"
                   sx={{ my: 2, borderColor: "#EB0B0D", borderWidth: "2px" }}
                 />
                 <Typography variant="body2" sx={{ mt: 1, color: "gray.600" }}>
-                  {news.description}
+                  {t(news.descriptionKey)}
                 </Typography>
               </CardContent>
               <Box
@@ -90,7 +90,7 @@ const NewsCard = () => {
                   component="img"
                   height="130%"
                   image={news.image}
-                  alt={news.title}
+                  alt={t(news.titleKey)}
                   sx={{ objectFit: "contain" }}
                 />
               </Box>
@@ -108,7 +108,7 @@ const NewsCard = () => {
                   }}
                   onClick={() => navigate(`/news/${news.id}`)}
                 >
-                  Learn More
+                  {t("learn_more")}
                 </Button>
               </Box>
             </Card>

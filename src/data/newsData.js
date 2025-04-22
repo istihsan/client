@@ -6,30 +6,29 @@ import VotexLCE from "../img/6. Litter Collection Equipment/546M/Votex_546M_Main
 const newsData = [
   {
     id: 1,
-    title: "Exciting Updates from Profindo",
-    description: "Stay updated with the latest news and trends.",
+    titleKey: "news.exciting_updates_title",
+    descriptionKey: "news.exciting_updates_description",
     image: LogoProfindoNoBG,
     date: "2025-01-14"
   },
   {
     id: 2,
-    title: "How It Works : Excavator",
-    description:
-      "Get to know your machine and how they work in Excavator Edition.",
+    titleKey: "news.how_it_works_title",
+    descriptionKey: "news.how_it_works_description",
     image: ExcavatorMountedMain,
     date: "2025-01-10"
   },
   {
     id: 3,
-    title: "Dynaset Launching Events",
-    description: "Join us for Dynaset launching upcoming events and workshops.",
+    titleKey: "news.dynaset_launching_title",
+    descriptionKey: "news.dynaset_launching_description",
     image: HGVGenSet,
     date: "2025-01-05"
   },
   {
     id: 4,
-    title: "Votex Launching Events",
-    description: "Join us for Votex launching upcoming events and workshops.",
+    titleKey: "news.votex_launching_title",
+    descriptionKey: "news.votex_launching_description",
     image: VotexLCE,
     date: "2025-01-05"
   }

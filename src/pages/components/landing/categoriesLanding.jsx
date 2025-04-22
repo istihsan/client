@@ -13,7 +13,7 @@ import BCMImg from "../../../img/2. Beach Cleaning Machine/Ride On Machines/Squa
 import WCMImg from "../../../img/7. Wood Chipper Machines/5. TB 120 C PROFESSIONAL/PHOTOS/PERUZZO_TB120PROFESSIONAL_MainPhoto.png";
 import SMImg from "../../../img/8. Spading Machines/150.150 Series/SELVATICI_150.150series_MainPhoto.png";
 import AWPImg from "../../../img/9. Aerial Working Platform/2. Octoplus 21/OS_OCTOPLUS21_MainPhoto.png";
-import TMCImg from "../../../img/10. Truck Mounted Cranes/100 Series/V123_cropped.webp";
+import TMCImg from "../../../img/10. Truck Mounted Cranes/TRUCK CRANE.png";
 import HGImg from "../../../img/11. Hydraulics Generator/ELECTRICITY GENERATION/HGV POWER BOX Variable Hydraulic Generator System/PHOTOS/DYNASET_HGVPowerBoxVariableHydraulicGeneratorSystem_MainPhoto.png";
 import ZTImg from "../../../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_MainPhoto.png";
 import AgricultureIcon from "@mui/icons-material/Agriculture";
@@ -26,78 +26,90 @@ import CleaningServicesIcon from "@mui/icons-material/CleaningServices";
 import LegendToggleIcon from "@mui/icons-material/LegendToggle";
 import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturing";
 import BoltIcon from "@mui/icons-material/Bolt";
-import LocalCarWashIcon from "@mui/icons-material/LocalCarWash";
+import { useTranslation } from "react-i18next";
 
 const images = [
   {
     url: TSImg,
-    title: "Tree Spades",
+    titleKey: "categories.tree_spades",
+    englishName: "treespades",
     width: "16.66%",
     icon: <NatureIcon sx={{ fontSize: 40 }} />
   },
   {
     url: BCMImg,
-    title: "Beach Cleaning Machines",
+    titleKey: "categories.beach_cleaning_machines",
+    englishName: "beachcleaningmachines",
     width: "16.66%",
     icon: <WavesIcon sx={{ fontSize: 40 }} />
   },
   {
     url: GCImg,
-    title: "Grass Collector Machines",
+    titleKey: "categories.grass_collector_machines",
+    englishName: "grasscollectormachines",
     width: "16.66%",
     icon: <RecyclingIcon sx={{ fontSize: 40 }} />
   },
   {
     url: GMImg,
-    title: "Grass Mower Machines",
+    titleKey: "categories.grass_mower_machines",
+    englishName: "grassmowermachines",
     width: "16.66%",
     icon: <ForestIcon sx={{ fontSize: 40 }} />
   },
   {
     url: RCGMImg,
-    title: "Remote Controlled Grass Mower",
+    titleKey: "categories.remote_controlled_grass_mower",
+    englishName: "remotecontrolledgrassmower",
     width: "16.66%",
     icon: <AgricultureIcon sx={{ fontSize: 40 }} />
   },
   {
     url: LCEImg,
-    title: "Litter Collection Equipment",
+    titleKey: "categories.litter_collection_equipment",
+    englishName: "littercollectionequipment",
     width: "16.68%",
     icon: <GrassIcon sx={{ fontSize: 40 }} />
   },
   {
     url: WCMImg,
-    title: "Wood Chipper Machines",
+    titleKey: "categories.wood_chipper_machines",
+    englishName: "woodchippermachines",
     width: "16.66%",
     icon: <GrassIcon sx={{ fontSize: 40 }} />
   },
   {
     url: SMImg,
-    title: "Spading Machines",
+    titleKey: "categories.spading_machines",
+    englishName: "spadingmachines",
     width: "16.66%",
     icon: <CleaningServicesIcon sx={{ fontSize: 40 }} />
   },
   {
     url: AWPImg,
-    title: "Aerial Working Platform",
+    titleKey: "categories.aerial_working_platform",
+    englishName: "aerialworkingplatform",
     width: "16.66%",
     icon: <CleaningServicesIcon sx={{ fontSize: 40 }} />
   },
   {
     url: TMCImg,
-    title: "Truck Mounted Cranes",
+    titleKey: "categories.truck_mounted_cranes",
+    englishName: "truckmountedcranes",
     width: "16.66%",
     icon: <LegendToggleIcon sx={{ fontSize: 40 }} />
   },
   {
     url: HGImg,
-    title: "Hydraulics Generator",
+    titleKey: "categories.hydraulics_generator",
+    englishName: "hydraulicsgenerator",
     width: "16.66%",
-    icon: <PrecisionManufacturingIcon sx={{ fontSize: 40 }} />
+    icon: <BoltIcon sx={{ fontSize: 40 }} />
   },
   {
     url: ZTImg,
-    title: "Zoo Technology",
+    titleKey: "categories.zoo_technology",
+    englishName: "zootechnology",
     width: "16.68%",
     icon: <PrecisionManufacturingIcon sx={{ fontSize: 40 }} />
   }
@@ -170,10 +182,10 @@ const ImageMarked = styled("span")(({ theme }) => ({
 
 export default function ButtonBaseDemo() {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
-  const handleClick = title => {
-    const categoryName = title.replace(/\s+/g, "").toLowerCase();
-    navigate(`/categories/${categoryName}`);
+  const handleClick = englishName => {
+    navigate(`/categories/${englishName}`);
   };
 
   return (
@@ -183,11 +195,11 @@ export default function ButtonBaseDemo() {
       {images.map(image => (
         <ImageButton
           focusRipple
-          key={image.title}
+          key={image.titleKey}
           style={{
             width: image.width
           }}
-          onClick={() => handleClick(image.title)}
+          onClick={() => handleClick(image.englishName)}
         >
           <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
           <ImageBackdrop className="MuiImageBackdrop-root" />
@@ -208,7 +220,7 @@ export default function ButtonBaseDemo() {
                 textAlign: "center"
               }}
             >
-              <span>{image.title}</span>
+              <span>{t(image.titleKey)}</span>
               {image.icon}
               <ImageMarked className="MuiImageMarked-root" />
             </Typography>

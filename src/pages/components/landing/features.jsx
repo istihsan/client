@@ -7,8 +7,11 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Unstable_Grid2";
 import Img from "../../../img/tractor.jpg";
+import { useTranslation } from "react-i18next";
 
 export default function BasicCard() {
+  const { t } = useTranslation();
+
   return (
     <Box sx={{ overflow: "hidden" }}>
       <Grid
@@ -22,16 +25,9 @@ export default function BasicCard() {
         }}
       >
         <Grid xs={6}>
-          <Typography variant="h4">
-            Special Equipment & Special Vehicles.
-          </Typography>
+          <Typography variant="h4">{t("features.title")}</Typography>
           <Typography variant="subtitle1" sx={{ mt: "2%" }}>
-            PT. Profindo Multi Dinamika is the official dealer for the
-            BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA brands, which
-            have been established since 1959. PT. Profindo Multi Dinamika will
-            provide marketing support, service & after-sales services for all
-            users of BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA
-            products.
+            {t("features.description")}
           </Typography>
           <Button
             href="/contactus"
@@ -46,13 +42,17 @@ export default function BasicCard() {
               }
             }}
           >
-            Contact Us
+            {t("features.contact_us")}
           </Button>
         </Grid>
         <Grid xs={6}>
           <Card sx={{ maxWidth: "50%", ml: "20%" }}>
             <CardActionArea>
-              <CardMedia component="img" image={Img} alt="Tractors" />
+              <CardMedia
+                component="img"
+                image={Img}
+                alt={t("features.image_alt")}
+              />
             </CardActionArea>
           </Card>
         </Grid>

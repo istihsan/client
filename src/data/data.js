@@ -798,6 +798,120 @@ import SCUPhoto3 from "../img/11. Hydraulics Generator/HIGH PRESSURE WATER/SCU S
 import SCUPhoto4 from "../img/11. Hydraulics Generator/HIGH PRESSURE WATER/SCU Surface Cleaning Unit/PHOTOS/DYNASET_SCUSurfaceCleaningUnit_4.jpg";
 import SCUPhoto5 from "../img/11. Hydraulics Generator/HIGH PRESSURE WATER/SCU Surface Cleaning Unit/PHOTOS/DYNASET_SCUSurfaceCleaningUnit_5.jpg";
 
+// Zoo Technology
+// 200 Export
+import ZooPhoto1 from "../img/12. Zoo Technology/3. 200 EXPORT/PHOTOS/PERUZZO_200EXPORT_MainPhoto.png";
+import ZooPhoto2 from "../img/12. Zoo Technology/3. 200 EXPORT/PHOTOS/PERUZZO_200EXPORT_1.jpg";
+import ZooPhoto3 from "../img/12. Zoo Technology/3. 200 EXPORT/PHOTOS/PERUZZO_200EXPORT_2.jpg";
+import ZooPhoto4 from "../img/12. Zoo Technology/3. 200 EXPORT/PHOTOS/PERUZZO_200EXPORT_3.jpg";
+import ZooPhoto5 from "../img/12. Zoo Technology/3. 200 EXPORT/PHOTOS/PERUZZO_200EXPORT_4.jpg";
+import Zoo200Catalog from "../img/12. Zoo Technology/3. 200 EXPORT/PHOTOS/PERUZZO_KATALOG_200EXPORT.pdf";
+
+// 200 Universal
+import Zoo200UniversalMain from "../img/12. Zoo Technology/4. 200 UNIVERSAL/PHOTOS/PERUZZO_200UNIVERSAL_MainPhoto.png";
+import Zoo200UniversalPhoto1 from "../img/12. Zoo Technology/4. 200 UNIVERSAL/PHOTOS/PERUZZO_200UNIVERSAL_1.jpg";
+import Zoo200UniversalPhoto2 from "../img/12. Zoo Technology/4. 200 UNIVERSAL/PHOTOS/PERUZZO_200UNIVERSAL_2.jpg";
+import Zoo200UniversalCatalog from "../img/12. Zoo Technology/4. 200 UNIVERSAL/PHOTOS/PERUZZO_KATALOG_200UNIVERSAL  (1).pdf";
+
+// 300 Universal
+import Zoo300UniversalMain from "../img/12. Zoo Technology/5. 300 UNIVERSAL/PHOTOS/PERUZZO_300UNIVERSAL_MainPhoto.png";
+import Zoo300UniversalPhoto1 from "../img/12. Zoo Technology/5. 300 UNIVERSAL/PHOTOS/PERUZZO_300UNIVERSAL_1.jpg";
+import Zoo300UniversalPhoto2 from "../img/12. Zoo Technology/5. 300 UNIVERSAL/PHOTOS/PERUZZO_300UNIVERSAL_2.jpg";
+import Zoo300UniversalPhoto3 from "../img/12. Zoo Technology/5. 300 UNIVERSAL/PHOTOS/PERUZZO_300UNIVERSAL_3.jpg";
+import Zoo300UniversalPhoto4 from "../img/12. Zoo Technology/5. 300 UNIVERSAL/PHOTOS/PERUZZO_300UNIVERSAL_4.jpg";
+import Zoo300UniversalCatalog from "../img/12. Zoo Technology/5. 300 UNIVERSAL/PHOTOS/PERUZZO_KATALOG_300UNIVERSAL (1).pdf";
+
+// 500 Universal
+import Zoo500UniversalMain from "../img/12. Zoo Technology/6. 500 UNIVERSAL/PHOTOS/PERUZZO_500UNIVERSAL_MainPhoto.png";
+import Zoo500UniversalPhoto1 from "../img/12. Zoo Technology/6. 500 UNIVERSAL/PHOTOS/PERUZZO_500UNIVERSAL_1.jpg";
+import Zoo500UniversalPhoto2 from "../img/12. Zoo Technology/6. 500 UNIVERSAL/PHOTOS/PERUZZO_500UNIVERSAL_2.jpg";
+import Zoo500UniversalPhoto3 from "../img/12. Zoo Technology/6. 500 UNIVERSAL/PHOTOS/PERUZZO_500UNIVERSAL_3.jpg";
+import Zoo500UniversalCatalog from "../img/12. Zoo Technology/6. 500 UNIVERSAL/PHOTOS/PERUZZO_KATALOG_500UNIVERSAL.pdf";
+
+// 700 Universal
+import Zoo700UniversalMain from "../img/12. Zoo Technology/7. 700 UNIVERSAL/PHOTOS/PERUZZO_700UNIVERSAL_MainPhoto.png";
+import Zoo700UniversalPhoto1 from "../img/12. Zoo Technology/7. 700 UNIVERSAL/PHOTOS/PERUZZO_700UNIVERSAL_1.jpg";
+import Zoo700UniversalPhoto2 from "../img/12. Zoo Technology/7. 700 UNIVERSAL/PHOTOS/PERUZZO_700UNIVERSAL_2.jpg";
+import Zoo700UniversalPhoto3 from "../img/12. Zoo Technology/7. 700 UNIVERSAL/PHOTOS/PERUZZO_700UNIVERSAL_3.jpg";
+import Zoo700UniversalPhoto4 from "../img/12. Zoo Technology/7. 700 UNIVERSAL/PHOTOS/PERUZZO_700UNIVERSAL_4.jpg";
+import Zoo700UniversalCatalog from "../img/12. Zoo Technology/7. 700 UNIVERSAL/PHOTOS/PERUZZO_KATALOG_700UNIVERSAL.pdf";
+
+// 1000 Universal
+import Zoo1000UniversalMain from "../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_MainPhoto.png";
+import Zoo1000UniversalPhoto1 from "../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_1.jpg";
+import Zoo1000UniversalPhoto2 from "../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_2.jpg";
+import Zoo1000UniversalPhoto3 from "../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_3.jpg";
+import Zoo1000UniversalPhoto4 from "../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_4.jpg";
+import Zoo1000UniversalCatalog from "../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_KATALOG_1000UNIVERSAL.pdf";
+
+// Biomass 1000
+import Biomass1000Main from "../img/12. Zoo Technology/9. BIOMASS BIOGAS PLANTS UNIVERSAL 1000/PHOTOS/PERUZZO_1000UNIVERSAL_MainPhoto.png";
+import Biomass1000Photo1 from "../img/12. Zoo Technology/9. BIOMASS BIOGAS PLANTS UNIVERSAL 1000/PHOTOS/PERUZZO_1000UNIVERSAL_1.jpg";
+import Biomass1000Photo2 from "../img/12. Zoo Technology/9. BIOMASS BIOGAS PLANTS UNIVERSAL 1000/PHOTOS/PERUZZO_1000UNIVERSAL_2.jpg";
+import Biomass1000Photo3 from "../img/12. Zoo Technology/9. BIOMASS BIOGAS PLANTS UNIVERSAL 1000/PHOTOS/PERUZZO_1000UNIVERSAL_3.jpg";
+import Biomass1000Photo4 from "../img/12. Zoo Technology/9. BIOMASS BIOGAS PLANTS UNIVERSAL 1000/PHOTOS/PERUZZO_1000UNIVERSAL_4.jpg";
+import Biomass1000Catalog from "../img/12. Zoo Technology/9. BIOMASS BIOGAS PLANTS UNIVERSAL 1000/PHOTOS/PERUZZO_KATALOG_1000UNIVERSAL.pdf";
+
+// Comby
+// Comby 85
+import Comby85Main from "../img/12. Zoo Technology/10. COMBY 85/PHOTOS/PERUZZO_COMBY85_MainPhoto.png";
+import Comby85Photo1 from "../img/12. Zoo Technology/10. COMBY 85/PHOTOS/PERUZZO_COMBY85_1.jpg";
+import Comby85Photo2 from "../img/12. Zoo Technology/10. COMBY 85/PHOTOS/PERUZZO_COMBY85_2.jpg";
+import Comby85Photo3 from "../img/12. Zoo Technology/10. COMBY 85/PHOTOS/PERUZZO_COMBY85_3.jpg";
+import Comby85Photo4 from "../img/12. Zoo Technology/10. COMBY 85/PHOTOS/PERUZZO_COMBY85_4.jpg";
+import Comby85Catalog from "../img/12. Zoo Technology/10. COMBY 85/PHOTOS/PERUZZO_KATALOG_COMBY85.pdf";
+
+// Comby MCM
+import CombyMCMMain from "../img/12. Zoo Technology/11. COMBY MCM/PHOTOS/PERUZZO_COMBYMCM_MainPhoto.png";
+import CombyMCM1 from "../img/12. Zoo Technology/11. COMBY MCM/PHOTOS/PERUZZO_COMBYMCM_1.jpg";
+import CombyMCM2 from "../img/12. Zoo Technology/11. COMBY MCM/PHOTOS/PERUZZO_COMBYMCM_2.jpg";
+import CombyMCM3 from "../img/12. Zoo Technology/11. COMBY MCM/PHOTOS/PERUZZO_COMBYMCM_3.jpg";
+import CombyMCMPDF from "../img/12. Zoo Technology/11. COMBY MCM/PHOTOS/PERUZZO_KATALOG_COMBY MCM.pdf";
+
+// Comby Special
+import CombySpecialMain from "../img/12. Zoo Technology/12. COMBY SPECIAL/PHOTOS/PERUZZO_COMBYSPECIAL_MainPhoto.png";
+import CombySpecial1 from "../img/12. Zoo Technology/12. COMBY SPECIAL/PHOTOS/PERUZZO_COMBYSPECIAL_1.jpg";
+import CombySpecial2 from "../img/12. Zoo Technology/12. COMBY SPECIAL/PHOTOS/PERUZZO_COMBYSPECIAL_2.jpg";
+import CombySpecial3 from "../img/12. Zoo Technology/12. COMBY SPECIAL/PHOTOS/PERUZZO_COMBYSPECIAL_3.jpg";
+import CombySpecial4 from "../img/12. Zoo Technology/12. COMBY SPECIAL/PHOTOS/PERUZZO_COMBYSPECIAL_4.jpg";
+import CombySpecialPDF from "../img/12. Zoo Technology/12. COMBY SPECIAL/PHOTOS/PERUZZO_KATALOG_COMBYSPECIAL.pdf";
+
+// Rised Flour Mixer
+import RisedFlourMixerMain from "../img/12. Zoo Technology/13. RISED FLOUR MIXER/PHOTOS/PERUZZO_RISEDFLOURMIXER_MainPhoto.png";
+import RisedFlourMixer1 from "../img/12. Zoo Technology/13. RISED FLOUR MIXER/PHOTOS/PERUZZO_RISEDFLOURMIXER_1.jpg";
+import RisedFlourMixer2 from "../img/12. Zoo Technology/13. RISED FLOUR MIXER/PHOTOS/PERUZZO_RISEDFLOURMIXER_2.jpg";
+import RisedFlourMixerPDF from "../img/12. Zoo Technology/13. RISED FLOUR MIXER/PHOTOS/PERUZZO_KATALOG_RISEDFLOURMIXER.pdf";
+
+// Buried Flour Mixer
+import BuriedFlourMixerMain from "../img/12. Zoo Technology/14. BURIED FLOUR MIXERS/PHOTO/PERUZZO_BURIEDFLOURMIXER_MainPhoto.png";
+import BuriedFlourMixer1 from "../img/12. Zoo Technology/14. BURIED FLOUR MIXERS/PHOTO/PERUZZO_BURIEDFLOURMIXER_1.jpg";
+import BuriedFlourMixer2 from "../img/12. Zoo Technology/14. BURIED FLOUR MIXERS/PHOTO/PERUZZO_BURIEDFLOURMIXER_2.jpg";
+import BuriedFlourMixerPDF from "../img/12. Zoo Technology/14. BURIED FLOUR MIXERS/PHOTO/PERUZZO_KATALOG_BURIEDFLOURMIXER.pdf";
+
+// Crush
+import CrushMain from "../img/12. Zoo Technology/15. CRUSH/PHOTOS/PERUZZO_CRUSH_MainPhoto.png";
+import Crush1 from "../img/12. Zoo Technology/15. CRUSH/PHOTOS/PERUZZO_CRUSH_1.jpg";
+import Crush2 from "../img/12. Zoo Technology/15. CRUSH/PHOTOS/PERUZZO_CRUSH_2.jpg";
+import Crush3 from "../img/12. Zoo Technology/15. CRUSH/PHOTOS/PERUZZO_CRUSH_3.jpg";
+import Crush4 from "../img/12. Zoo Technology/15. CRUSH/PHOTOS/PERUZZO_CRUSH_4.jpg";
+import CrushPDF from "../img/12. Zoo Technology/15. CRUSH/PHOTOS/PERUZZO_KATALOG_CRUSH.pdf";
+
+// A-17 R-17
+import A17R17Main from "../img/12. Zoo Technology/1. A-17 R-17/PHOTOS/PERUZZO_A17R17_MainPhoto.png";
+import A17R171 from "../img/12. Zoo Technology/1. A-17 R-17/PHOTOS/PERUZZO_A17R17_1.jpg";
+import A17R172 from "../img/12. Zoo Technology/1. A-17 R-17/PHOTOS/PERUZZO_A17R17_2.jpg";
+import A17R173 from "../img/12. Zoo Technology/1. A-17 R-17/PHOTOS/PERUZZO_A17R17_3.jpg";
+import A17R174 from "../img/12. Zoo Technology/1. A-17 R-17/PHOTOS/PERUZZO_A17R17_4.jpg";
+import A17R17Catalog from "../img/12. Zoo Technology/1. A-17 R-17/PHOTOS/PERUZZO_TECHNICALDATA_A17R17.jpg";
+
+// Peruzzo C-17
+import C17Main from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO__C17R17_MainPhoto.png";
+import C171 from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_C17R17_1.jpg";
+import C172 from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_C17R17_2.jpg";
+import C173 from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_C17R17_3.jpg";
+import C174 from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_C17R17_4.jpg";
+import C17Catalog from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_KATALOG_C17R17   (1).pdf";
+
 const category = [
   {
     name: "Tree Spades",
@@ -4539,6 +4653,247 @@ const category = [
             descriptionMain:
               "SCU Surface Cleaning unit effectively cleans parking garages and other large areas with flat surfaces. The unit washes the surface with high-pressure water and the vacuum collects the dirty water for recycling. The unit leaves a clean and dry surface behind without making any mess to the surroundings.",
             photos: [SCUPhoto1, SCUPhoto2, SCUPhoto3, SCUPhoto4, SCUPhoto5],
+            specifications: []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: "Zoo Technology",
+    type: [
+      {
+        name: "Processing & Crushing Units",
+        description:
+          "Our Processing & Crushing Units are designed to efficiently handle raw material breakdown for feed production, composting, or biomass systems. These machines ensure consistent particle size, increase nutrient absorption, and reduce waste. From light-duty shredding to heavy-duty crushing, this lineup combines strength, efficiency, and durability for all types of agricultural and industrial applications.",
+        imgLink: CrushMain,
+        variants: [
+          {
+            variantName: "Peruzzo Crush",
+            imgLink: CrushMain,
+            downloadLink: CrushPDF,
+            highlight:
+              "Powerful Solutions for Feed Preparation and Material Breakdown",
+            descriptionMain:
+              "The PERUZZO CRUSH is a high-performance crushing unit designed with advanced Italian engineering for efficient material reduction. Perfect for processing grains, dry forage, and fibrous feed materials, it ensures uniform particle size for optimal digestion and feed conversion. Built with a robust steel structure and high-speed rotary system, the Peruzzo Crush delivers powerful, consistent results with low maintenance and long service life—ideal for farms and industrial feed operations that demand reliability and precision.",
+            photos: [Crush1, Crush2, Crush3, Crush4],
+            specifications: []
+          },
+          {
+            variantName: "Peruzzo A-17 R-17",
+            imgLink: A17R17Main,
+            downloadLink: A17R17Catalog,
+            highlight: "Italian Engineering for Versatile Testing Performance",
+            descriptionMain:
+              "The PERUZZO A-17 is a streamlined testing unit engineered for precision and ease in compact environments. Designed with Italian innovation, the A-17 offers rapid, reliable results for essential testing needs across various sectors. Its minimal footprint makes it ideal for small laboratories or mobile setups, while its robust construction ensures durability and long-term performance. Perfect for applications requiring speed and simplicity without compromising accuracy.",
+            photos: [A17R171, A17R172, A17R173, A17R174, A17R17Catalog],
+            specifications: []
+          },
+          {
+            variantName: "Peruzzo C-17",
+            imgLink: C17Main,
+            downloadLink: C17Catalog,
+            highlight: "Italian Engineering for Advanced Testing Control",
+            descriptionMain:
+              "The PERUZZO C-17 is a high-precision testing unit designed for complex and demanding testing environments. Equipped with advanced Italian technology, it offers superior control, accuracy, and performance. Whether used for research, development, or intensive quality control, the C-17 ensures consistent output and user-friendly operation. Its robust structure and intuitive interface make it an essential tool for high-stakes testing where precision is non-negotiable.",
+            photos: [C171, C172, C173, C174],
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Animal Feed Mixers",
+        description:
+          "Engineered for efficiency and versatility, our Animal Feed Mixers range from compact to high-capacity units, designed to process, mix, and distribute livestock feed quickly and uniformly. The UNIVERSAL and EXPORT models are ideal for farms of all sizes, providing robust performance, precise mixing capabilities, and reliable long-term operation to optimize feeding routines.",
+        imgLink: Zoo1000UniversalMain,
+        variants: [
+          {
+            variantName: "200 Export",
+            imgLink: ZooPhoto1,
+            downloadLink: Zoo200Catalog,
+            highlight: "Compact Efficiency for Small Farms",
+            descriptionMain:
+              "The 200 EXPORT is a lightweight and agile feed mixer ideal for small-scale operations. Its simple design makes it easy to operate and maintain, while still delivering a consistent mix for balanced nutrition. Perfect for farms that need reliable performance without a large footprint.",
+            photos: [ZooPhoto5, ZooPhoto2, ZooPhoto3, ZooPhoto4],
+            specifications: []
+          },
+          {
+            variantName: "200 Universal",
+            imgLink: Zoo200UniversalMain,
+            downloadLink: Zoo200UniversalCatalog,
+            highlight: "Flexible Performance, Everyday Reliability",
+            descriptionMain:
+              "The 200 UNIVERSAL offers dependable feed mixing with versatile configuration options. Designed for farms with moderate output needs, this model balances size, efficiency, and performance, making it a great entry point into the UNIVERSAL series.",
+            photos: [Zoo200UniversalPhoto1, Zoo200UniversalPhoto2],
+            specifications: []
+          },
+          {
+            variantName: "300 Universal",
+            imgLink: Zoo300UniversalMain,
+            downloadLink: Zoo300UniversalCatalog,
+            highlight: "Enhanced Capacity, Greater Control",
+            descriptionMain:
+              "With increased mixing volume and improved operational features, the 300 UNIVERSAL is perfect for farms looking to scale. It maintains uniform blend quality while offering robust construction and user-friendly controls.",
+            photos: [
+              Zoo300UniversalPhoto1,
+              Zoo300UniversalPhoto2,
+              Zoo300UniversalPhoto3,
+              Zoo300UniversalPhoto4
+            ],
+            specifications: []
+          },
+          {
+            variantName: "500 Universal",
+            imgLink: Zoo500UniversalMain,
+            downloadLink: Zoo500UniversalCatalog,
+            highlight: "Mid-Size Powerhouse",
+            descriptionMain:
+              "A reliable workhorse in the mid-range category, the 500 UNIVERSAL delivers high mixing efficiency and capacity for medium-sized farms. It’s built to handle a wide variety of feed ingredients while reducing prep time and labor effort.",
+            photos: [
+              Zoo500UniversalPhoto1,
+              Zoo500UniversalPhoto2,
+              Zoo500UniversalPhoto3
+            ],
+            specifications: []
+          },
+          {
+            variantName: "700 Universal",
+            imgLink: Zoo700UniversalMain,
+            downloadLink: Zoo700UniversalCatalog,
+            highlight: "High-Volume Mixing, Farm-Proven Strength",
+            descriptionMain:
+              "Designed for larger farming operations, the 700 UNIVERSAL offers exceptional throughput and consistent results. Its reinforced structure and powerful mixing mechanism ensure durability and reliability under daily heavy use.",
+            photos: [
+              Zoo700UniversalPhoto1,
+              Zoo700UniversalPhoto2,
+              Zoo700UniversalPhoto3,
+              Zoo700UniversalPhoto4
+            ],
+            specifications: []
+          },
+          {
+            variantName: "1000 Universal",
+            imgLink: Zoo1000UniversalMain,
+            downloadLink: Zoo1000UniversalCatalog,
+            highlight: "Top-Tier Capacity, Industrial Strength",
+            descriptionMain:
+              "The largest in the series, the 1000 UNIVERSAL is engineered for maximum productivity. Ideal for industrial-scale feed production, it combines high-volume capacity with rugged durability, precise mixing technology, and operator-friendly functionality.",
+            photos: [
+              Zoo1000UniversalPhoto1,
+              Zoo1000UniversalPhoto2,
+              Zoo1000UniversalPhoto3,
+              Zoo1000UniversalPhoto4
+            ],
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Biogas and Sustainability Units",
+        description:
+          "Our Biogas and Sustainability solutions, such as the BIOMASS BIOGAS PLANTS UNIVERSAL 1000, are designed to convert agricultural waste into renewable energy. These systems support environmentally responsible farming practices by producing biogas and reducing waste, all while delivering operational efficiency and supporting energy independence on the farm.",
+        imgLink: Biomass1000Main,
+        variants: [
+          {
+            variantName: "Biomass Biogas Plants Universal 1000",
+            imgLink: Biomass1000Main,
+            downloadLink: Biomass1000Catalog,
+            highlight: "Turning Waste Into Renewable Power",
+            descriptionMain:
+              "The UNIVERSAL 1000 Biogas Plant is a powerful solution for sustainable energy production on farms and agricultural facilities. Designed to process organic waste—such as animal manure, crop residue, and silage—this system efficiently converts biomass into clean, usable biogas for heating, electricity, or fuel. Its high-capacity design supports continuous operation, making it an ideal investment for farms seeking energy independence, reduced carbon footprint, and enhanced waste management. Built with corrosion-resistant materials and smart system controls, the UNIVERSAL 1000 ensures long-lasting performance and minimal maintenance.",
+            photos: [
+              Biomass1000Photo1,
+              Biomass1000Photo2,
+              Biomass1000Photo3,
+              Biomass1000Photo4
+            ],
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Specialized Mixing Systems",
+        description:
+          "Our Specialized Mixing Systems are built for farms that need more than just standard mixing. These machines offer advanced configurations, smart features, and custom capabilities to handle complex feeding tasks, multiple feed types, and tight space constraints. Whether you're working with flour, feed, or alternative materials, these mixers deliver precise performance and flexibility—streamlining workflow and boosting productivity.",
+        imgLink: CombySpecialMain,
+        variants: [
+          {
+            variantName: "Comby 85",
+            imgLink: Comby85Main,
+            downloadLink: Comby85Catalog,
+            highlight: "Compact Efficiency for Smaller Farms",
+            descriptionMain:
+              "The COMBY 85 is a multifunctional unit designed for versatility in compact spaces. It’s ideal for operations requiring a space-saving solution without sacrificing feed quality or output. With easy handling and robust performance, it's a smart investment for smaller facilities.",
+            photos: [
+              Comby85Photo1,
+              Comby85Photo2,
+              Comby85Photo3,
+              Comby85Photo4
+            ],
+            specifications: []
+          },
+          {
+            variantName: "Comby MCM",
+            imgLink: CombyMCMMain,
+            downloadLink: CombyMCMPDF,
+            highlight: "Dual Mixing, Maximum Flexibility",
+            descriptionMain:
+              "The COMBY MCM is equipped with multiple chambers, allowing for the simultaneous mixing of different feed types. This design is perfect for farms that cater to multiple animal groups with unique nutritional needs. Streamline your feeding process while enhancing consistency and control.",
+            photos: [CombyMCM1, CombyMCM2, CombyMCM3],
+            specifications: []
+          },
+          {
+            variantName: "Comby Special",
+            imgLink: CombySpecialMain,
+            downloadLink: CombySpecialPDF,
+            highlight: "Custom-Built for Complex Operations",
+            descriptionMain:
+              "The COMBY SPECIAL is engineered for farms that need something out of the ordinary. Whether it's extended compartments, extra discharge points, or specific integration requirements, this mixer is custom-designed to meet your workflow and capacity expectations—right down to the last bolt.",
+            photos: [
+              CombySpecial1,
+              CombySpecial2,
+              CombySpecial3,
+              CombySpecial4
+            ],
+            specifications: []
+          },
+          {
+            variantName: "Rised Flour Mixer",
+            imgLink: RisedFlourMixerMain,
+            downloadLink: RisedFlourMixerPDF,
+            highlight: "Effortless Mixing Above Ground",
+            descriptionMain:
+              "The RISED FLOUR MIXER offers above-ground convenience and consistent flour processing. With a vertical build, it's easy to access and maintain, providing efficient mixing without taking up floor space. Ideal for feed mills and production setups requiring smooth, dust-minimized operation.",
+            photos: [RisedFlourMixer1, RisedFlourMixer2],
+            specifications: []
+          },
+          {
+            variantName: "Buried Flour Mixer",
+            imgLink: BuriedFlourMixerMain,
+            downloadLink: BuriedFlourMixerPDF,
+            highlight: "Integrated Mixing Below the Surface",
+            descriptionMain:
+              "Designed to be installed below ground level, BURIED FLOUR MIXERS help streamline operations by reducing surface clutter and allowing for gravity-fed discharge systems. They’re perfect for high-volume processing environments that require seamless mixing and efficient material flow.",
+            photos: [BuriedFlourMixer1, BuriedFlourMixer2],
+            specifications: []
+          }
+        ]
+      },
+      {
+        name: "Processing & Crushing Units",
+        description:
+          "Our Processing & Crushing Units are designed to efficiently handle raw material breakdown for feed production, composting, or biomass systems. These machines ensure consistent particle size, increase nutrient absorption, and reduce waste. From light-duty shredding to heavy-duty crushing, this lineup combines strength, efficiency, and durability for all types of agricultural and industrial applications.",
+        imgLink: CrushMain,
+        variants: [
+          {
+            variantName: "Peruzzo Crush",
+            imgLink: CrushMain,
+            downloadLink: CrushPDF,
+            highlight:
+              "Powerful Solutions for Feed Preparation and Material Breakdown",
+            descriptionMain:
+              "The PERUZZO CRUSH is a high-performance crushing unit designed with advanced Italian engineering for efficient material reduction. Perfect for processing grains, dry forage, and fibrous feed materials, it ensures uniform particle size for optimal digestion and feed conversion. Built with a robust steel structure and high-speed rotary system, the Peruzzo Crush delivers powerful, consistent results with low maintenance and long service life—ideal for farms and industrial feed operations that demand reliability and precision.",
+            photos: [Crush1, Crush2, Crush3, Crush4],
             specifications: []
           }
         ]

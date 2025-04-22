@@ -5,14 +5,15 @@ import newsData from "../data/newsData";
 import Navbar from "./components/main/navbar";
 import Footer from "./components/main/footer";
 import WhatsAppFab from "./components/whatsappFAB/whatsappFAB";
-import TractorIMG from "../img/336094.png";
+import { useTranslation } from "react-i18next";
 
 const NewsDetail = () => {
   const { id } = useParams();
+  const { t } = useTranslation();
   const newsItem = newsData.find(news => news.id === parseInt(id));
 
   if (!newsItem) {
-    return <div>News not found!</div>;
+    return <div>{t("news.not_found")}</div>;
   }
 
   const MainContainer = styled("div")(({ theme }) => ({
@@ -48,15 +49,16 @@ const NewsDetail = () => {
       <Navbar />
       <ContentContainer>
         <TextContainer>
-          <h1>{newsItem.title}</h1>
-          <p>{newsItem.description}</p>
-          <p>Date: {new Date(newsItem.date).toLocaleDateString()}</p>
+          <h1>{t(newsItem.titleKey)}</h1>
+          <p>{t(newsItem.descriptionKey)}</p>
+          <p>
+            {t("news.date")}: {new Date(newsItem.date).toLocaleDateString()}
+          </p>
         </TextContainer>
         <ImageContainer>
           <img
-            // src={newsItem.image} (Delete comment when data is inserted)
-            src={TractorIMG}
-            alt={newsItem.title}
+            src={newsItem.image}
+            alt={t(newsItem.titleKey)}
             style={{
               maxWidth: "90%",
               maxHeight: "400px",
