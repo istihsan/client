@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import { Container, Paper, Typography, Divider } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTranslation } from "react-i18next"; // Import useTranslation hook
 import TRIFLEX1 from "../../../img/4. Grass Mower Machines/12. TRIFLEX/PHOTOS/PERUZZO_TRIFLEX_10.jpg";
 import MotoFOX1 from "../../../img/4. Grass Mower Machines/9. MOTOFOX/PHOTOS/PERUZZO_MOTOFOX_10.jpg";
 import MotoFOX2 from "../../../img/4. Grass Mower Machines/9. MOTOFOX/PHOTOS/PERUZZO_MOTOFOX_11.jpg";
@@ -19,6 +20,7 @@ const tractorsImages = [
 const otherImages = [TRIFLEX1, MotoFOX1, MotoFOX2, FOXS4];
 
 const GalleryMain = () => {
+  const { t } = useTranslation();
   const settings = {
     dots: true,
     infinite: true,
@@ -39,7 +41,7 @@ const GalleryMain = () => {
       {/* First Carousel - Tractors Life */}
       <Paper elevation={3} style={{ padding: "7%", marginTop: "7%" }}>
         <Typography variant="h4" gutterBottom>
-          Tractors Life
+          {t("galleryp.tractorsLife")}
         </Typography>
         <Divider
           sx={{
@@ -68,7 +70,7 @@ const GalleryMain = () => {
         style={{ padding: "7%", marginTop: "5%", marginBottom: "5%" }}
       >
         <Typography variant="h4" gutterBottom>
-          Grass Mower Machines
+          {t("galleryp.grassMowerMachines")}
         </Typography>
         <Divider
           sx={{

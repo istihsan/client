@@ -19,7 +19,6 @@ import DL421 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_2.jpg";
 import DL422 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_3.jpg";
 import DL423 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_4.jpg";
 import DL424 from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_5.jpg";
-import DL42PDF from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_PDF_FILE.pdf";
 import DL52Main from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_1.jpg";
 import DL521 from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_2.jpg";
 import DL522 from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_3.jpg";
@@ -87,6 +86,12 @@ import DAG901 from "../img/1TreeSpades/3TruckMounted/90DAG/BigJohn_90DAG_2.jpg";
 import DAG902 from "../img/1TreeSpades/3TruckMounted/90DAG/BigJohn_90DAG_3.jpg";
 import DAG903 from "../img/1TreeSpades/3TruckMounted/90DAG/BigJohn_90DAG_4.jpg";
 import DAG904 from "../img/1TreeSpades/3TruckMounted/90DAG/BigJohn_90DAG_5.jpg";
+
+import DLP90Main from "../img/1TreeSpades/3TruckMounted/90DLP/BigJohn_90DLP_MainPhoto.png";
+import DLP901 from "../img/1TreeSpades/3TruckMounted/90DLP/BigJohn_90DLP_1.jpg";
+import DLP902 from "../img/1TreeSpades/3TruckMounted/90DLP/BigJohn_90DLP_2.jpg";
+import DLP903 from "../img/1TreeSpades/3TruckMounted/90DLP/BigJohn_90DLP_3.jpg";
+import DLP904 from "../img/1TreeSpades/3TruckMounted/90DLP/BigJohn_90DLP_4.jpg";
 
 import D100Main from "../img/1TreeSpades/3TruckMounted/100D/BigJohn_100D_1.jpg";
 import D1001 from "../img/1TreeSpades/3TruckMounted/100D/BigJohn_100D_2.jpg";
@@ -234,6 +239,13 @@ import ROMSqualo2 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo
 import ROMSqualo3 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo/PFG_SQUALO_4.jpg";
 import ROMSqualo4 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo/PFG_SQUALO_5.jpg";
 import ROMSqualo5 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo/PFG_SQUALO_6.jpg";
+
+import ROMSqualo20Main from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/PFG_Squalo20_MainPhoto.png";
+import ROMSqualo201 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/Squalo-2.0-2-p726ckbutlpslqkj1bhgltip0nkgn2t4ldefsrfffu-q5mbbgqz65qcj7e7kuddx2bg4kwlupk1qrdirbkpuy (1).jpg";
+import ROMSqualo202 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/Squalo-2.0-2-p726ckbutlpslqkj1bhgltip0nkgn2t4ldefsrfffu-q5mbbgqz65qcj7e7kuddx2bg4kwlupk1qrdirbkpuy.jpg";
+import ROMSqualo203 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/Squalo-2.0-3-p726cm7j79sd8yhsqcapqt1m7fb72h0l9mperbcn3e-q5mbbgqz65qcj7e7kuddx2bg4kwlupk1qrdirbkpuy.jpg";
+import ROMSqualo204 from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/Squalo-2.0-p726cl9p0fr2xcj5vtw36ba5m1fturwuxi1xa1e19m-q5mbbgqz65qcj7e7kuddx2bg4kwlupk1qrdirbkpuy.jpg";
+
 // Tractor Towed Machine
 import TTMMain from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Model 600XL Surf Rake/Barber_SurfRake600XL_2.jpg";
 
@@ -912,6 +924,98 @@ import C173 from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_C17R17_3.jpg"
 import C174 from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_C17R17_4.jpg";
 import C17Catalog from "../img/12. Zoo Technology/2. C-17/PHOTOS/PERUZZO_KATALOG_C17R17   (1).pdf";
 
+// PDF
+// Loader Mounted Tree Spade
+import DL42PDF from "../img/1TreeSpades/2LoaderMounted/42DL/BigJohn_42DL_PDF_FILE.pdf";
+import DL52PDF from "../img/1TreeSpades/2LoaderMounted/52DL/BigJohn_52DL_PDF_FILE.pdf";
+import DL62PDF from "../img/1TreeSpades/2LoaderMounted/62DL/BigJohn_62DL_PDF_FILE.pdf";
+import DL90PDF from "../img/1TreeSpades/2LoaderMounted/90DL/BigJohn_90DL_PDF_FILE.pdf";
+import DLLP90PDF from "../img/1TreeSpades/2LoaderMounted/90DLLP/BigJohn_90DLLP_PDF_FILE.pdf";
+import DL100PDF from "../img/1TreeSpades/2LoaderMounted/100DL/BigJohn_100DL_PDF_FILE.pdf";
+
+// Truck Mounted
+import D45PDF from "../img/1TreeSpades/3TruckMounted/45D/BigJohn_45D_PDF_FILE.pdf";
+import D55PDF from "../img/1TreeSpades/3TruckMounted/55D/BigJohn_55D_PDF_FILE.pdf";
+import D65PDF from "../img/1TreeSpades/3TruckMounted/65D/BigJohn_65D_PDF_FILE.pdf";
+import D80PDF from "../img/1TreeSpades/3TruckMounted/80D/BigJohn_80D_PDF_FILE.pdf";
+import D90PDF from "../img/1TreeSpades/3TruckMounted/90D/BigJohn_90D_PDF_FILE.pdf";
+import DAG90PDF from "../img/1TreeSpades/3TruckMounted/90DAG/BigJohn_90DAG_PDF_FILE.pdf";
+import DLP90PDF from "../img/1TreeSpades/3TruckMounted/90DLP/BigJohn_90DLP_PDF_FILE.pdf";
+
+// Skid Steer Mounted
+import Model20PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 20/BigJohn_MODEL20_PDF_FILE.pdf";
+import Model28PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 28/BigJohn_MODEL28_PDF_FILE.pdf";
+import Model36PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 36/BigJohn_MODEL36_PDF_FILE.pdf";
+import Model40PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 40/BigJohn_MODEL40_PDF_FILE.pdf";
+import Model44PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 44/BigJohn_MODEL44_PDF_FILE.pdf";
+import Model48PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 48/BigJohn_MODEL48_PDF_FILE.pdf";
+import Model54PDF from "../img/1TreeSpades/4SkidSteerMounted/MODEL 54/BigJohn_MODEL54_PDF_FILE.pdf";
+
+// Trailer Mounted
+import DTG44PDF from "../img/1TreeSpades/5TrailerMounted/44DTG/BigJohn_44DTG_PDF_FILE.pdf";
+import DTG54PDF from "../img/1TreeSpades/5TrailerMounted/54/BigJohn_54_PDF_FILE.pdf";
+import DTD55PDF from "../img/1TreeSpades/5TrailerMounted/55DTD/BigJohn_55DTD_PDF_FILE.pdf";
+import DTD65PDF from "../img/1TreeSpades/5TrailerMounted/65DTD/BigJohn_65DTD_PDF_FILE.pdf";
+
+// Tree Spades Acc
+import PT44PDF from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/44 Pod Trailer/BigJohn_44POD_PDF_FILE.pdf";
+import PT55PDF from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/55 Pod Trailer/BigJohn_55POD_PDF_FILE.pdf";
+import PT65PDF from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/65 Pod Trailer/BigJohn_65POD_PDF_FILE.pdf";
+import PT90PDF from "../img/1TreeSpades/7TreeSpadesAcc/PodsTrailer/90 Pod Trailer/BigJohn_90POD_PDF_FILE.pdf";
+
+// Beach Cleaning Machine
+// Ride On Machines
+import NemoPDF from "../img/2. Beach Cleaning Machine/Ride On Machines/Nemo/PFG_NEMO2WD_PDF_FILE.pdf";
+import NemoTrackPDF from "../img/2. Beach Cleaning Machine/Ride On Machines/Nemo Track/PFG_NEMOTRACK_PDF_FILE.pdf";
+import SqualoPDF from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo/PFG_SQUALO_PDF_FILE.pdf";
+import Squalo20PDF from "../img/2. Beach Cleaning Machine/Ride On Machines/Squalo 2.0/squalo-20-inl.pdf";
+
+// Tractor Towed Machines
+import CaimanoPDF from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Caimano/PFG_CAIMANO_PDF_FILE.pdf";
+import CerniaPDF from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Cernia/PFG_CERNIA_PDF_FILE.pdf";
+import MantaPDF from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Manta/PFG_MANTA_PDF_FILE.pdf";
+import MantaGoldPDF from "../img/2. Beach Cleaning Machine/Tractor Towed Machines/Manta Gold/PFG_MANTAGOLD_PDF_FILE.pdf";
+
+// Walk Behind Machines
+import BarracudaPDF from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Barracuda/PFG_BARRACUDA_PDF_FILE.pdf";
+import DolphinPDF from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Dolphin/PFG_DELFINO_PDF_FILE.pdf";
+import DolphinElectricPDF from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Dolphin 2.0 Electric/PFG_DELFINO20_PDF_FILE.pdf";
+import SandManPDF from "../img/2. Beach Cleaning Machine/Walk Behind Machines/Sand Man/MODEL 850/Barber_SandMan_PDF_FILE.pdf";
+
+// Grass Collector Machines
+import KoalaPDF from "../img/3. Grass Collector Machines/20. KOALA/PHOTOS/PERUZZO_KATALOG_KOALA.pdf";
+import KoalaProfessionalPDF from "../img/3. Grass Collector Machines/21. KOALA PROFESSIONAL/PHOTOS/PERUZZO_KATALOG_KOALAPROFESSIONAL.pdf";
+import PhanterPDF from "../img/3. Grass Collector Machines/22. PHANTER/PHOTOS/PERUZZO_KATALOG_PANTHER.pdf";
+import PhanterMultifitPDF from "../img/3. Grass Collector Machines/23. PHANTER MULTIFIT/PHOTOS/PERUZZO_KATALOG_PANTHERMULTIFIT.pdf";
+import PhanterProfessionalPDF from "../img/3. Grass Collector Machines/24. PHANTER PROFESSIONAL/PHOTOS/PERUZZO_KATALOG_PANTHERPROFESSIONAL.pdf";
+import TigerPDF from "../img/3. Grass Collector Machines/25. TIGER/PHOTOS/PERUZZO_KATALOG_TIGER.pdf";
+import CanguroNormalPDF from "../img/3. Grass Collector Machines/26. CANGURO NORMAL SUPER/PHOTOS/PERUZZO_KATALOG_CANGURONORMALSUPER.pdf";
+import CanguroProfessionalPDF from "../img/3. Grass Collector Machines/27. CANGURO PROFESSIONAL SUPER/PHOTOS/PERUZZO_KATALOG_CANGUROPROFESSIONALSUPER.pdf";
+import ElephantPDF from "../img/3. Grass Collector Machines/28. ELEPHANT SUPER/PHOTOS/PERUZZO_KATALOG_ELEPHANTSUPER.pdf";
+
+// Grass Mower Machines
+import MotofrogPDF from "../img/4. Grass Mower Machines/3. MOTOFROG 75/PHOTOS/PERUZZO_KATALOG_MOTOFROG75.pdf";
+import FrogPDF from "../img/4. Grass Mower Machines/4. FROG/PHOTOS/PERUZZO_KATALOG_FROG.pdf";
+import TegSpecialPDF from "../img/4. Grass Mower Machines/5. TEG SPECIAL - TEG SPECIAL HD/PHOTOS/PERUZZO_KATALOG_TEGSPECIALTEGSPECIALHD.pdf";
+import ScorpionPDF from "../img/4. Grass Mower Machines/6. SCORPION/PHOTOS/PERUZZO_KATALOG_SCORPION.pdf";
+import FoxPDF from "../img/4. Grass Mower Machines/7. FOX/PHOTOS/PERUZZO_KATALOG_FOX.pdf";
+import FoxS4PDF from "../img/4. Grass Mower Machines/8. FOX-S/PHOTOS/PERUZZO_KATALOG_FOXS.pdf";
+import MotoFoxPDF from "../img/4. Grass Mower Machines/9. MOTOFOX/PHOTOS/PERUZZO_KATALOG_MOTOFOX.pdf";
+import PumaPDF from "../img/4. Grass Mower Machines/10. PUMA/PHOTOS/PERUZZO_KATALOG_PUMA.pdf";
+import ElkPDF from "../img/4. Grass Mower Machines/11. ELK/PHOTOS/PERUZZO_KATALOG_ELK.pdf";
+import TriflexPDF from "../img/4. Grass Mower Machines/12. TRIFLEX/PHOTOS/PERUZZO_KATALOG_TRIFLEX.pdf";
+import FoxCrossPDF from "../img/4. Grass Mower Machines/13. FOX CROSS/PHOTOS/PERUZZO_KATALOG_FOXCROSS.pdf";
+import ElkCrossPDF from "../img/4. Grass Mower Machines/14. ELK CROSS/PHOTOS/PERUZZO_KATALOG_ELKCROSS.pdf";
+import ElkCrossFrontPDF from "../img/4. Grass Mower Machines/15. ELK CROSS FRONT/PHOTOS/PERUZZO_KATALOG_ELKCROSSFRONT.pdf";
+import BullCrossPDF from "../img/4. Grass Mower Machines/16. BULL CROSS/PHOTOS/PERUZZO_KATALOG_BULLCROSS.pdf";
+import BullSuperPDF from "../img/4. Grass Mower Machines/17. BULL SUPER/PHOTOS/PERUZZO_KATALOG_BULLSUPER.pdf";
+import BullReversePDF from "../img/4. Grass Mower Machines/18. BULL REVERSE/PHOTOS/PERUZZO_KATALOG_BULLREVERSE.pdf";
+import RotoPDF from "../img/4. Grass Mower Machines/19. ROTO/PHOTOS/PERUZZO_KATALOG_ROTO.pdf";
+
+// Remote Controlled Grass Mower
+import RobofoxElectricPDF from "../img/5. Remote Controlled Grass Mower/1. ROBOFOX ELECTRIC/PHOTOS/PERUZZO_ROBOFOX_KATALOG.pdf";
+import RobofoxHybridPDF from "../img/5. Remote Controlled Grass Mower/2. ROBOFOX HYBRID/PHOTOS/PERUZZO_ROBOFOX_KATALOG.pdf";
+
 const category = [
   {
     name: "Tree Spades",
@@ -1077,7 +1181,7 @@ const category = [
           {
             variantName: "52DL",
             imgLink: DL52Main,
-            downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
+            downloadLink: DL52PDF,
             highlight: "Dig in Tough Conditions",
             descriptionMain:
               "Dig in Tough Conditions. Whatever your task, if you have 6” and smaller trees that need to be dug in tough conditions, this is the tree spade for you. Blank attaching plates to mate the BIG JOHN transplanter to the host vehicle come with the purchase of your tree spade. Some in-field fabrication will be necessary to couple the tree spade to your specific wheel loader.The Model 52DL Loader Mounted Tree Spade comes standard with an electric valve bank and wireless remote.",
@@ -1144,7 +1248,7 @@ const category = [
           {
             variantName: "62DL",
             imgLink: DL62Main,
-            downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
+            downloadLink: DL62PDF,
             highlight: "Versatility in a Manageable Size",
             descriptionMain:
               "Designed to handle digging and landscaping jobs in unprepared soil, BIG JOHN's Model 62DL loader-mounted spade is made to withstand tough conditions. Made with a loader attachment, this spade brings the robust features of our truck-mounted tree spades to a loader attachment. Blank attaching plates to mate the BIG JOHN transplanter to the host vehicle come with the purchase of your tree spade. Some in-field fabrication will be necessary to couple the BIG JOHN to your specific wheel loader.",
@@ -1211,7 +1315,7 @@ const category = [
           {
             variantName: "80DL",
             imgLink: DL80Main,
-            downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
+            downloadLink: "",
             highlight: "Our most popular Loader Mounted Tree Spade",
             descriptionMain:
               "Our most popular size of loader-mounted tree spade, the 80DL offers rugged versatility for trees up to 10″ in diameter in unprepared soils. Popular in sandy soil conditions, the 80DL allows you to run a spade with the same durable standard as a truck spade from a loader mount! Blank attaching plates to mate the BIG JOHN transplanter to the host vehicle come with the purchase of your tree spade. Some in-field fabrication will be necessary to couple the BIG JOHN to your specific wheel loader.",
@@ -1278,7 +1382,7 @@ const category = [
           {
             variantName: "90DL",
             imgLink: DL90Main,
-            downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
+            downloadLink: DL90PDF,
             highlight:
               "Robust Loader Mounted Tree Spade for 12” Diameter Trees",
             descriptionMain:
@@ -1346,7 +1450,7 @@ const category = [
           {
             variantName: "90DLLP",
             imgLink: DLLP90Main,
-            downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
+            downloadLink: DLLP90PDF,
             highlight: "Popular for Large Tree Movers",
             descriptionMain:
               "The BIG JOHN Model 90DLLP is a low-profile version of our most popular model for large tree movers that moves up to a 12” caliper tree. It is a durable, fully contained, one-operator system built to perform in the most rigorous tree-moving conditions. The low-profile design allows for easier storage and access to tight spaces. Best for unprepared soils, the 90DLLP is deal for sandy conditions and landscaping needs. The Model 90DLLP comes standard with a 400-gallon water tank and 45-gallon oil reservoir. This model operates at 3000 psi of hydraulic pressure at 20gpm of flow.",
@@ -1413,7 +1517,7 @@ const category = [
           {
             variantName: "100DL",
             imgLink: DL100Main,
-            downloadLink: "1BmTQTiHJXd7HvS1gd3i4zQQorf1P43jm",
+            downloadLink: DL100PDF,
             highlight: "Our Largest Loader Mounted Tree Spade",
             descriptionMain:
               "The Model 100DL Loader Mount is the largest and most durable production digger available anywhere. Made to move trees up to 14” in diameter and a rootball of 100” in diameter in rugged conditions! The 100DL Loader Mounted Tree Spade comes standard with an electric valve bank, wireless remote, and blank attaching plate to mount to your host vehicle.",
@@ -1489,7 +1593,7 @@ const category = [
           {
             variantName: "45D",
             imgLink: D45Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: D45PDF,
             highlight: "Compact and Sturdy",
             descriptionMain:
               "The BIG JOHN Model 45D truck-mounted tree spade is used by nurseries, landscapers, and tree-moving professionals. The 45D gets the job done. Whether you’re B&B’ing or what we call “Dig & Delivering”, the appeal of the M45D is in its compact yet sturdy design and perfect for moving 7,5 - 10 cm caliper trees. The Model 45D comes standard with a 473 litres water tank and 94 litres hydraulic oil reservoir.",
@@ -1544,7 +1648,7 @@ const category = [
           {
             variantName: "55D",
             imgLink: D55Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: D55PDF,
             highlight: "12,5 – 15 CM Trees",
             descriptionMain:
               "The Model 55D is built with all the rugged characteristics of the larger spades and works great on class 7 single-axle trucks. You can move 12,5 – 15 cm caliper trees on a truck that is highly maneuverable and able to get into those tight places. Also, you can operate the smaller chassis without a CDL. The Model 55D comes standard with a 1514 L water tank and 170 L oil reservoir. This model operates at 3000psi of hydraulic pressure at 75 LPM of flow.",
@@ -1595,7 +1699,7 @@ const category = [
           {
             variantName: "65D",
             imgLink: D65Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: D65PDF,
             highlight: "15 – 17,5 CM Trees",
             descriptionMain:
               "One of our most requested and most versatile-sized transplanters, the Model 65, is capable of moving up to 17,5 cm caliper trees and is durable and operator friendly. Built to withstand rigorous tree moving conditions; from B & B operations to on-site, high-volume jobs; the Model 65 could be the perfect machine for your application. The Model 65D comes standard with a 1514 L water tank and 170 L oil reservoir. This model operates at 3000psi of hydraulic pressure at 75 LPM of flow.",
@@ -1646,7 +1750,7 @@ const category = [
           {
             variantName: "80D",
             imgLink: D80Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: D80PDF,
             highlight: "Up to 25 CM Trees",
             descriptionMain:
               "BIG JOHN has been building the Model 80 since 1983. It’s the original large tree transplanter. It is a fully contained, one-operator system that is built to perform and is the machine of choice for some of our most loyal, long-term customers. The tree spade truck is built to tackle big jobs with ease. The Model 80D comes standard with a 1514 L water tank and 170 L oil reservoir. This model operates at 3000psi of hydraulic pressure at 20gpm of flow. Made with AR550 standard spade material and can handle tree trunks up to 25 cm in diameter.",
@@ -1697,7 +1801,7 @@ const category = [
           {
             variantName: "90D",
             imgLink: D90Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: D90PDF,
             highlight: "25 – 30 CM Trees",
             descriptionMain:
               "The BIG JOHN Model 90 sets the standard for large truck mounted tree spades and is the most popular model for large tree movers wanting to move up to a 30 cm caliper tree. It is a durable, fully contained, one-operator system built to perform in the most rigorous tree-moving conditions. It can handle trees up to 30 cm in diameter and has a 170 L oil reservoir. Made in America of highly durable cold-formed steel, our dual contoured blades stand up to tough, rocky, and sandy soils for on-site moves without prepare ground. Each 90 inch tree spade is mounted to the truck of your choice, with additional specifications below.",
@@ -1748,7 +1852,7 @@ const category = [
           {
             variantName: "90DAG",
             imgLink: DAG90Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: DAG90PDF,
             highlight: "25 – 30 CM Trees",
             descriptionMain:
               "Like the traditional 90D, the BIG JOHN 90-inch pecan tree spade for the pecan industry is made in America of highly durable, cold-formed steel with dual contoured blades. Used in loamy soils pecan trees love across the United States, our pecan tree spades are used by some of the largest pecan nurseries and producers in the country. Each 90 inch pecan tree spade is mounted to the truck of your choice, with additional specifications below.",
@@ -1797,9 +1901,19 @@ const category = [
             ]
           },
           {
+            variantName: "90DLP",
+            imgLink: DLP90Main,
+            downloadLink: DLP90PDF,
+            highlight: "Up to 12” Tree Diameter",
+            descriptionMain:
+              "The BIG JOHN Model 90DLP is a low-profile version of our most popular model for large tree movers that moves up to a 12” cliper tree. It is durable, fully contained, one-operator system built to perform in the most rigorous tree moving conditions. The low-profile design allows for easier storage and access to tight spaces.",
+            photos: [DLP901, DLP902, DLP903, DLP904],
+            specifications: []
+          },
+          {
             variantName: "100D",
             imgLink: D100Main,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: "",
             highlight: "30 – 35 CM Trees",
             descriptionMain:
               "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
@@ -1855,7 +1969,7 @@ const category = [
           {
             variantName: "Model 20",
             imgLink: Model20,
-            downloadLink: "13pqmR27HQwJa-3mZA2eSAilR2T7s8cKO",
+            downloadLink: Model20PDF,
             highlight: "1 – 5 CM Trees",
             descriptionMain:
               "Built and designed for the professional tree moving company looking to provide fully mature tree moving and transplanting services, operators love the BIG JOHN 100” truck-mounted tree spade for tackling their largest tree moving jobs. Because of the extra-large size, trees can be moved any time of year with high survivability rates. Designed and built for the professional mover. The biggest and best production tree spade available anywhere at any price. Move larger trees; move throughout the “off season“. Whatever your needs, the Model 100 can do the job.",
@@ -1902,7 +2016,7 @@ const category = [
           {
             variantName: "Model 28",
             imgLink: Model28,
-            downloadLink: "Model28DownloadLink",
+            downloadLink: Model28PDF,
             highlight: "1 – 7,5 cm Trees",
             descriptionMain:
               "The Model 28 BIG JOHN nursery digger is light weight and hosts cold formed straight blades. It’s made to move trees 1” to 3” in diameter and comes complete with electric valve bank and wireless remote control. Joining the BIG JOHN family means getting exceptional customer service for the life of your spade as well as customized options suited to your nursery needs. We offer wireless remote or cable controls to make operating your spade easier and faster for different conditions. Available in pointed, semi-truncated, or truncated blades.",
@@ -1973,7 +2087,7 @@ const category = [
           {
             variantName: "Model 36",
             imgLink: Model36Main,
-            downloadLink: "Model36DownloadLink",
+            downloadLink: Model36PDF,
             highlight: "1 – 7,5 cm Trees",
             descriptionMain:
               "The Model 36 BIG JOHN nursery digger is light weight and hosts cold formed straight blades. It’s made to move trees 1” to 3” in diameter and comes complete with electric valve bank and wireless remote control. Joining the BIG JOHN family means getting exceptional customer service for the life of your spade as well as customized options suited to your nursery needs. We offer wireless remote or cable controls to make operating your spade easier and faster for different conditions. Available in pointed, semi-truncated, or truncated blades.",
@@ -2047,7 +2161,7 @@ const category = [
           {
             variantName: "Model 40",
             imgLink: Model40Main,
-            downloadLink: "Model40DownloadLink",
+            downloadLink: Model40PDF,
             highlight: "1 – 10 cm Trees",
             descriptionMain:
               "The Model 40 skid steer tree spade moves trees 1” to 4” in diameter and is designed for prepared ground nursery digging that fits a myriad of skid steer loaders; comes complete with electric valve bank and wireless remote control. Joining the BIG JOHN family means getting exceptional customer service for the life of your spade as well as customized options suited to your nursery needs. We offer wireless remote or control cables to make operating your spade easier and faster for different conditions.",
@@ -2110,7 +2224,7 @@ const category = [
           {
             variantName: "Model 44",
             imgLink: Model44Main,
-            downloadLink: "Model44DownloadLink",
+            downloadLink: Model44PDF,
             highlight: "1 – 10 cm Trees",
             descriptionMain:
               'The Model 44 BIG JOHN nursery digger is lightweight and hosts cold-formed straight blades. This digger can handle trees up to 4" in diameter and comes with a hydraulic gate lock and standard wireless remote. We also offer truncated and semi-truncated versions of our Model 44.',
@@ -2173,7 +2287,7 @@ const category = [
           {
             variantName: "Model 48",
             imgLink: Model48Main,
-            downloadLink: "Model48DownloadLink",
+            downloadLink: Model48PDF,
             highlight: "1 – 12,5 cm Trees",
             descriptionMain:
               "The Model 48 skid steer tree spade moves trees 1” to 5” in diameter and is designed for prepared ground nursery digging that fits a myriad of skid steer loaders; comes complete with electric valve bank and wireless remote control.",
@@ -2236,7 +2350,7 @@ const category = [
           {
             variantName: "Model 54",
             imgLink: Model54Main,
-            downloadLink: "Model54DownloadLink",
+            downloadLink: Model54PDF,
             highlight: "1 – 12,5 cm Trees",
             descriptionMain:
               'The Model 54 BIG JOHN nursery digger is light weight and hosts cold formed straight blades, which are 30 degrees truncated. This digger can move trees that are 1" to 5" in diameter and fits a myriad of skid steer loaders.',
@@ -2308,7 +2422,7 @@ const category = [
           {
             variantName: "44DTG",
             imgLink: Main44DTG,
-            downloadLink: "44DTGDownloadLink",
+            downloadLink: DTG44PDF,
             highlight: "1 – 10 cm Trees",
             descriptionMain:
               "The 44DTG is one of the smaller trailer spades that operates with simplicity and durability. Made with AR400 spade material, the Model 44 is made for trailers 449 cm in length and comes with hydraulic rear stabilizers and an extendable trailer tongue.",
@@ -2411,7 +2525,7 @@ const category = [
           {
             variantName: "54",
             imgLink: Main54,
-            downloadLink: "54DownloadLink",
+            downloadLink: DTG54PDF,
             highlight: "1 – 10 cm Trees",
             descriptionMain:
               "The 54 Trailer Spade features our newest trailer design. It is a versatile trailer that comes in various sizes to fit any BIG JOHN customer's needs. The 54 Trailer Spade comes with an extendable trailer tongue, hydraulic jack, and hydraulic rear stabilizers.",
@@ -2490,7 +2604,7 @@ const category = [
           {
             variantName: "55DTD",
             imgLink: Main55DTD,
-            downloadLink: "55DTDDownloadLink",
+            downloadLink: DTD55PDF,
             highlight: "10 – 12,5 cm Trees",
             descriptionMain:
               "The model 55DTD is part of the Trailer Mounted family that comes with the same durability and reliability as the rest. It can handle trees up to 12,5 cm in diameter, comes with a hydraulic lock and tongue, and is made with AR500 spade material.",
@@ -2552,7 +2666,7 @@ const category = [
           {
             variantName: "65DTD",
             imgLink: Main65DTD,
-            downloadLink: "65DTDDownloadLink",
+            downloadLink: DTD65PDF,
             highlight: "15 – 17,5 cm Trees",
             descriptionMain:
               "The 65DTD is another standard Trailer Mounted spade that comes with the same quality as the rest. The Model 65DTD can handle trees up to 17,5 cm in diameter and is made with AR500 spade material. It comes with a hydraulic lock and tongue.",
@@ -2684,7 +2798,7 @@ const category = [
           {
             variantName: "44 Pod Trailer",
             imgLink: PodTrailer44Main,
-            downloadLink: "44PodTrailerDownloadLink",
+            downloadLink: PT44PDF,
             highlight: "Move Multiple Trees in a Single Move",
             descriptionMain:
               'Custom designed for the BIG JOHN 45" Tree Spade, the 45" tree pod trailer allows you to move multiple trees in a single trip. We offer a range of customizations to allow multiple trees in a single trip, from single pods up to 6.',
@@ -2719,7 +2833,7 @@ const category = [
           {
             variantName: "55 Pod Trailer",
             imgLink: PodTrailer55Main,
-            downloadLink: "55PodTrailerDownloadLink",
+            downloadLink: PT55PDF,
             highlight: "Move More Trees in Less Time",
             descriptionMain:
               'Custom designed for the BIG JOHN 55" Tree Spade, the 55" tree pod trailer allows you to move multiple trees in a single trip. We offer a range of customizations to allow multiple trees in a single trip, from single pods up to 3.',
@@ -2754,7 +2868,7 @@ const category = [
           {
             variantName: "65 Pod Trailer",
             imgLink: PodTrailer65Main,
-            downloadLink: "65PodTrailerDownloadLink",
+            downloadLink: PT65PDF,
             highlight: "Move More Trees in Less Time",
             descriptionMain:
               'Custom designed for the BIG JOHN 65" Tree Spade, the 65" tree pod trailer allows you to move multiple trees in a single trip. We offer a range of customizations to allow multiple trees in a single trip, from single pods up to 2.',
@@ -2789,7 +2903,7 @@ const category = [
           {
             variantName: "90 Pod Trailer",
             imgLink: PodTrailer90Main,
-            downloadLink: "90PodTrailerDownloadLink",
+            downloadLink: PT90PDF,
             highlight: "Move More Trees in Less Time",
             descriptionMain:
               'The BIG JOHN 90" Tree Pod Trailer is the best way to move multiple large trees at the same time, allowing you to free up your spade during transport.',
@@ -2837,7 +2951,7 @@ const category = [
           {
             variantName: "Nemo",
             imgLink: ROMNemo,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: NemoPDF,
             highlight: "Champion Performance, Compact and Maneuverable",
             descriptionMain:
               "Nemo is a fully hydrostatic man-on-board beach cleaner that is extremely maneuverable and practical to use, even in tight spaces. Equipped with a Honda 22 hp engine, it cleans sand from both large waste and microplastics.",
@@ -2880,7 +2994,7 @@ const category = [
           {
             variantName: "Nemo Track",
             imgLink: ROMNemoTrack,
-            downloadLink: "NemoTrackDownloadLink",
+            downloadLink: NemoTrackPDF,
             highlight: "Built-in Strength, Agility, and Speed",
             descriptionMain:
               "Nemo Track offers advanced technology and performance. It’s designed to adapt to both large and microplastic waste on beaches, with a Honda 22 hp engine and a working capacity of about 6000 sq m/h.",
@@ -2929,7 +3043,7 @@ const category = [
           {
             variantName: "Squalo",
             imgLink: ROMSqualo,
-            downloadLink: "SqualoDownloadLink",
+            downloadLink: SqualoPDF,
             highlight: "Power, Productivity, and Elegance at the Highest Level",
             descriptionMain:
               "The Squalo beach cleaner is a fully hydrostatic man-on-board machine with excellent power and comfort. It is equipped with a Yanmar 30 hp engine and is perfect for cleaning beaches with considerable waste.",
@@ -2968,6 +3082,16 @@ const category = [
                 value: "1050 kg"
               }
             ]
+          },
+          {
+            variantName: "Squalo 2.0",
+            imgLink: ROMSqualo20Main,
+            downloadLink: Squalo20PDF,
+            highlight: "Power, Productivity, and Elegance at the Highest Level",
+            descriptionMain:
+              "Equipped with Yanmar engine 30 Hp Working depth 0 to 10 cm for 160 cm working width. Work capacity approx. 9000 sm. /h. Self-driven sand cleaning machine wholly hydrostatic, extremely manoeuvrable and agile also in small spaces. It is driven through two joysticks, which adapt the speed, direction and working depth. Squalo is adapt to work also in beaches where big-sized waste is present.",
+            photos: [ROMSqualo201, ROMSqualo203, ROMSqualo204, ROMSqualo202],
+            specifications: []
           }
         ]
       },
@@ -2980,7 +3104,7 @@ const category = [
           {
             variantName: "Cernia",
             imgLink: CerniaMain,
-            downloadLink: "CerniaDownloadLink",
+            downloadLink: CerniaPDF,
             highlight: "The Best Compromise Between Size and Performance",
             descriptionMain:
               "Cernia is a compact and reliable beach cleaner suitable for small tractors (16-20 Hp), ideal for shoreline work and removing large pieces of trash.",
@@ -3019,7 +3143,7 @@ const category = [
           {
             variantName: "Manta",
             imgLink: MantaMain,
-            downloadLink: "MantaDownloadLink",
+            downloadLink: MantaPDF,
             highlight: "Innovation and Quality",
             descriptionMain:
               "Manta is a state-of-the-art beach cleaner, perfect for tractors from 35 Hp, offering excellent performance on beaches with considerable waste.",
@@ -3058,7 +3182,7 @@ const category = [
           {
             variantName: "Manta Gold",
             imgLink: MantaGoldMain,
-            downloadLink: "MantaGoldDownloadLink",
+            downloadLink: MantaGoldPDF,
             highlight: "Excellence in Beach Cleaning",
             descriptionMain:
               "Manta Gold offers superior quality with a rear hydraulic collection drawer and a capacity of 500 liters, perfect for tractors from 70 Hp.",
@@ -3097,7 +3221,7 @@ const category = [
           {
             variantName: "Caimano",
             imgLink: CaimanoMain,
-            downloadLink: "CaimanoDownloadLink",
+            downloadLink: CaimanoPDF,
             highlight: "Innovative and Powerful",
             descriptionMain:
               "Caimano is an advanced beach cleaner suitable for tractors from 120 Hp, designed for large-scale beach cleaning with a working capacity of up to 30,000 sq m/h.",
@@ -3144,7 +3268,7 @@ const category = [
           {
             variantName: "Electric Barracuda 2.0",
             imgLink: BarracudaElectricMain,
-            downloadLink: "ElectricBarracuda2.0DownloadLink",
+            downloadLink: "",
             highlight: "Innovative and Eco-Friendly",
             descriptionMain:
               "Electric Barracuda 2.0 is an all-electric, emission-free beach cleaner designed for efficiency and precision in cleaning beaches, including microplastics.",
@@ -3192,7 +3316,7 @@ const category = [
           {
             variantName: "Delfino",
             imgLink: DolphinMain,
-            downloadLink: "DelfinoDownloadLink",
+            downloadLink: DolphinPDF,
             highlight: "Unique and Inimitable",
             descriptionMain:
               "Delfino is a small, maneuverable beach cleaner with a 5.5 Hp engine, ideal for cleaning small to medium beaches and capable of removing microplastics.",
@@ -3231,7 +3355,7 @@ const category = [
           {
             variantName: "Electric Delfino 2.0",
             imgLink: DolphinElectricMain,
-            downloadLink: "ElectricDelfino2.0DownloadLink",
+            downloadLink: DolphinElectricPDF,
             highlight: "Electric and Eco-Friendly Innovation",
             descriptionMain:
               "Electric Delfino 2.0 is an all-electric version of the Delfino, offering emission-free operation with a focus on cleaning microplastics.",
@@ -3280,7 +3404,7 @@ const category = [
           {
             variantName: "Sand Man 850",
             imgLink: SandManMain,
-            downloadLink: "BarracudaDownloadLink",
+            downloadLink: SandManPDF,
             highlight: "Sand Sifting And Soil Screening Applications",
             descriptionMain:
               "The SAND MAN 850 is a versatile sand sifter and soil screener that has a wide variety of applications. Its maneuverability, effectiveness, and ease of operation make it a valuable tool for golf course owners, small beach owners, and anyone who maintains smaller sandy areas. By screening stones, litter, shells, glass, and other finer objects, the SAND MAN ensures your property will be debris-free.",
@@ -3299,7 +3423,7 @@ const category = [
           {
             variantName: "Barracuda",
             imgLink: BarracudaMain,
-            downloadLink: "BarracudaDownloadLink",
+            downloadLink: BarracudaPDF,
             highlight: "Safe and Unstoppable",
             descriptionMain:
               "Barracuda is a powerful beach cleaner with a 6.5 Hp engine, designed to clean large beaches, remove organic debris, and microplastics.",
@@ -3343,7 +3467,7 @@ const category = [
           {
             variantName: "Koala",
             imgLink: Koala1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: KoalaPDF,
             highlight: "Rear Mounted Flail Collector Mower",
             descriptionMain:
               "The PERUZZO FLAIL MOWER MOD. KOALA is a small machine that fits low weight (900 kg.) 25HP compact tractors. This flail mower uses the patented flails for a perfect grass cut performance with verticut operation. The FLAIL MOWER MOD. KOALA is an ideal compact mower for contractors, greenkeepers thanks to its ground discharge collector system and it’s useful for a fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth. Koala mowers are used on sport fields and parks where verticut and collection operation is widely performed: it is also great to pass over soft grounds and roll them with their rear roller. Koala mowers are successfully used to cut grass, collect leaves, green waste, horse manure etc. on public parks and private properties.",
@@ -3353,7 +3477,7 @@ const category = [
           {
             variantName: "Koala Professional",
             imgLink: KoalaProMain,
-            downloadLink: "NemoTrackDownloadLink",
+            downloadLink: KoalaProfessionalPDF,
             highlight: "Rear Mounted Flail Collection Mower With Catcher Lift",
             descriptionMain:
               "The flail mower PERUZZO mod. KOALA PROFESSIONAL  that fits on 25HP on low weight compact tractors (900 kg). This flail mower uses the patented flails for perfect grass cut performance with verticut operation. The Koala Professional model with its high lift collector system is an ideal compact mower for contractors, greenkeepers and those who use it for fast and professional maintenance. Its powerful vacuum and verticut blades help the users to mow with perfect grass cutting, aeration, collection in a tide way and short time up to 2,5cm / 1 inch depth. Its powerful vacuum and vertical blades help users to cut grass perfectly, aerate, collect smoothly and quickly up to 2.5 cm/ 1 cm depth. Koala Professional mowers are used on sport fields and parks where verticut and collection operation are widely performed: it is also great to pass over soft grounds and consecutively rolled by their rear roller. Koala Professional mowers are also successfully used to cut grass, collect leaves, green waste, horse manure etc. on public parks and private properties.",
@@ -3371,7 +3495,7 @@ const category = [
           {
             variantName: "Phanter",
             imgLink: Phanter1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: PhanterPDF,
             highlight:
               "Rear Mounted Flail Collection Mower For 30 To 50 Tractor Hp",
             descriptionMain:
@@ -3382,7 +3506,7 @@ const category = [
           {
             variantName: "Phanter Multi Fit",
             imgLink: PhanterMultifitMain,
-            downloadLink: "NemoTrackDownloadLink",
+            downloadLink: PhanterMultifitPDF,
             highlight:
               "Rear Mounted Flail Collection Mower For 30 To 70 Tractor Hp.",
             descriptionMain:
@@ -3398,7 +3522,7 @@ const category = [
           {
             variantName: "Phanter Professional",
             imgLink: PhanterProfessionalMain,
-            downloadLink: "NemoTrackDownloadLink",
+            downloadLink: PhanterProfessionalPDF,
             highlight: "Tractor Harvester For 40 - 50 Hp Tractors",
             descriptionMain:
               "The flail collection mower PERUZZO mod. PANTHER PROFESSIONAL with high lift discharge is suitable for rear application on tractors of medium power 40-50CV and with excellent cut and collection capacity up to 1800 liters. The unloading height can reach over 2.20m by lifting it with 3-point hitch tractor according to the tractor used. This flail mower mod. PANTHER PROFESSIONAL is aimed for greenkeepers and professional contractors whom perform cutting + verticut + collection in one pass and millimeter cutting and aeration height adjustments. This machine drastically reduces maintenance times with high working autonomy due to large collectors. The PERUZZO mod. PANTHER PROFESSIONAL flail mowers are shredders adapted by Peruzzo to deal with high quality grass cuts with special accessories such as patented knives, high speed rotation knives, roller cleaning brushes, millimeter adjustments and internal openings for easy maintenance.",
@@ -3421,7 +3545,7 @@ const category = [
           {
             variantName: "Tiger",
             imgLink: Tiger1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: TigerPDF,
             highlight: "Flail Collector Mower For Professional Contractors",
             descriptionMain:
               "Flail Collector Mower TIGER engineered to help professional municipality and sport courses contractors to cut, verticut and collect. Supplied with large capacity collector with 235cm / 94” high discharge. The cutting head follows uneven grounds floating on any direction to cut and verticut independently from machine frame allowing a perfect maintenance for the most exigent Greenkeeper.",
@@ -3439,7 +3563,7 @@ const category = [
           {
             variantName: "Canguro",
             imgLink: CanguroNormal,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: CanguroNormalPDF,
             highlight:
               "Heavy Duty Flail Collection Mower For 40 To 70 Tractor Hp.",
             descriptionMain:
@@ -3455,7 +3579,7 @@ const category = [
           {
             variantName: "Canguro Professional",
             imgLink: CanguroProfessional,
-            downloadLink: "NemoTrackDownloadLink",
+            downloadLink: CanguroProfessionalPDF,
             highlight:
               "Heavy Duty Flail Collection Mower For 50 To 60 Tractor Hp.",
             descriptionMain:
@@ -3479,7 +3603,7 @@ const category = [
           {
             variantName: "Elephant Super",
             imgLink: ElephantMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: ElephantPDF,
             highlight: "Heavy Duty Flail Collection Mower For 90 Tractor HP.",
             descriptionMain:
               "The grass/pruning shredder CANGURO NORMAL / CANGURO NORMAL SUPER is used for a good grass cutting and pruning shredding with brunches up to 5 cm of diameter, collecting all processed products in the same time, discharging it directly to the ground by a hydraulic jack collector opening. Its good performance cut and pruning reduction with consequent collection make all the CANGURO models the perfect machines for municipality fields as well as agriculture and forestry ones. CANGURO NORMAL / CANGURO NORMAL SUPER is the new heavy duty flail collector mower fitted with heavier hammer flails with special heavy duty bearings advised for those customers that need to shred branches continuously with 8cm diameter.",
@@ -3502,7 +3626,7 @@ const category = [
           {
             variantName: "Motofrog 75",
             imgLink: Motofrog1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: MotofrogPDF,
             highlight: "Multi-Functional Walk Behind Mower",
             descriptionMain:
               "The professional self-propelled flail mower PERUZZO MOTOFROG 75 comes with a functional welded and molded steel frame and combines a remarkable amount of innovative technical solutions. These characteristics make this machine the only tractor mower which has 6 different configurations on the same machine. It mounts a standard set of wheels clawed from 16 inch at the rear, and pirouetting and safety locking system operated directly from driver handlebars positioned at the front. All these features make the MOTOFROG 75 unique: 3 types of traction easily interchangeable and, at the same time, 3 types of mowing: flexibility and adaptability are the key words of this new professional flail mower.",
@@ -3520,7 +3644,7 @@ const category = [
           {
             variantName: "TEG Special",
             imgLink: TEGSp1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: TegSpecialPDF,
             highlight: "Front Flail Peruzzo Mod. Teg Special",
             descriptionMain:
               "The front flail PERUZZO mod. TEG SPECIAL thanks to its high rotor speed and number of knives, reduces the turf wave effect and performs a remarkable mulching action. Thanks to vertical blades, an excellent aeration action is achieved, on gardens, lawns and urban areas, where the cut or ventilated residue is uniformly distributed over the entire cutting width. The cutting adjustment in the PERUZZO front mower mod. TEG SPECIAL takes place on the front wheels with spacers and on the rear roller by means of a bolt and key supplied as standard for millimetric adjustment.",
@@ -3538,7 +3662,7 @@ const category = [
           {
             variantName: "Scorpion",
             imgLink: Scorpion1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: ScorpionPDF,
             highlight: "Front Flail Mower",
             descriptionMain:
               "The SCORPION model front flail mower can be fitted to any tractor 540/1000/2000 rpm on PTO, with clockwise or anticlockwise rotation. The front flail mower SCORPION Peruzzo is Engineered to be mounted on light tractors three points or triangle linkage with low power. It is also available the hydraulic engine version suitable for light tractors.",
@@ -3556,7 +3680,7 @@ const category = [
           {
             variantName: "FOX",
             imgLink: FOX1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: FoxPDF,
             highlight: "Rear Mounted Flail Mower For 15 To 22 Tractor HP",
             descriptionMain:
               "The flail mower mod. FOX is used for grass cut (Mulching) and verticut on grass fields. It is Engineered to be mounted on light tractors three points linkage with low HP power and high PTO shaft linkage position. This flail mower can be fitted on rear tractor three points linkage only, performing an excellent grass cutting (mulching). The flail mower Fox can be fitted with different flails for cutting grass or small branches.",
@@ -3566,7 +3690,7 @@ const category = [
           {
             variantName: "FOX-S",
             imgLink: FOXSMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: FoxS4PDF,
             highlight:
               "Rear Mounted Flail Collection Mower For 18 To 22 Tractor HP.",
             descriptionMain:
@@ -3577,7 +3701,7 @@ const category = [
           {
             variantName: "MOTOFOX",
             imgLink: MotoFOXMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: MotoFoxPDF,
             highlight: "Self-Propelled Flail Mower For Quad Or Atv.",
             descriptionMain:
               "The slope flail mowers Peruzzo mod. FOX Cross grass/pruning shredder is used for grass cutting and pruning cutting up to 4-5 cm of diameter. This model is mainly used on municipality and agriculture fields to cut high grass, branches and bushes on banks, slopes, embankments, ditches or hedges, bending from +90% to –50% for small and medium tractor size (from 35 HP to 50 HP), with 3-point hitch category 1 and 2. The FOX Cross flail mowers has an articulated arm with hydraulic movement, controlled by the tractor seat, that can move from the center of the tractor to a maximum 130 cm lateral extension, cutting easily grass on ditches or hedges.",
@@ -3587,7 +3711,7 @@ const category = [
           {
             variantName: "FOX Cross",
             imgLink: FOXCrossMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: FoxCrossPDF,
             highlight: "Self-Propelled Flail Mower For Quad Or Atv.",
             descriptionMain:
               "The self-propelled flail mower mod. MOTOFOX is used for grass cut, small branches shred and verticut/aeration on sport, municipality and agriculture fields. This machine is engineered to be mounted on rear side of QUAD or ATV an it is equipped with petrol Honda engine 11/16hp, rear roller and rear transport wheels of easy adjustment. The self-propelled flail mower MOTOFOX has a towing bar shifting the mower for side cutting even one meter outside the ATV roadway.Special feature of Peruzzo is the fine grass cutting due to the overlapping flails quantity and high flail shaft rpm rotation.",
@@ -3605,7 +3729,7 @@ const category = [
           {
             variantName: "PUMA",
             imgLink: Puma1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: PumaPDF,
             highlight: "Front And Rear Flail Mower For 25 To 40 Tractor Hp.",
             descriptionMain:
               "The PUMA flail mower is used for cutting grass (mulching), small pruning cut (max. 2 cm of diameter) and for verticut action on grass fields. Engineered for working on wide grass areas. The same machine can be fitted on front or rear tractor 3 points linkage.",
@@ -3623,7 +3747,7 @@ const category = [
           {
             variantName: "ELK",
             imgLink: ELK1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: ElkPDF,
             highlight: "Front And Rear Flail Mower For 25 To 40 Tractor HP.",
             descriptionMain:
               "The ELK flail mower is used for grass cutting and small pruning reduction of 1-3 cm in diameter on grass lands. This machine is used on front or rear tractor three points linkage with side offset possibility and it has been engineered for a use on wide areas to reduce grass in small pieces (mulching).",
@@ -3633,7 +3757,7 @@ const category = [
           {
             variantName: "ELK Cross",
             imgLink: ELKCrossMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: ElkCrossPDF,
             highlight: "Trincia Argini Per Trattori Da 35-45CV",
             descriptionMain:
               "The slope flail mowers Peruzzo mod. FOX Cross grass/pruning shredder is used for grass cutting and pruning cutting up to 4-5 cm of diameter. This model is mainly used on municipality and agriculture fields to cut high grass, branches and bushes on banks, slopes, embankments, ditches or hedges, bending from +90% to –50% for small and medium tractor size (from 35 HP to 50 HP), with 3-point hitch category 1 and 2. The FOX Cross flail mowers has an articulated arm with hydraulic movement, controlled by the tractor seat, that can move from the center of the tractor to a maximum 130 cm lateral extension, cutting easily grass on ditches or hedges.",
@@ -3643,7 +3767,7 @@ const category = [
           {
             variantName: "ELK Cross Front",
             imgLink: ELKCrossFMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: ElkCrossFrontPDF,
             highlight:
               "The Elk Cross Front Slope Flail Mower Is Applicable To Compact Tractors From 50 To 70 HP.",
             descriptionMain:
@@ -3662,7 +3786,7 @@ const category = [
           {
             variantName: "Bull Cross",
             imgLink: BullCross1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: BullCrossPDF,
             highlight:
               "Heavy Duty Rear Mounted Flail Mower For 70 To 90 Tractor HP",
             descriptionMain:
@@ -3673,7 +3797,7 @@ const category = [
           {
             variantName: "Bull Super",
             imgLink: BullSuper1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: BullSuperPDF,
             highlight:
               "Heavy Duty Rear Mounted Flail Mower For 30 To 130 Tractor HP.",
             descriptionMain:
@@ -3684,7 +3808,7 @@ const category = [
           {
             variantName: "Bull Reverse",
             imgLink: BullReverse1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: BullReversePDF,
             highlight:
               "Grass/Pruning Shredder For Tractors Between 50 To 100 HP.",
             descriptionMain:
@@ -3703,7 +3827,7 @@ const category = [
           {
             variantName: "ROTO",
             imgLink: ROTO1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: RotoPDF,
             highlight:
               "Косилка Для Газонов И Веток Для Тракторов От 30 Л.С. До 100 Л.С.",
             descriptionMain:
@@ -3722,7 +3846,7 @@ const category = [
           {
             variantName: "Triflex",
             imgLink: TRIFLEX1,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: TriflexPDF,
             highlight:
               "Trinciaerba Universale Multipla Posteriore Per Trattori Da 80 A 90 HP",
             descriptionMain:
@@ -3746,7 +3870,7 @@ const category = [
           {
             variantName: "Robofox Electric",
             imgLink: RobofoxMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: RobofoxElectricPDF,
             highlight:
               "Full Electric Self-Propelled Remote-Controlled Flail Mower Mod. Robofox Electra",
             descriptionMain:
@@ -3762,7 +3886,7 @@ const category = [
           {
             variantName: "Robofox Hybrid",
             imgLink: RobofoxHybridMain,
-            downloadLink: "NemoDownloadLink",
+            downloadLink: RobofoxHybridPDF,
             highlight:
               "Self-Propelled Remote-Controlled Flail Mower Robofox Hybrid",
             descriptionMain:

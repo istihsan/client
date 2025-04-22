@@ -64,6 +64,14 @@
     "zooTechnology": "Teknologi Kebun Binatang",
     "copyright": "© 2024 Profindo Multi Dinamika. Hak Cipta Dilindungi"
   },
+
+  "galleryp": {
+    "tractorsLife": "Kehidupan Traktor",
+    "grassMowerMachines": "Mesin Pemotong Rumput",
+    "tractorSlide": "Slide Traktor {{index}}",
+    "categorySlide": "Slide Kategori {{index}}"
+  },
+
   "categories": {
     "tree_spades": "Sekop Pohon",
     "beach_cleaning_machines": "Mesin Pembersih Pantai",

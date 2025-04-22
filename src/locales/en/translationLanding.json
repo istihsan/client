@@ -64,6 +64,12 @@
     "zooTechnology": "Zoo Technology",
     "copyright": "© 2024 Profindo Multi Dinamika. All Rights Reserved"
   },
+  "galleryp": {
+    "tractorsLife": "Tractors Life",
+    "grassMowerMachines": "Grass Mower Machines",
+    "tractorSlide": "Tractor Slide {{index}}",
+    "categorySlide": "Category Slide {{index}}"
+  },
   "categories": {
     "tree_spades": "Tree Spades",
     "beach_cleaning_machines": "Beach Cleaning Machines",

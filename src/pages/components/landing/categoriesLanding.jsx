@@ -13,7 +13,7 @@ import BCMImg from "../../../img/2. Beach Cleaning Machine/Ride On Machines/Squa
 import WCMImg from "../../../img/7. Wood Chipper Machines/5. TB 120 C PROFESSIONAL/PHOTOS/PERUZZO_TB120PROFESSIONAL_MainPhoto.png";
 import SMImg from "../../../img/8. Spading Machines/150.150 Series/SELVATICI_150.150series_MainPhoto.png";
 import AWPImg from "../../../img/9. Aerial Working Platform/2. Octoplus 21/OS_OCTOPLUS21_MainPhoto.png";
-import TMCImg from "../../../img/10. Truck Mounted Cranes/TRUCK CRANE.png";
+import TMCImg from "../../../img/10. Truck Mounted Cranes/TRUCK_CRANE.png";
 import HGImg from "../../../img/11. Hydraulics Generator/ELECTRICITY GENERATION/HGV POWER BOX Variable Hydraulic Generator System/PHOTOS/DYNASET_HGVPowerBoxVariableHydraulicGeneratorSystem_MainPhoto.png";
 import ZTImg from "../../../img/12. Zoo Technology/8. 1000 UNIVERSAL/PHOTOS/PERUZZO_1000UNIVERSAL_MainPhoto.png";
 import AgricultureIcon from "@mui/icons-material/Agriculture";
