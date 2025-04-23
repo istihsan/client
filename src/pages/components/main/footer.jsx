@@ -134,7 +134,7 @@ export default function Footer() {
                   {/* Translate "Grass Collector Machines" */}
                 </Link>
                 <Link
-                  href="/categories/grassMowerMachines"
+                  href="/categories/grassmowermachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -143,7 +143,7 @@ export default function Footer() {
                   {/* Translate "Grass Mower Machines" */}
                 </Link>
                 <Link
-                  href="/categories/remoteControlledGrassMower"
+                  href="/categories/remotecontrolledgrassmower"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -152,7 +152,7 @@ export default function Footer() {
                   {/* Translate "Remote Controlled Grass Mower" */}
                 </Link>
                 <Link
-                  href="/categories/litterCollectionEquipment"
+                  href="/categories/littercollectionequipment"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -163,7 +163,7 @@ export default function Footer() {
               </Box>
               <Box>
                 <Link
-                  href="/categories/woodChipperMachines"
+                  href="/categories/woodchippermachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -172,7 +172,7 @@ export default function Footer() {
                   {/* Translate "Wood Chipper Machines" */}
                 </Link>
                 <Link
-                  href="/categories/spadingMachines"
+                  href="/categories/spadingmachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -181,7 +181,7 @@ export default function Footer() {
                   {/* Translate "Spading Machines" */}
                 </Link>
                 <Link
-                  href="/categories/aerialWorkingPlatform"
+                  href="/categories/aerialworkingplatform"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -190,7 +190,7 @@ export default function Footer() {
                   {/* Translate "Aerial Working Platform" */}
                 </Link>
                 <Link
-                  href="/categories/truckMountedCranes"
+                  href="/categories/truckmountedcranes"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -199,7 +199,7 @@ export default function Footer() {
                   {/* Translate "Truck Mounted Cranes" */}
                 </Link>
                 <Link
-                  href="/categories/hydraulicsGenerator"
+                  href="/categories/hydraulicsgenerator"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -208,7 +208,7 @@ export default function Footer() {
                   {/* Translate "Hydraulics Generator" */}
                 </Link>
                 <Link
-                  href="/categories/zooTechnology"
+                  href="/categories/zootechnology"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}

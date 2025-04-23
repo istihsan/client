@@ -1,5 +1,5 @@
 import * as React from "react";
-import { CardActionArea } from "@mui/material";
+import { CardActionArea, Link } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Box from "@mui/material/Box";
@@ -8,6 +8,7 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Unstable_Grid2";
 import Img from "../../../img/tractor.jpg";
 import { useTranslation } from "react-i18next";
+import { Link as RouterLink } from "react-router-dom";
 
 export default function BasicCard() {
   const { t } = useTranslation();
@@ -29,21 +30,22 @@ export default function BasicCard() {
           <Typography variant="subtitle1" sx={{ mt: "2%" }}>
             {t("features.description")}
           </Typography>
-          <Button
-            href="/contactus"
-            variant="contained"
-            sx={{
-              mt: "1%",
-              backgroundColor: "#EB0B0D",
-              fontWeight: "bold",
-              "&:hover": {
-                backgroundColor: "#E9DB5D",
-                color: "#242105"
-              }
-            }}
-          >
-            {t("features.contact_us")}
-          </Button>
+          <Link component={RouterLink} to="/contactus" className="nav-link">
+            <Button
+              variant="contained"
+              sx={{
+                mt: "1%",
+                backgroundColor: "#EB0B0D",
+                fontWeight: "bold",
+                "&:hover": {
+                  backgroundColor: "#E9DB5D",
+                  color: "#242105"
+                }
+              }}
+            >
+              {t("features.contact_us")}
+            </Button>
+          </Link>
         </Grid>
         <Grid xs={6}>
           <Card sx={{ maxWidth: "50%", ml: "20%" }}>
