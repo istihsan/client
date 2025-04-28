@@ -6,9 +6,13 @@ import EmailIcon from "@mui/icons-material/Email";
 import LogoProfindo from "../../../img/logoProfindo.jpg";
 import { Link as RouterLink } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
+import { Block } from "@mui/icons-material";
 
 export default function Footer() {
   const { t } = useTranslation(); // Initialize translation hook
+  const message = "Hello, May I ask about the Tree Spades ?";
+  const encodedMessage = encodeURIComponent(message);
+  const whatsappUrl = `https://wa.me/6281287874415430?text=${encodedMessage}`;
 
   return (
     <Box
@@ -45,11 +49,21 @@ export default function Footer() {
                 {t("footer.address")} {/* Translate address */}
               </Typography>
             </Box>
-            <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
-              <PhoneIcon sx={{ mr: 1 }} />
-              <Typography variant="body2">{t("footer.phone")}</Typography>{" "}
-              {/* Translate phone */}
-            </Box>
+            <Link
+              href={whatsappUrl}
+              target="_blank"
+              color="inherit"
+              display="block"
+              sx={{ textDecoration: "none" }}
+            >
+              <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
+                <PhoneIcon sx={{ mr: 1 }} />
+                <Typography variant="body2">
+                  {t("footer.phone")}
+                </Typography>{" "}
+                {/* Translate phone */}
+              </Box>
+            </Link>
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <EmailIcon sx={{ mr: 1 }} />
               <Typography variant="body2">
