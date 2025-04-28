@@ -4,6 +4,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import LogoProfindo from "../../../img/logoProfindo.jpg";
+import { Link as RouterLink } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 
 export default function Footer() {
@@ -69,7 +70,8 @@ export default function Footer() {
               {t("footer.information")} {/* Translate "Information" */}
             </Typography>
             <Link
-              href="/"
+              component={RouterLink}
+              to="/"
               color="inherit"
               display="block"
               sx={{ mb: 1, textDecoration: "none" }}
@@ -77,7 +79,8 @@ export default function Footer() {
               {t("footer.home")} {/* Translate "Home" */}
             </Link>
             <Link
-              href="/categories"
+              component={RouterLink}
+              to="/categories"
               color="inherit"
               display="block"
               sx={{ mb: 1, textDecoration: "none" }}
@@ -85,7 +88,8 @@ export default function Footer() {
               {t("footer.categories")} {/* Translate "Categories" */}
             </Link>
             <Link
-              href="/gallery"
+              component={RouterLink}
+              to="/gallery"
               color="inherit"
               display="block"
               sx={{ mb: 1, textDecoration: "none" }}
@@ -93,7 +97,8 @@ export default function Footer() {
               {t("footer.gallery")} {/* Translate "Gallery" */}
             </Link>
             <Link
-              href="/contactus"
+              component={RouterLink}
+              to="/contactus"
               color="inherit"
               display="block"
               sx={{ mb: 1, textDecoration: "none" }}
@@ -108,7 +113,8 @@ export default function Footer() {
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Box>
                 <Link
-                  href="/categories/treespades"
+                  component={RouterLink}
+                  to="/categories/treespades"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -116,7 +122,8 @@ export default function Footer() {
                   {t("footer.treeSpades")} {/* Translate "Tree Spades" */}
                 </Link>
                 <Link
-                  href="/categories/beachcleaningmachines"
+                  component={RouterLink}
+                  to="/categories/beachcleaningmachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -125,7 +132,8 @@ export default function Footer() {
                   {/* Translate "Beach Cleaning Machines" */}
                 </Link>
                 <Link
-                  href="/categories/grasscollectormachines"
+                  component={RouterLink}
+                  to="/categories/grasscollectormachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -134,7 +142,8 @@ export default function Footer() {
                   {/* Translate "Grass Collector Machines" */}
                 </Link>
                 <Link
-                  href="/categories/grassmowermachines"
+                  component={RouterLink}
+                  to="/categories/grassmowermachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -143,7 +152,8 @@ export default function Footer() {
                   {/* Translate "Grass Mower Machines" */}
                 </Link>
                 <Link
-                  href="/categories/remotecontrolledgrassmower"
+                  component={RouterLink}
+                  to="/categories/remotecontrolledgrassmower"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -152,7 +162,8 @@ export default function Footer() {
                   {/* Translate "Remote Controlled Grass Mower" */}
                 </Link>
                 <Link
-                  href="/categories/littercollectionequipment"
+                  component={RouterLink}
+                  to="/categories/littercollectionequipment"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -163,7 +174,8 @@ export default function Footer() {
               </Box>
               <Box>
                 <Link
-                  href="/categories/woodchippermachines"
+                  component={RouterLink}
+                  to="/categories/woodchippermachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -172,7 +184,8 @@ export default function Footer() {
                   {/* Translate "Wood Chipper Machines" */}
                 </Link>
                 <Link
-                  href="/categories/spadingmachines"
+                  component={RouterLink}
+                  to="/categories/spadingmachines"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -181,7 +194,8 @@ export default function Footer() {
                   {/* Translate "Spading Machines" */}
                 </Link>
                 <Link
-                  href="/categories/aerialworkingplatform"
+                  component={RouterLink}
+                  to="/categories/aerialworkingplatform"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -190,7 +204,8 @@ export default function Footer() {
                   {/* Translate "Aerial Working Platform" */}
                 </Link>
                 <Link
-                  href="/categories/truckmountedcranes"
+                  component={RouterLink}
+                  to="/categories/truckmountedcranes"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -199,7 +214,8 @@ export default function Footer() {
                   {/* Translate "Truck Mounted Cranes" */}
                 </Link>
                 <Link
-                  href="/categories/hydraulicsgenerator"
+                  component={RouterLink}
+                  to="/categories/hydraulicsgenerator"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
@@ -208,7 +224,8 @@ export default function Footer() {
                   {/* Translate "Hydraulics Generator" */}
                 </Link>
                 <Link
-                  href="/categories/zootechnology"
+                  component={RouterLink}
+                  to="/categories/zootechnology"
                   color="inherit"
                   display="block"
                   sx={{ mb: 1, textDecoration: "none" }}
