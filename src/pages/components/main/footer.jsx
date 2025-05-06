@@ -3,7 +3,7 @@ import { Box, Container, Grid, Typography, Link } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
-import LogoProfindo from "../../../img/logoProfindo.jpg";
+import LogoProfindo from "../../../img/logoProfindoRB.png";
 import { Link as RouterLink } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // Import useTranslation hook
 import { Block } from "@mui/icons-material";
@@ -18,7 +18,7 @@ export default function Footer() {
     <Box
       component="footer"
       sx={{
-        backgroundColor: "#121212",
+        backgroundColor: "rgb(214, 214, 214)",
         color: "whitesmoke",
         py: 4,
         boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.7)" // Add shadow here
@@ -40,12 +40,12 @@ export default function Footer() {
                 style={{ height: "auto" }}
               />
             </Box>
-            <Typography variant="body2" sx={{ my: 2 }}>
+            <Typography variant="body2" sx={{ my: 2, color: "black" }}>
               {t("footer.tagline")} {/* Translate tagline */}
             </Typography>
             <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
-              <LocationOnIcon sx={{ mr: 1 }} />
-              <Typography variant="body2">
+              <LocationOnIcon sx={{ mr: 1, color: "black" }} />
+              <Typography variant="body2" sx={{ color: "black" }}>
                 {t("footer.address")} {/* Translate address */}
               </Typography>
             </Box>
@@ -57,16 +57,16 @@ export default function Footer() {
               sx={{ textDecoration: "none" }}
             >
               <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
-                <PhoneIcon sx={{ mr: 1 }} />
-                <Typography variant="body2">
+                <PhoneIcon sx={{ mr: 1, color: "black" }} />
+                <Typography variant="body2" sx={{ color: "black" }}>
                   {t("footer.phone")}
                 </Typography>{" "}
                 {/* Translate phone */}
               </Box>
             </Link>
             <Box sx={{ display: "flex", alignItems: "center" }}>
-              <EmailIcon sx={{ mr: 1 }} />
-              <Typography variant="body2">
+              <EmailIcon sx={{ mr: 1, color: "black" }} />
+              <Typography variant="body2" sx={{ color: "black" }}>
                 <a
                   href="mailto:info@profindomd.com"
                   style={{
@@ -80,7 +80,7 @@ export default function Footer() {
             </Box>
           </Grid>
           <Grid item xs={4} md={2}>
-            <Typography variant="h6" sx={{ mb: 2 }}>
+            <Typography variant="h6" sx={{ mb: 2, color: "black" }}>
               {t("footer.information")} {/* Translate "Information" */}
             </Typography>
             <Link
@@ -88,7 +88,7 @@ export default function Footer() {
               to="/"
               color="inherit"
               display="block"
-              sx={{ mb: 1, textDecoration: "none" }}
+              sx={{ mb: 1, textDecoration: "none", color: "black" }}
             >
               {t("footer.home")} {/* Translate "Home" */}
             </Link>
@@ -97,7 +97,7 @@ export default function Footer() {
               to="/categories"
               color="inherit"
               display="block"
-              sx={{ mb: 1, textDecoration: "none" }}
+              sx={{ mb: 1, textDecoration: "none", color: "black" }}
             >
               {t("footer.categories")} {/* Translate "Categories" */}
             </Link>
@@ -106,7 +106,7 @@ export default function Footer() {
               to="/gallery"
               color="inherit"
               display="block"
-              sx={{ mb: 1, textDecoration: "none" }}
+              sx={{ mb: 1, textDecoration: "none", color: "black" }}
             >
               {t("footer.gallery")} {/* Translate "Gallery" */}
             </Link>
@@ -115,13 +115,13 @@ export default function Footer() {
               to="/contactus"
               color="inherit"
               display="block"
-              sx={{ mb: 1, textDecoration: "none" }}
+              sx={{ mb: 1, textDecoration: "none", color: "black" }}
             >
               {t("footer.contactUs")} {/* Translate "Contact Us" */}
             </Link>
           </Grid>
           <Grid item xs={6} md={4} sx={{ minWidth: "45%" }}>
-            <Typography variant="h6" sx={{ mb: 2 }}>
+            <Typography variant="h6" sx={{ mb: 2, color: "black" }}>
               {t("footer.products")} {/* Translate "Products" */}
             </Typography>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
@@ -131,7 +131,7 @@ export default function Footer() {
                   to="/categories/treespades"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.treeSpades")} {/* Translate "Tree Spades" */}
                 </Link>
@@ -140,7 +140,7 @@ export default function Footer() {
                   to="/categories/beachcleaningmachines"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.beachCleaningMachines")}{" "}
                   {/* Translate "Beach Cleaning Machines" */}
@@ -150,7 +150,7 @@ export default function Footer() {
                   to="/categories/grasscollectormachines"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.grassCollectorMachines")}{" "}
                   {/* Translate "Grass Collector Machines" */}
@@ -160,7 +160,7 @@ export default function Footer() {
                   to="/categories/grassmowermachines"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.grassMowerMachines")}{" "}
                   {/* Translate "Grass Mower Machines" */}
@@ -170,7 +170,7 @@ export default function Footer() {
                   to="/categories/remotecontrolledgrassmower"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.remoteControlledGrassMower")}{" "}
                   {/* Translate "Remote Controlled Grass Mower" */}
@@ -180,7 +180,7 @@ export default function Footer() {
                   to="/categories/littercollectionequipment"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.litterCollectionEquipment")}{" "}
                   {/* Translate "Litter Collection Equipment" */}
@@ -192,7 +192,7 @@ export default function Footer() {
                   to="/categories/woodchippermachines"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.woodChipperMachines")}{" "}
                   {/* Translate "Wood Chipper Machines" */}
@@ -202,7 +202,7 @@ export default function Footer() {
                   to="/categories/spadingmachines"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.spadingMachines")}{" "}
                   {/* Translate "Spading Machines" */}
@@ -212,7 +212,7 @@ export default function Footer() {
                   to="/categories/aerialworkingplatform"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.aerialWorkingPlatform")}{" "}
                   {/* Translate "Aerial Working Platform" */}
@@ -222,7 +222,7 @@ export default function Footer() {
                   to="/categories/truckmountedcranes"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.truckMountedCranes")}{" "}
                   {/* Translate "Truck Mounted Cranes" */}
@@ -232,7 +232,7 @@ export default function Footer() {
                   to="/categories/hydraulicsgenerator"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.hydraulicsGenerator")}{" "}
                   {/* Translate "Hydraulics Generator" */}
@@ -242,7 +242,7 @@ export default function Footer() {
                   to="/categories/zootechnology"
                   color="inherit"
                   display="block"
-                  sx={{ mb: 1, textDecoration: "none" }}
+                  sx={{ mb: 1, textDecoration: "none", color: "black" }}
                 >
                   {t("footer.zooTechnology")} {/* Translate "Zoo Technology" */}
                 </Link>
@@ -250,7 +250,12 @@ export default function Footer() {
             </Box>
           </Grid>
         </Grid>
-        <Typography variant="body2" color="inherit" mt={2}>
+        <Typography
+          variant="body2"
+          color="inherit"
+          mt={2}
+          sx={{ color: "black" }}
+        >
           {t("footer.copyright")} {/* Translate copyright */}
         </Typography>
       </Container>

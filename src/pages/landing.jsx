@@ -12,8 +12,8 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import Video from "../img/video.mp4";
-import logoProfindo from "../img/logoProfindo.jpg";
+import Video from "../img/PROFIL PMD 20 DETIK.mp4";
+import logoProfindo from "../img/logoProfindoRB.png";
 import NewsCard from "./components/landing/newsCard";
 import Categories from "./components/landing/categoriesLanding";
 import Features from "./components/landing/features";
@@ -76,8 +76,8 @@ export default function App() {
         position="fixed"
         sx={{
           backgroundColor: scrolled
-            ? "rgba(0, 0, 0, 0.8)"
-            : "rgba(0, 0, 0, 0.5)"
+            ? "rgba(255, 255, 255, 0.79)"
+            : "rgb(214, 214, 214)"
         }}
       >
         <Toolbar>
@@ -104,9 +104,9 @@ export default function App() {
                 textDecoration: "none",
                 mx: 2,
                 fontSize: "1.2rem",
-                color: "whitesmoke",
+                color: "black",
                 "&:hover": {
-                  color: "#FCC783"
+                  color: "#EB0B0D"
                 }
               }
             }}
