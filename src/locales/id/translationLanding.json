@@ -1,12 +1,13 @@
 {
   "home": "Beranda",
-  "category": "Kategori",
+  "category": "Berita",
   "gallery": "Galeri",
   "contact": "Kontak",
   "heroTitle": "Peralatan Khusus Terbaik untuk Kebutuhan Anda",
   "explore": "Jelajahi",
   "latest news": "BERITA TERBARU KAMI",
   "learn_more": "Pelajari Lebih Lanjut",
+  "categoryLanding": "APA YANG KAMI SEDIAKAN",
   "features": {
     "title": "Peralatan Khusus & Kendaraan Khusus.",
     "description": "PT. Profindo Multi Dinamika adalah dealer resmi untuk merek BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA, yang telah berdiri sejak tahun 1959. PT. Profindo Multi Dinamika akan memberikan dukungan pemasaran, layanan, & layanan purna jual untuk semua pengguna produk BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA.",
@@ -46,7 +47,7 @@
     "email": "info@profindomd.com",
     "information": "Informasi",
     "home": "Beranda",
-    "categories": "Kategori",
+    "news": "Berita",
     "gallery": "Galeri",
     "contactUs": "Hubungi Kami",
     "products": "Produk",

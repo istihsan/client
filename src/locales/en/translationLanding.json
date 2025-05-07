@@ -1,12 +1,13 @@
 {
   "home": "Home",
-  "category": "Category",
+  "category": "News",
   "gallery": "Gallery",
   "contact": "Contact",
   "heroTitle": "Best Special Equipment for Your Need",
   "explore": "Explore",
   "latest news": "OUR LATEST NEWS",
   "learn_more": "Learn More",
+  "categoryLanding": "WHAT WE SERVE",
   "features": {
     "title": "Special Equipment & Special Vehicles.",
     "description": "PT. Profindo Multi Dinamika is the official dealer for the BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA brands, which have been established since 1959. PT. Profindo Multi Dinamika will provide marketing support, service & after-sales services for all users of BARBER-USA, PFG-Italy, PERUZZO-Italy, BIG JOHN-USA products.",
@@ -46,7 +47,7 @@
     "email": "info@profindomd.com",
     "information": "Information",
     "home": "Home",
-    "categories": "Categories",
+    "news": "News",
     "gallery": "Gallery",
     "contactUs": "Contact Us",
     "products": "Products",

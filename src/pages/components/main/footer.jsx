@@ -99,7 +99,7 @@ export default function Footer() {
               display="block"
               sx={{ mb: 1, textDecoration: "none", color: "black" }}
             >
-              {t("footer.categories")} {/* Translate "Categories" */}
+              {t("footer.news")} {/* Translate "Categories" */}
             </Link>
             <Link
               component={RouterLink}

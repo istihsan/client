@@ -88,7 +88,7 @@ export default function Navbar() {
           <Link component={RouterLink} to="/" className="nav-link">
             {t("home")}
           </Link>
-          <Link component={RouterLink} to="/categories" className="nav-link">
+          <Link component={RouterLink} to="/news" className="nav-link">
             {t("category")}
           </Link>
           <Link component={RouterLink} to="/gallery" className="nav-link">

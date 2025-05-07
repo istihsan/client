@@ -8,7 +8,8 @@ import {
   MenuItem,
   Link,
   Box,
-  Button
+  Button,
+  Divider
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -114,7 +115,7 @@ export default function App() {
             <Link component={RouterLink} to="/" className="nav-link">
               {t("home")}
             </Link>
-            <Link component={RouterLink} to="/categories" className="nav-link">
+            <Link component={RouterLink} to="/news" className="nav-link">
               {t("category")}
             </Link>
             <Link component={RouterLink} to="/gallery" className="nav-link">
@@ -154,7 +155,7 @@ export default function App() {
             <MenuItem onClick={handleClose}>
               <Link
                 component={RouterLink}
-                to="/categories"
+                to="/news"
                 color="inherit"
                 style={{ textDecoration: "none" }}
               >
@@ -273,8 +274,32 @@ export default function App() {
           overflow: "hidden"
         }}
       >
-        <NewsCard />
+        {/* <NewsCard /> */}
       </Box>
+      <Typography
+        variant="h4"
+        component="h2"
+        sx={{
+          pb: 4,
+          color: "#242105",
+          fontWeight: "600",
+          fontSize: "3rem",
+          backgroundColor: "#FFF0DD",
+          textAlign: "center"
+        }}
+      >
+        {t("categoryLanding")}
+        <Divider
+          variant="middle"
+          sx={{
+            my: "0.5%",
+            borderColor: "#EB0B0D",
+            borderWidth: "2px",
+            width: `18.5%`, // Width depends on text length
+            marginX: "auto" // Ensures centering
+          }}
+        />
+      </Typography>
       {/* Categories Section Start */}
       <Categories />
       {/* Features Section Start */}

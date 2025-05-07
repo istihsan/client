@@ -202,7 +202,12 @@ function ContactUsMain() {
                     sx={{
                       width: { xs: "100%", md: "auto" },
                       display: "block",
-                      marginX: { xs: "auto", md: 0 }
+                      marginX: { xs: "auto", md: 0 },
+                      backgroundColor: "#EB0B0D",
+                      "&:hover": {
+                        backgroundColor: "#cc0406",
+                        color: "#fff"
+                      }
                     }}
                   >
                     {t("contactUs.sendButton")} {/* Translate "Send" */}
